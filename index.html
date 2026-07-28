@@ -196,6 +196,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hira
 
 <script>
 const DATA_URL="https://raw.githubusercontent.com/tdai46139-eng/-APP/main/trend-assistant/data.json";
+const SLEEP_URL="https://raw.githubusercontent.com/tdai46139-eng/-APP/main/sleep.json?t=";
 let appData=null;
 
 const tabs=[
@@ -223,6 +224,11 @@ async function loadData(){
 try{
 const res=await fetch(DATA_URL+"?t="+Date.now());
 appData=await res.json();
+// 同时尝试读取睡眠数据
+try{
+const sres=await fetch(SLEEP_URL+Date.now());
+if(sres.ok){window._sleepData=await sres.json()}
+}catch(se){console.log("sleep.json not found, using default")}
 renderAll();
 }catch(e){
 console.error(e);
@@ -365,9 +371,19 @@ function deleteCheckin(i){
 
 function renderHealth(){
 const h=appData.health||{};
-const sleepHours=localStorage.getItem("sleepHours");
-if(sleepHours){
-document.getElementById("sleepHours").textContent=sleepHours;
+// 优先从 sleep.json 读取（快捷指令同步），其次从 localStorage，最后用示例
+const sleepFromServer=window._sleepData;
+const sleepFromLocal=localStorage.getItem("sleepHours");
+if(sleepFromServer&&sleepFromServer.hours){
+document.getElementById("sleepHours").textContent=sleepFromServer.hours;
+const sleepDate=sleepFromServer.date||"";
+document.getElementById("sleepTip").textContent="Apple Watch 同步 · "+(sleepDate||"今日");
+const hrs=parseFloat(sleepFromServer.hours);
+if(hrs<6){document.getElementById("sleepTip").style.color="#FF6B9D"}
+else if(hrs<7){document.getElementById("sleepTip").style.color="#FFCB47"}
+else{document.getElementById("sleepTip").style.color="#10B981"}
+}else if(sleepFromLocal){
+document.getElementById("sleepHours").textContent=sleepFromLocal;
 document.getElementById("sleepTip").textContent="已通过快捷指令同步";
 }else{
 document.getElementById("sleepHours").textContent="7.5";
