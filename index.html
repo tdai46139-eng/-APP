@@ -291,27 +291,71 @@ document.getElementById("totalAsset").textContent="¥"+(total/1000).toFixed(2);
 document.getElementById("totalChange").textContent="今日 "+(changeTotal>=0?"+":"")+changeTotal.toFixed(2)+" 元 ("+(changeTotal/total*100).toFixed(2)+"%)";
 }
 
-const checkinData=[
-{name:"十点半准时睡觉",time:"目标 22:30",done:false},
-{name:"投简历",time:"今日目标",done:false}
-];
-
+/* ===== 打卡功能：增删改查 + 本地存储 ===== */
+function getCheckinData(){
+  // 从 localStorage 读取，如果没有就用默认值
+  const saved=localStorage.getItem("checkinItems");
+  if(saved){
+    try{return JSON.parse(saved)}catch(e){}
+  }
+  // 首次使用，给两个默认打卡项
+  return[
+    {name:"十点半准时睡觉",time:"目标 22:30",done:false},
+    {name:"投简历",time:"今日目标",done:false}
+  ];
+}
+function saveCheckinData(data){
+  localStorage.setItem("checkinItems",JSON.stringify(data));
+}
+function getCheckinDate(){
+  return localStorage.getItem("checkinDate")||"";
+}
+function checkDailyReset(){
+  // 每天自动重置打卡状态（打卡项保留，done 全部变 false）
+  const today=new Date().toISOString().split("T")[0];
+  if(getCheckinDate()!==today){
+    const data=getCheckinData();
+    data.forEach(item=>item.done=false);
+    saveCheckinData(data);
+    localStorage.setItem("checkinDate",today);
+  }
+}
 function renderCheckin(){
-const el=document.getElementById("checkinList");
-const done=checkinData.filter(c=>c.done).length;
-document.getElementById("checkinProgress").textContent=done+"/"+checkinData.length;
-el.innerHTML=checkinData.map((c,i)=>{
-return`<div class="checkin-item"><div class="checkin-circle ${c.done?'done':''}" onclick="toggleCheckin(${i})">${c.done?'<svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>':''}</div><div class="checkin-info"><div class="name">${c.name}</div><div class="time">${c.time}</div></div><div class="checkin-status" style="color:${c.done?'#10B981':'#9CA3AF'}">${c.done?'已完成':'未完成'}</div></div>`;
-}).join("");
+  checkDailyReset();
+  const checkinData=getCheckinData();
+  const el=document.getElementById("checkinList");
+  const done=checkinData.filter(c=>c.done).length;
+  document.getElementById("checkinProgress").textContent=done+"/"+checkinData.length;
+  if(checkinData.length===0){
+    el.innerHTML='<div class="empty">还没有打卡目标<br>点击下方添加</div>';
+    return;
+  }
+  el.innerHTML=checkinData.map((c,i)=>{
+    return`<div class="checkin-item"><div class="checkin-circle ${c.done?'done':''}" onclick="toggleCheckin(${i})">${c.done?'<svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>':''}</div><div class="checkin-info"><div class="name">${c.name}</div><div class="time">${c.time}</div></div><div class="checkin-status" style="color:${c.done?'#10B981':'#9CA3AF'}">${c.done?'已完成':'未完成'}</div><div style="margin-left:8px;cursor:pointer;padding:4px" onclick="deleteCheckin(${i})"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FF6B9D" stroke-width="2"><path d="M3 6h18M8 6V4a2 2 0 012-2h4a2 2 0 012 2v2M19 6l-1 14a2 2 0 01-2 2H8a2 2 0 01-2-2L5 6"/></svg></div></div>`;
+  }).join("");
 }
-
 function toggleCheckin(i){
-checkinData[i].done=!checkinData[i].done;
-renderCheckin();
+  const data=getCheckinData();
+  data[i].done=!data[i].done;
+  saveCheckinData(data);
+  renderCheckin();
 }
-
 function addCheckin(){
-alert("添加打卡目标功能开发中...");
+  const name=prompt("输入打卡目标名称：","比如：背50个单词");
+  if(name===null)return;
+  if(name.trim()===""){alert("名称不能为空");return}
+  const timeStr=prompt("输入目标时间（可跳过）：","比如：目标 21:00");
+  const data=getCheckinData();
+  data.push({name:name.trim(),time:timeStr&&timeStr.trim()?timeStr.trim():"今日目标",done:false});
+  saveCheckinData(data);
+  renderCheckin();
+}
+function deleteCheckin(i){
+  if(!confirm("确定删除这个打卡目标？"))return;
+  const data=getCheckinData();
+  data.splice(i,1);
+  saveCheckinData(data);
+  renderCheckin();
 }
 
 function renderHealth(){
