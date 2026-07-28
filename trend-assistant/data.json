@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-07-28 14:40:15",
-  "update_timestamp": 1785249615,
+  "update_time": "2026-07-28 14:49:35",
+  "update_timestamp": 1785250175,
   "user_profile": {
     "graduation_year": "2026",
     "major": "数据科学与大数据技术",
@@ -138,43 +138,43 @@
   ],
   "funds": [
     {
-      "code": "001071",
-      "name": "华安媒体互联网混合A",
-      "net_value": 3.898,
-      "est_value": 3.898,
-      "est_change_pct": -3.82,
+      "code": "006479",
+      "name": "广发纳斯达克100ETF联接人民币(QDII)C",
+      "net_value": 7.6526,
+      "est_value": 7.6526,
+      "est_change_pct": -0.39,
+      "update_time": "2026-07-26",
+      "source": "pingzhongdata",
+      "prediction": "震荡",
+      "recommendation": "持有观望",
+      "policy_tag": "无政策影响",
+      "policy_score": 0
+    },
+    {
+      "code": "270042",
+      "name": "广发纳斯达克100ETF联接人民币(QDII)A",
+      "net_value": 7.7876,
+      "est_value": 7.7876,
+      "est_change_pct": -0.39,
+      "update_time": "2026-07-26",
+      "source": "pingzhongdata",
+      "prediction": "震荡",
+      "recommendation": "持有观望",
+      "policy_tag": "无政策影响",
+      "policy_score": 0
+    },
+    {
+      "code": "016582",
+      "name": "嘉实上海金ETF发起联接C",
+      "net_value": 1.8023,
+      "est_value": 1.8023,
+      "est_change_pct": -1.18,
       "update_time": "2026-07-27",
       "source": "pingzhongdata",
       "prediction": "看跌",
       "recommendation": "考虑减仓",
       "policy_tag": "无政策影响",
       "policy_score": 0
-    },
-    {
-      "code": "005827",
-      "name": "易方达蓝筹精选混合",
-      "net_value": 1.4937,
-      "est_value": 1.4937,
-      "est_change_pct": -0.82,
-      "update_time": "2026-07-27",
-      "source": "pingzhongdata",
-      "prediction": "震荡",
-      "recommendation": "观望",
-      "policy_tag": "政策关注",
-      "policy_score": 47
-    },
-    {
-      "code": "161725",
-      "name": "招商中证白酒指数(LOF)A",
-      "net_value": 0.5573,
-      "est_value": 0.5573,
-      "est_change_pct": 2.48,
-      "update_time": "2026-07-27",
-      "source": "pingzhongdata",
-      "prediction": "微涨",
-      "recommendation": "持有",
-      "policy_tag": "政策关注",
-      "policy_score": 47
     }
   ],
   "health": {
