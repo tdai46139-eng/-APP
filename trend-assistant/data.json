@@ -1,0 +1,268 @@
+{
+  "update_time": "2026-07-28 22:04:18",
+  "update_timestamp": 1785247458,
+  "user_profile": {
+    "graduation_year": "2026",
+    "major": "数据科学与大数据技术",
+    "status": "应届生",
+    "skills": [
+      "Python",
+      "数据分析",
+      "统计学"
+    ]
+  },
+  "policy_wind": [
+    {
+      "source": "国务院",
+      "title": "中共中央 国务院印发《关于加强新时代社会工作的意见》",
+      "industry": "就业",
+      "direction": "up"
+    },
+    {
+      "source": "国务院",
+      "title": "国务院办公厅关于转发生态环境部等部门《群众身边水体保护治理行动方案》的通知",
+      "industry": "环保",
+      "direction": "up"
+    },
+    {
+      "source": "国务院",
+      "title": "国务院关于《扩大消费“十五五”规划》的批复",
+      "industry": "消费",
+      "direction": "up"
+    },
+    {
+      "source": "国务院",
+      "title": "国家发展改革委、国家能源局发布《可再生能源发展“十五五”规划》，提出“十五五”时期可再生能源发展的总量目标、发电目标、非电利用目标和可靠替代目标，部署七方面重点任务。",
+      "industry": "新能源",
+      "direction": "up"
+    },
+    {
+      "source": "国务院",
+      "title": "国家卫生健康委有关负责同志就《国民健康“十五五”规划》答记者问",
+      "industry": "医疗",
+      "direction": "up"
+    }
+  ],
+  "trends": [
+    {
+      "industry": "环保",
+      "change_pct": 34.6,
+      "trend_score": 62,
+      "direction": "up",
+      "policy_count": 2,
+      "top_policy": "国务院办公厅关于转发生态环境部等部门《群众身边水体保护治理行动方案》的通知",
+      "top_source": "国务院"
+    },
+    {
+      "industry": "医疗",
+      "change_pct": 32.2,
+      "trend_score": 59,
+      "direction": "up",
+      "policy_count": 2,
+      "top_policy": "国家卫生健康委有关负责同志就《国民健康“十五五”规划》答记者问",
+      "top_source": "国务院"
+    },
+    {
+      "industry": "就业",
+      "change_pct": 22.6,
+      "trend_score": 47,
+      "direction": "stable",
+      "policy_count": 1,
+      "top_policy": "中共中央 国务院印发《关于加强新时代社会工作的意见》",
+      "top_source": "国务院"
+    },
+    {
+      "industry": "消费",
+      "change_pct": 22.6,
+      "trend_score": 47,
+      "direction": "stable",
+      "policy_count": 1,
+      "top_policy": "国务院关于《扩大消费“十五五”规划》的批复",
+      "top_source": "国务院"
+    },
+    {
+      "industry": "新能源",
+      "change_pct": 22.6,
+      "trend_score": 47,
+      "direction": "stable",
+      "policy_count": 1,
+      "top_policy": "国家发展改革委、国家能源局发布《可再生能源发展“十五五”规划》，提出“十五五”时期可再生能源发展的总量目标、发电目标、非电利用目标和可靠替代目标，部署七方面重点任务。",
+      "top_source": "国务院"
+    },
+    {
+      "industry": "制造",
+      "change_pct": 22.6,
+      "trend_score": 47,
+      "direction": "stable",
+      "policy_count": 1,
+      "top_policy": "图表：2026年上半年全国规模以上工业企业利润增长18.7%",
+      "top_source": "国务院"
+    }
+  ],
+  "employment": [
+    {
+      "industry": "就业",
+      "match_score": 79,
+      "trend_signal": "+22.6%",
+      "policy_driver": "中共中央 国务院印发《关于加强新时代社会工作的意见》",
+      "entry_barrier": "零基础可入门"
+    },
+    {
+      "industry": "医疗",
+      "match_score": 73,
+      "trend_signal": "+32.2%",
+      "policy_driver": "国家卫生健康委有关负责同志就《国民健康“十五五”规划》答记者问",
+      "entry_barrier": "零基础可入门"
+    },
+    {
+      "industry": "环保",
+      "match_score": 59,
+      "trend_signal": "+34.6%",
+      "policy_driver": "国务院办公厅关于转发生态环境部等部门《群众身边水体保护治理行动方案》的通知",
+      "entry_barrier": "需要一定基础"
+    },
+    {
+      "industry": "新能源",
+      "match_score": 59,
+      "trend_signal": "+22.6%",
+      "policy_driver": "国家发展改革委、国家能源局发布《可再生能源发展“十五五”规划》，提出“十五五”时期可再生能源发展的总量目标、发电目标、非电利用目标和可靠替代目标，部署七方面重点任务。",
+      "entry_barrier": "需要一定基础"
+    },
+    {
+      "industry": "消费",
+      "match_score": 49,
+      "trend_signal": "+22.6%",
+      "policy_driver": "国务院关于《扩大消费“十五五”规划》的批复",
+      "entry_barrier": "需要一定基础"
+    }
+  ],
+  "funds": [
+    {
+      "code": "001071",
+      "name": "华安媒体互联网混合A",
+      "net_value": 3.898,
+      "est_value": 3.898,
+      "est_change_pct": -3.82,
+      "update_time": "2026-07-28",
+      "source": "pingzhongdata",
+      "prediction": "看跌",
+      "recommendation": "考虑减仓",
+      "policy_tag": "无政策影响",
+      "policy_score": 0
+    },
+    {
+      "code": "005827",
+      "name": "易方达蓝筹精选混合",
+      "net_value": 1.4937,
+      "est_value": 1.4937,
+      "est_change_pct": -0.82,
+      "update_time": "2026-07-28",
+      "source": "pingzhongdata",
+      "prediction": "震荡",
+      "recommendation": "观望",
+      "policy_tag": "政策关注",
+      "policy_score": 47
+    },
+    {
+      "code": "161725",
+      "name": "招商中证白酒指数(LOF)A",
+      "net_value": 0.5573,
+      "est_value": 0.5573,
+      "est_change_pct": 2.48,
+      "update_time": "2026-07-28",
+      "source": "pingzhongdata",
+      "prediction": "微涨",
+      "recommendation": "持有",
+      "policy_tag": "政策关注",
+      "policy_score": 47
+    }
+  ],
+  "health": {
+    "flu_alert": false,
+    "flu_level": "低",
+    "flu_message": "当前流感风险等级: 低",
+    "seasonal_fruits": [
+      "西瓜",
+      "桃子",
+      "葡萄"
+    ],
+    "month": 7
+  },
+  "policies_raw": [
+    {
+      "source": "国务院",
+      "title": "中共中央 国务院转发《中央宣传部、司法部关于开展法治宣传教育的第九个五年规划（2026－2030年）》",
+      "url": "./202607/content_7076696.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "国办印发《关于国务院行政复议案件处理程序的若干规定》的通知",
+      "url": "https://www.gov.cn/zhengce/content/202607/content_7076684.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "国务院关于同意将山东省潍坊市列为国家历史文化名城的批复",
+      "url": "https://www.gov.cn/zhengce/content/202607/content_7076508.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "中共中央 国务院印发《关于加强新时代社会工作的意见》",
+      "url": "./202607/content_7076433.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "国务院关于印发《全民健身计划（2026—2030年）》的通知",
+      "url": "https://www.gov.cn/zhengce/content/202607/content_7076420.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "国务院办公厅关于转发生态环境部等部门《群众身边水体保护治理行动方案》的通知",
+      "url": "https://www.gov.cn/zhengce/content/202607/content_7075364.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "中办国办关于完善自然资源资产管理制度体系的意见",
+      "url": "./202607/content_7075234.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "国务院关于《扩大消费“十五五”规划》的批复",
+      "url": "https://www.gov.cn/zhengce/content/202607/content_7075216.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "扩量提质、可靠替代 可再生能源有了“十五五”发展路线图",
+      "url": "./202607/content_7076489.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "国家发展改革委、国家能源局发布《可再生能源发展“十五五”规划》，提出“十五五”时期可再生能源发展的总量目标、发电目标、非电利用目标和可靠替代目标，部署七方面重点任务。",
+      "url": "./202607/content_7076489.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "国务院批复同意！超7万亿元大产业，有这些新机遇→",
+      "url": "./202607/content_7076412.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "经国务院批复同意，国家体育总局近日印发《体育强国建设“十五五”规划》​。《规划》提出，到2030年，体育产业总规模突破7万亿元。",
+      "url": "./202607/content_7076412.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "收支运行平稳 政策更加积极——透视上半年财政改革发展成效",
+      "url": "./202607/content_7076352.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "财政部7月22日举行新闻发布会，介绍了上半年财政收支情况。公布的一项项数据，反映出上半年全国收支运行平稳，财政政策更加积极、发力显效。",
+      "url": "./202607/content_7076352.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "未来5年，“路”要这么建",
+      "url": "./202607/content_7076209.htm"
+    }
+  ]
+}
