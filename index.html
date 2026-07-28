@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<title>趋势助手</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+:root{--bg:#F8F3EC;--pink:#FF6B9D;--blue:#6B8AFF;--green:#10B981;--yellow:#FFCB47;--policy-bg:#FEF3C7;--text:#2C2C2A;--sub:#9CA3AF;--card:#FFFFFF;--radius:16px;--safe-bottom:env(safe-area-inset-bottom)}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--text);max-width:430px;margin:0 auto;min-height:100vh;padding-bottom:72px}
+.page{display:none;padding:12px 16px;animation:fadeIn .3s ease}
+.page.active{display:block}
+@keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+.header{display:flex;align-items:center;justify-content:space-between;padding:12px 4px 8px}
+.header h1{font-size:22px;font-weight:800}
+.header .date{font-size:12px;color:var(--sub)}
+.card{background:var(--card);border-radius:var(--radius);padding:16px;margin-bottom:12px;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card-title{font-size:14px;font-weight:700;margin-bottom:10px;display:flex;align-items:center;gap:6px}
+.card-title .icon{width:20px;height:20px;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:12px}
+.section-label{font-size:11px;color:var(--sub);margin-bottom:6px;font-weight:500}
+.tag{display:inline-flex;align-items:center;padding:2px 8px;border-radius:6px;font-size:10px;font-weight:600}
+.tag-pink{background:#FFE4EC;color:#D63384}
+.tag-blue{background:#E0EBFF;color:#3B5BDB}
+.tag-green{background:#D3F9D8;color:#2B8A3E}
+.tag-yellow{background:var(--policy-bg);color:#854F0B}
+.tag-gray{background:#F1F3F5;color:#868E96}
+.up{color:#FF4757}.down{color:var(--green)}
+.policy-row{display:flex;align-items:center;gap:8px;padding:7px 0;border-bottom:1px solid #F5F0E8}
+.policy-row:last-child{border-bottom:none}
+.policy-src{background:var(--policy-bg);color:#854F0B;padding:2px 6px;border-radius:4px;font-size:10px;font-weight:600;white-space:nowrap;flex-shrink:0}
+.policy-title{flex:1;font-size:12px;line-height:1.4;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.policy-ind{background:#E6F1FB;color:#185FA5;padding:2px 6px;border-radius:4px;font-size:10px;font-weight:600;white-space:nowrap;flex-shrink:0}
+.trend-bar{display:flex;align-items:center;gap:8px;margin-bottom:8px}
+.trend-bar .name{font-size:12px;font-weight:600;width:50px;flex-shrink:0}
+.trend-bar .bar-wrap{flex:1;height:8px;background:#F0E6D6;border-radius:4px;overflow:hidden}
+.trend-bar .bar{height:100%;border-radius:4px;transition:width .8s ease}
+.trend-bar .val{font-size:11px;font-weight:700;width:55px;text-align:right;flex-shrink:0}
+.job-card{background:#FAF6F0;border-radius:12px;padding:12px;margin-bottom:8px}
+.job-card .top{display:flex;align-items:center;justify-content:space-between;margin-bottom:6px}
+.job-card .ind{font-size:13px;font-weight:700}
+.job-card .match{font-size:11px;font-weight:600}
+.match-high{color:var(--pink)}.match-mid{color:var(--blue)}.match-low{color:var(--sub)}
+.job-card .signal{font-size:11px;color:var(--sub);margin-bottom:4px}
+.job-card .barrier{font-size:10px}
+.fund-card{background:#FAF6F0;border-radius:12px;padding:14px;margin-bottom:10px}
+.fund-card .fname{font-size:13px;font-weight:700;margin-bottom:4px}
+.fund-card .fcode{font-size:10px;color:var(--sub);margin-bottom:8px}
+.fund-data{display:flex;gap:8px;margin-bottom:8px}
+.fund-data .item{flex:1;text-align:center}
+.fund-data .label{font-size:9px;color:var(--sub);margin-bottom:2px}
+.fund-data .val{font-size:14px;font-weight:700}
+.fund-tags{display:flex;gap:6px;flex-wrap:wrap}
+.checkin-item{display:flex;align-items:center;gap:10px;padding:12px 0;border-bottom:1px solid #F5F0E8}
+.checkin-item:last-child{border-bottom:none}
+.checkin-circle{width:28px;height:28px;border-radius:50%;border:2px solid #E0D6C6;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.checkin-circle.done{background:var(--green);border-color:var(--green)}
+.checkin-circle.done svg{width:14px;height:14px}
+.checkin-info{flex:1}
+.checkin-info .name{font-size:13px;font-weight:600}
+.checkin-info .time{font-size:11px;color:var(--sub)}
+.checkin-status{font-size:11px;font-weight:600}
+.health-sleep{background:linear-gradient(135deg,#E8F0FF,#F0F8FF);border-radius:12px;padding:16px;margin-bottom:12px}
+.health-sleep .label{font-size:11px;color:var(--blue);font-weight:600;margin-bottom:4px}
+.health-sleep .val{font-size:28px;font-weight:800;color:var(--blue)}
+.health-sleep .unit{font-size:12px;color:var(--sub)}
+.fruit-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.fruit-item{text-align:center;padding:12px 8px;background:#F0FAE8;border-radius:12px}
+.fruit-item .emoji{font-size:24px;margin-bottom:4px}
+.fruit-item .name{font-size:11px;font-weight:600;color:#2B8A3E}
+.tabbar{position:fixed;bottom:0;left:50%;transform:translateX(-50%);width:100%;max-width:430px;background:#FFFFFF;border-top:1px solid #F0E6D6;display:flex;padding:8px 0 calc(6px + var(--safe-bottom));z-index:100}
+.tabbar .tab{flex:1;display:flex;flex-direction:column;align-items:center;gap:3px;cursor:pointer;transition:transform .2s}
+.tabbar .tab:active{transform:scale(.92)}
+.tabbar .tab svg{width:28px;height:28px}
+.tabbar .tab span{font-size:9px;color:var(--sub);font-weight:500}
+.tabbar .tab.active span{color:var(--pink);font-weight:700}
+.loading{text-align:center;padding:40px 0;color:var(--sub);font-size:13px}
+.refresh-btn{display:flex;align-items:center;justify-content:center;gap:4px;padding:6px 12px;background:#F0E6D6;border-radius:20px;font-size:11px;font-weight:600;color:var(--text);cursor:pointer;border:none}
+.empty{text-align:center;padding:20px;color:var(--sub);font-size:12px}
+.profile-header{display:flex;align-items:center;gap:12px;margin-bottom:16px}
+.profile-avatar{width:56px;height:56px;border-radius:50%;background:linear-gradient(135deg,var(--pink),var(--blue));display:flex;align-items:center;justify-content:center;color:#fff;font-size:22px;font-weight:800}
+.profile-info .name{font-size:16px;font-weight:700}
+.profile-info .sub{font-size:11px;color:var(--sub)}
+.profile-row{display:flex;justify-content:space-between;padding:10px 0;border-bottom:1px solid #F5F0E8;font-size:13px}
+.profile-row:last-child{border-bottom:none}
+.profile-row .val{color:var(--sub)}
+</style>
+</head>
+<body>
+
+<div id="page-trend" class="page active">
+<div class="header">
+<h1>趋势助手</h1>
+<div style="display:flex;gap:8px;align-items:center">
+<span class="date" id="updateTime"></span>
+<button class="refresh-btn" onclick="loadData()"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M23 4v6h-6M1 20v-6h6"/><path d="M3.51 9a9 9 0 0114.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0020.49 15"/></svg>刷新</button>
+</div>
+</div>
+<div class="card">
+<div class="card-title"><span class="icon" style="background:var(--policy-bg)">📋</span>政策风向 <span class="tag tag-yellow" style="margin-left:auto">今日更新</span></div>
+<div id="policyList"><div class="loading">加载中...</div></div>
+</div>
+<div class="card">
+<div class="card-title"><span class="icon" style="background:#FFE4EC">📈</span>行业趋势</div>
+<div id="trendList"><div class="loading">加载中...</div></div>
+</div>
+<div class="card">
+<div class="card-title"><span class="icon" style="background:#E0EBFF">💼</span>就业指导</div>
+<div class="section-label" id="jobLabel">基于政策风向+趋势预测，为你智能推荐</div>
+<div id="jobList"><div class="loading">加载中...</div></div>
+</div>
+</div>
+
+<div id="page-fund" class="page">
+<div class="header"><h1>基金理财</h1></div>
+<div class="card" style="background:linear-gradient(135deg,#6B5B95,#8B7BB8);color:#fff">
+<div style="font-size:12px;opacity:.8;margin-bottom:4px">总资产 (模拟)</div>
+<div style="font-size:28px;font-weight:800" id="totalAsset">--</div>
+<div style="font-size:12px;opacity:.8;margin-top:4px" id="totalChange"></div>
+</div>
+<div id="fundList"><div class="loading">加载中...</div></div>
+</div>
+
+<div id="page-checkin" class="page">
+<div class="header"><h1>每日打卡</h1></div>
+<div class="card" style="background:linear-gradient(135deg,#D4EDDA,#C3E6CB)">
+<div style="display:flex;align-items:center;justify-content:space-between">
+<div>
+<div style="font-size:11px;color:#2B8A3E;font-weight:600">今日进度</div>
+<div style="font-size:24px;font-weight:800;color:#2B8A3E" id="checkinProgress">0/2</div>
+</div>
+<div style="font-size:40px">🎯</div>
+</div>
+</div>
+<div class="card">
+<div class="card-title"><span class="icon" style="background:#D3F9D8">✅</span>今日目标</div>
+<div id="checkinList"></div>
+</div>
+<div class="card" style="border:2px dashed #E0D6C6;text-align:center;cursor:pointer" onclick="addCheckin()">
+<div style="font-size:24px;margin-bottom:4px">➕</div>
+<div style="font-size:12px;color:var(--sub)">添加打卡目标</div>
+</div>
+</div>
+
+<div id="page-health" class="page">
+<div class="header"><h1>养生专区</h1></div>
+<div class="health-sleep">
+<div class="label">😴 昨晚睡眠</div>
+<div><span class="val" id="sleepHours">--</span><span class="unit"> 小时</span></div>
+<div style="font-size:11px;color:var(--sub);margin-top:4px" id="sleepTip">通过 Apple Watch 快捷指令同步</div>
+</div>
+<div class="card" id="fluCard" style="display:none">
+<div class="card-title"><span class="icon" style="background:#FFE4EC">🤧</span>流感提醒</div>
+<div id="fluContent"></div>
+</div>
+<div class="card">
+<div class="card-title"><span class="icon" style="background:#D3F9D8">🥗</span>应季果蔬 <span class="tag tag-green" style="margin-left:auto" id="fruitMonth"></span></div>
+<div class="fruit-grid" id="fruitGrid"></div>
+</div>
+<div class="card">
+<div class="card-title"><span class="icon" style="background:#E0EBFF">💡</span>养生建议</div>
+<div style="font-size:12px;line-height:1.6;color:var(--text)" id="healthTip"></div>
+</div>
+</div>
+
+<div id="page-me" class="page">
+<div class="header"><h1>我的</h1></div>
+<div class="card">
+<div class="profile-header">
+<div class="profile-avatar">T</div>
+<div class="profile-info">
+<div class="name">tdai46139-eng</div>
+<div class="sub" id="profileSub">数据科学专业 · 应届生</div>
+</div>
+</div>
+<div class="profile-row"><span>专业</span><span class="val" id="profileMajor">--</span></div>
+<div class="profile-row"><span>毕业年份</span><span class="val" id="profileYear">--</span></div>
+<div class="profile-row"><span>状态</span><span class="val" id="profileStatus">--</span></div>
+<div class="profile-row"><span>技能</span><span class="val" id="profileSkills">--</span></div>
+</div>
+<div class="card">
+<div class="card-title"><span class="icon" style="background:#F0E6D6">⚙️</span>设置</div>
+<div class="profile-row"><span>数据更新时间</span><span class="val" id="profileUpdate">--</span></div>
+<div class="profile-row"><span>数据来源</span><span class="val">GitHub Actions</span></div>
+<div class="profile-row"><span>版本</span><span class="val">v1.0.0</span></div>
+</div>
+</div>
+
+<div class="tabbar" id="tabbar"></div>
+
+<script>
+const DATA_URL="https://raw.githubusercontent.com/tdai46139-eng/-APP/main/trend-assistant/data.json";
+let appData=null;
+
+const tabs=[
+{id:"trend",name:"趋势",svg:'<svg viewBox="0 0 44 44"><circle cx="22" cy="18" r="13" fill="#D4A574"/><path d="M9 16c0-3 2-5 5-5h16c3 0 5 2 5 5v6c0 7-6 13-13 13s-13-6-13-13z" fill="#D4A574"/><circle cx="17" cy="16" r="2" fill="#2C2C2A"/><circle cx="27" cy="16" r="2" fill="#2C2C2A"/><path d="M18 22c2 2 6 2 8 0" stroke="#FF6B9D" stroke-width="2" fill="none" stroke-linecap="round"/><circle cx="15" cy="21" r="2" fill="#FFB3C1" opacity=".6"/><circle cx="29" cy="21" r="2" fill="#FFB3C1" opacity=".6"/><polyline points="8,38 14,34 20,36 28,32 36,35" stroke="#FF6B9D" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>'},
+{id:"fund",name:"基金",svg:'<svg viewBox="0 0 44 44"><circle cx="22" cy="18" r="13" fill="#D4A574"/><circle cx="17" cy="16" r="2" fill="#2C2C2A"/><circle cx="27" cy="16" r="2" fill="#2C2C2A"/><path d="M18 22c2 2 6 2 8 0" stroke="#FF6B9D" stroke-width="2" fill="none" stroke-linecap="round"/><circle cx="15" cy="21" r="2" fill="#FFB3C1" opacity=".6"/><circle cx="29" cy="21" r="2" fill="#FFB3C1" opacity=".6"/><circle cx="22" cy="35" r="6" fill="#FFCB47" stroke="#E6A817" stroke-width="1"/><text x="22" y="38" text-anchor="middle" font-size="8" font-weight="bold" fill="#854F0B">¥</text></svg>'},
+{id:"checkin",name:"打卡",svg:'<svg viewBox="0 0 44 44"><circle cx="22" cy="18" r="13" fill="#D4A574"/><circle cx="17" cy="16" r="2" fill="#2C2C2A"/><circle cx="27" cy="16" r="2" fill="#2C2C2A"/><path d="M18 22c2 2 6 2 8 0" stroke="#FF6B9D" stroke-width="2" fill="none" stroke-linecap="round"/><circle cx="15" cy="21" r="2" fill="#FFB3C1" opacity=".6"/><circle cx="29" cy="21" r="2" fill="#FFB3C1" opacity=".6"/><circle cx="22" cy="34" r="7" fill="#10B981"/><path d="M19 34l2 2 4-4" stroke="#fff" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>'},
+{id:"health",name:"养生",svg:'<svg viewBox="0 0 44 44"><circle cx="22" cy="18" r="13" fill="#D4A574"/><circle cx="17" cy="16" r="2" fill="#2C2C2A"/><circle cx="27" cy="16" r="2" fill="#2C2C2A"/><path d="M18 22c2 2 6 2 8 0" stroke="#FF6B9D" stroke-width="2" fill="none" stroke-linecap="round"/><circle cx="15" cy="21" r="2" fill="#FFB3C1" opacity=".6"/><circle cx="29" cy="21" r="2" fill="#FFB3C1" opacity=".6"/><path d="M22 28c-4-3-8-1-8 3 0 4 8 8 8 8s8-4 8-8-4-6-8-3z" fill="#10B981"/></svg>'},
+{id:"me",name:"我的",svg:'<svg viewBox="0 0 44 44"><circle cx="22" cy="18" r="13" fill="#D4A574"/><circle cx="17" cy="16" r="2" fill="#2C2C2A"/><circle cx="27" cy="16" r="2" fill="#2C2C2A"/><path d="M18 22c2 2 6 2 8 0" stroke="#FF6B9D" stroke-width="2" fill="none" stroke-linecap="round"/><circle cx="15" cy="21" r="2" fill="#FFB3C1" opacity=".6"/><circle cx="29" cy="21" r="2" fill="#FFB3C1" opacity=".6"/><path d="M22 30c-3 0-6 2-6 5v2h12v-2c0-3-3-5-6-5z" fill="#FF6B9D"/><circle cx="22" cy="35" r="1.5" fill="#fff"/></svg>'}
+];
+
+function renderTabs(){
+const bar=document.getElementById("tabbar");
+bar.innerHTML=tabs.map(t=>`<div class="tab ${t.id==='trend'?'active':''}" data-page="${t.id}" onclick="switchPage('${t.id}')">${t.svg}<span>${t.name}</span></div>`).join("");
+}
+
+function switchPage(id){
+document.querySelectorAll(".page").forEach(p=>p.classList.remove("active"));
+document.getElementById("page-"+id).classList.add("active");
+document.querySelectorAll(".tabbar .tab").forEach(t=>t.classList.remove("active"));
+document.querySelector(`.tab[data-page="${id}"]`).classList.add("active");
+window.scrollTo(0,0);
+}
+
+async function loadData(){
+try{
+const res=await fetch(DATA_URL+"?t="+Date.now());
+appData=await res.json();
+renderAll();
+}catch(e){
+console.error(e);
+document.querySelectorAll(".loading").forEach(el=>el.innerHTML='<div class="empty">数据加载失败<br>请检查网络</div>');
+}
+}
+
+function renderAll(){
+if(!appData)return;
+document.getElementById("updateTime").textContent=appData.update_time?appData.update_time.split(" ")[0]:"";
+renderPolicy();
+renderTrends();
+renderJobs();
+renderFunds();
+renderCheckin();
+renderHealth();
+renderProfile();
+}
+
+function renderPolicy(){
+const el=document.getElementById("policyList");
+if(!appData.policy_wind||appData.policy_wind.length===0){el.innerHTML='<div class="empty">暂无政策数据</div>';return}
+el.innerHTML=appData.policy_wind.slice(0,5).map(p=>{
+const arrow=p.direction==="up"?"↑":"→";
+const color=p.direction==="up"?"#185FA5":"#868E96";
+const bg=p.direction==="up"?"#E6F1FB":"#F1F3F5";
+const title=p.title.length>30?p.title.substring(0,30)+"...":p.title;
+return`<div class="policy-row"><span class="policy-src">${p.source}</span><span class="policy-title">${title}</span><span class="policy-ind" style="background:${bg};color:${color}">${p.industry}${arrow}</span></div>`;
+}).join("");
+}
+
+function renderTrends(){
+const el=document.getElementById("trendList");
+if(!appData.trends||appData.trends.length===0){el.innerHTML='<div class="empty">暂无趋势数据</div>';return}
+const colors=["#FF6B9D","#6B8AFF","#10B981","#FFCB47","#9775FA","#FF8787"];
+el.innerHTML=appData.trends.slice(0,6).map((t,i)=>{
+const color=colors[i%colors.length];
+const pct=Math.abs(t.change_pct).toFixed(1);
+const arrow=t.direction==="up"?"↑":"→";
+return`<div class="trend-bar"><span class="name">${t.industry}</span><div class="bar-wrap"><div class="bar" style="width:${Math.min(t.trend_score,100)}%;background:${color}"></div></div><span class="val ${t.direction==='up'?'up':'down'}">${arrow}${pct}% · ${t.trend_score}</span></div>`;
+}).join("");
+}
+
+function renderJobs(){
+const el=document.getElementById("jobList");
+if(!appData.employment||appData.employment.length===0){el.innerHTML='<div class="empty">暂无推荐数据</div>';return}
+el.innerHTML=appData.employment.slice(0,5).map(j=>{
+const matchClass=j.match_score>=75?"match-high":j.match_score>=60?"match-mid":"match-low";
+const signal=j.trend_signal||"";
+const barrier=j.entry_barrier||"";
+const barrierTag=barrier.includes("零基础")?'<span class="tag tag-green">零基础可入门</span>':'<span class="tag tag-gray">需要基础</span>';
+return`<div class="job-card"><div class="top"><span class="ind">${j.industry}</span><span class="match ${matchClass}">${j.match_score}% 匹配</span></div><div class="signal">趋势信号: ${signal}</div><div class="barrier">${barrierTag}</div></div>`;
+}).join("");
+}
+
+function renderFunds(){
+const el=document.getElementById("fundList");
+if(!appData.funds||appData.funds.length===0){el.innerHTML='<div class="empty">暂无基金数据<br>请在 config.py 中添加基金代码</div>';return}
+let total=0,changeTotal=0;
+el.innerHTML=appData.funds.map(f=>{
+const changeClass=f.est_change_pct>0?"up":"down";
+const changeStr=(f.est_change_pct>0?"+":"")+f.est_change_pct.toFixed(2)+"%";
+const predColor=f.prediction.includes("涨")?"#FF4757":f.prediction.includes("跌")?"#10B981":"#6B8AFF";
+const recColor=f.recommendation.includes("减")?"#10B981":f.recommendation.includes("持有")?"#FF4757":"#6B8AFF";
+const policyTag=f.policy_tag&&f.policy_tag!=="无政策影响"?`<span class="tag tag-yellow">${f.policy_tag}</span>`:"";
+return`<div class="fund-card"><div class="fname">${f.name}</div><div class="fcode">${f.code} · ${f.update_time}</div><div class="fund-data"><div class="item"><div class="label">净值</div><div class="val">${f.net_value.toFixed(4)}</div></div><div class="item"><div class="label">涨跌</div><div class="val ${changeClass}">${changeStr}</div></div><div class="item"><div class="label">预测</div><div class="val" style="color:${predColor};font-size:12px">${f.prediction}</div></div><div class="item"><div class="label">建议</div><div class="val" style="color:${recColor};font-size:12px">${f.recommendation}</div></div></div><div class="fund-tags">${policyTag}<span class="tag tag-gray">数据源: 天天基金</span></div></div>`;
+}).join("");
+
+appData.funds.forEach(f=>{total+=f.net_value*1000;changeTotal+=f.net_value*f.est_change_pct/100*1000});
+document.getElementById("totalAsset").textContent="¥"+(total/1000).toFixed(2);
+document.getElementById("totalChange").textContent="今日 "+(changeTotal>=0?"+":"")+changeTotal.toFixed(2)+" 元 ("+(changeTotal/total*100).toFixed(2)+"%)";
+}
+
+const checkinData=[
+{name:"十点半准时睡觉",time:"目标 22:30",done:false},
+{name:"投简历",time:"今日目标",done:false}
+];
+
+function renderCheckin(){
+const el=document.getElementById("checkinList");
+const done=checkinData.filter(c=>c.done).length;
+document.getElementById("checkinProgress").textContent=done+"/"+checkinData.length;
+el.innerHTML=checkinData.map((c,i)=>{
+return`<div class="checkin-item"><div class="checkin-circle ${c.done?'done':''}" onclick="toggleCheckin(${i})">${c.done?'<svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>':''}</div><div class="checkin-info"><div class="name">${c.name}</div><div class="time">${c.time}</div></div><div class="checkin-status" style="color:${c.done?'#10B981':'#9CA3AF'}">${c.done?'已完成':'未完成'}</div></div>`;
+}).join("");
+}
+
+function toggleCheckin(i){
+checkinData[i].done=!checkinData[i].done;
+renderCheckin();
+}
+
+function addCheckin(){
+alert("添加打卡目标功能开发中...");
+}
+
+function renderHealth(){
+const h=appData.health||{};
+const sleepHours=localStorage.getItem("sleepHours");
+if(sleepHours){
+document.getElementById("sleepHours").textContent=sleepHours;
+document.getElementById("sleepTip").textContent="已通过快捷指令同步";
+}else{
+document.getElementById("sleepHours").textContent="7.5";
+document.getElementById("sleepTip").textContent="示例数据 · 配置快捷指令后自动更新";
+}
+if(h.flu_alert){
+document.getElementById("fluCard").style.display="block";
+document.getElementById("fluContent").innerHTML=`<div style="font-size:12px;color:#D63384">⚠️ ${h.flu_message||"流感高发期"}</div><div style="font-size:11px;color:var(--sub);margin-top:4px">注意防护，勤洗手，少去人群密集处</div>`;
+}
+const month=h.month||new Date().getMonth()+1;
+document.getElementById("fruitMonth").textContent=month+"月";
+const fruits=h.seasonal_fruits||[];
+const emojis={"西瓜":"🍉","桃子":"🍑","葡萄":"🍇","苹果":"🍎","梨":"🍐","橘子":"🍊","草莓":"🍓","樱桃":"🍒","芒果":"🥭","香蕉":"🍌","石榴":"🥝","柚子":"🍈"};
+document.getElementById("fruitGrid").innerHTML=fruits.map(f=>`<div class="fruit-item"><div class="emoji">${emojis[f]||"🥗"}</div><div class="name">${f}</div></div>`).join("");
+
+const tips=[];
+if(month>=6&&month<=8)tips.push("夏季多喝水，注意防暑");
+if(month>=9&&month<=11)tips.push("秋季干燥，多吃润肺食物");
+if(month>=12||month<=2)tips.push("冬季注意保暖，适当进补");
+if(sleepHours&&parseFloat(sleepHours)<7)tips.push("睡眠不足，今晚早点休息");
+tips.push("每天步行30分钟有助健康");
+document.getElementById("healthTip").innerHTML=tips.map(t=>"• "+t).join("<br>");
+}
+
+function renderProfile(){
+const p=appData.user_profile||{};
+document.getElementById("profileMajor").textContent=p.major||"--";
+document.getElementById("profileYear").textContent=p.graduation_year||"--";
+document.getElementById("profileStatus").textContent=p.status||"--";
+document.getElementById("profileSkills").textContent=(p.skills||[]).join("、")||"--";
+document.getElementById("profileUpdate").textContent=appData.update_time||"--";
+document.getElementById("profileSub").textContent=`${p.major||""} · ${p.status||""}`;
+}
+
+renderTabs();
+loadData();
+</script>
+</body>
+</html>
