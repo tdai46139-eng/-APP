@@ -150,10 +150,10 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hira
 
 <div id="page-health" class="page">
 <div class="header"><h1>养生专区</h1></div>
-<div class="health-sleep">
-<div class="label">😴 昨晚睡眠</div>
+<div class="health-sleep" onclick="editSleep()" style="cursor:pointer">
+<div class="label">😴 昨晚睡眠 <span style="font-size:10px;color:var(--sub);font-weight:400">（点击记录）</span></div>
 <div><span class="val" id="sleepHours">--</span><span class="unit"> 小时</span></div>
-<div style="font-size:11px;color:var(--sub);margin-top:4px" id="sleepTip">通过 Apple Watch 快捷指令同步</div>
+<div style="font-size:11px;color:var(--sub);margin-top:4px" id="sleepTip">点击此处记录今晚睡眠</div>
 </div>
 <div class="card" id="fluCard" style="display:none">
 <div class="card-title"><span class="icon" style="background:#FFE4EC">🤧</span>流感提醒</div>
@@ -196,7 +196,6 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hira
 
 <script>
 const DATA_URL="https://raw.githubusercontent.com/tdai46139-eng/-APP/main/trend-assistant/data.json";
-const SLEEP_URL="https://raw.githubusercontent.com/tdai46139-eng/-APP/main/sleep.json?t=";
 let appData=null;
 
 const tabs=[
@@ -224,11 +223,6 @@ async function loadData(){
 try{
 const res=await fetch(DATA_URL+"?t="+Date.now());
 appData=await res.json();
-// 同时尝试读取睡眠数据
-try{
-const sres=await fetch(SLEEP_URL+Date.now());
-if(sres.ok){window._sleepData=await sres.json()}
-}catch(se){console.log("sleep.json not found, using default")}
 renderAll();
 }catch(e){
 console.error(e);
@@ -371,23 +365,36 @@ function deleteCheckin(i){
 
 function renderHealth(){
 const h=appData.health||{};
-// 优先从 sleep.json 读取（快捷指令同步），其次从 localStorage，最后用示例
-const sleepFromServer=window._sleepData;
-const sleepFromLocal=localStorage.getItem("sleepHours");
-if(sleepFromServer&&sleepFromServer.hours){
-document.getElementById("sleepHours").textContent=sleepFromServer.hours;
-const sleepDate=sleepFromServer.date||"";
-document.getElementById("sleepTip").textContent="Apple Watch 同步 · "+(sleepDate||"今日");
-const hrs=parseFloat(sleepFromServer.hours);
-if(hrs<6){document.getElementById("sleepTip").style.color="#FF6B9D"}
-else if(hrs<7){document.getElementById("sleepTip").style.color="#FFCB47"}
-else{document.getElementById("sleepTip").style.color="#10B981"}
-}else if(sleepFromLocal){
-document.getElementById("sleepHours").textContent=sleepFromLocal;
-document.getElementById("sleepTip").textContent="已通过快捷指令同步";
+// 手动输入的睡眠数据，存在 localStorage 里
+const sleepData=JSON.parse(localStorage.getItem("sleepData")||"null");
+const today=new Date().toISOString().split("T")[0];
+const sleepEl=document.getElementById("sleepHours");
+const tipEl=document.getElementById("sleepTip");
+if(sleepData&&sleepData.date===today){
+const hrs=parseFloat(sleepData.hours);
+sleepEl.textContent=sleepData.hours;
+// 根据睡眠时长给评价
+if(hrs<6){
+tipEl.textContent="睡眠不足 😴 今天早点休息";
+tipEl.style.color="#FF6B9D";
+}else if(hrs<7){
+tipEl.textContent="睡眠偏少 😪 注意休息";
+tipEl.style.color="#FFCB47";
+}else if(hrs<=9){
+tipEl.textContent="睡眠充足 😊 状态很好";
+tipEl.style.color="#10B981";
 }else{
-document.getElementById("sleepHours").textContent="7.5";
-document.getElementById("sleepTip").textContent="示例数据 · 配置快捷指令后自动更新";
+tipEl.textContent="睡多了 😌 适当运动";
+tipEl.style.color="#6B8AFF";
+}
+}else if(sleepData&&sleepData.date!==today){
+sleepEl.textContent="--";
+tipEl.textContent="今天还没记录，点击更新";
+tipEl.style.color="var(--sub)";
+}else{
+sleepEl.textContent="--";
+tipEl.textContent="点击此处记录今晚睡眠";
+tipEl.style.color="var(--sub)";
 }
 if(h.flu_alert){
 document.getElementById("fluCard").style.display="block";
@@ -403,9 +410,24 @@ const tips=[];
 if(month>=6&&month<=8)tips.push("夏季多喝水，注意防暑");
 if(month>=9&&month<=11)tips.push("秋季干燥，多吃润肺食物");
 if(month>=12||month<=2)tips.push("冬季注意保暖，适当进补");
-if(sleepHours&&parseFloat(sleepHours)<7)tips.push("睡眠不足，今晚早点休息");
+if(sleepData&&sleepData.date===today&&parseFloat(sleepData.hours)<7)tips.push("睡眠不足，今晚早点休息");
 tips.push("每天步行30分钟有助健康");
 document.getElementById("healthTip").innerHTML=tips.map(t=>"• "+t).join("<br>");
+}
+
+function editSleep(){
+const today=new Date().toISOString().split("T")[0];
+const saved=JSON.parse(localStorage.getItem("sleepData")||"null");
+const defaultVal=(saved&&saved.date===today)?saved.hours:"";
+const input=prompt("输入昨晚睡眠时长（小时）\n例如：7.5",defaultVal);
+if(input===null)return;
+const hrs=parseFloat(input);
+if(isNaN(hrs)||hrs<0||hrs>24){
+alert("请输入0-24之间的数字");
+return;
+}
+localStorage.setItem("sleepData",JSON.stringify({hours:hrs,date:today}));
+renderHealth();
 }
 
 function renderProfile(){
