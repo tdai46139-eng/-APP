@@ -1,0 +1,38 @@
+name: Sleep Sync
+on:
+  workflow_dispatch:
+    inputs:
+      sleep_hours:
+        description: 'Sleep hours'
+        required: true
+      sleep_date:
+        description: 'Date YYYY-MM-DD'
+        required: true
+
+jobs:
+  update-sleep:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update sleep.json
+        run: |
+          python3 -c "
+          import json
+          data = {
+              'hours': float('${{ github.event.inputs.sleep_hours }}'),
+              'date': '${{ github.event.inputs.sleep_date }}',
+              'source': 'apple_watch'
+          }
+          with open('sleep.json', 'w') as f:
+              json.dump(data, f, ensure_ascii=False)
+          print('sleep.json updated:', data)
+          "
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add sleep.json
+          git commit -m "sync sleep data: ${{ github.event.inputs.sleep_hours }}h on ${{ github.event.inputs.sleep_date }}" || echo "no changes"
+          git push
