@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-07-29 10:04:54",
-  "update_timestamp": 1785319494,
+  "update_time": "2026-07-30 07:59:49",
+  "update_timestamp": 1785398389,
   "user_profile": {
     "graduation_year": "2026",
     "major": "数据科学与大数据技术",
@@ -88,15 +88,6 @@
       "policy_count": 1,
       "top_policy": "国家发展改革委、国家能源局发布《可再生能源发展“十五五”规划》，提出“十五五”时期可再生能源发展的总量目标、发电目标、非电利用目标和可靠替代目标，部署七方面重点任务。",
       "top_source": "国务院"
-    },
-    {
-      "industry": "制造",
-      "change_pct": 22.6,
-      "trend_score": 47,
-      "direction": "stable",
-      "policy_count": 1,
-      "top_policy": "图表：2026年上半年全国规模以上工业企业利润增长18.7%",
-      "top_source": "国务院"
     }
   ],
   "employment": [
@@ -140,10 +131,10 @@
     {
       "code": "006479",
       "name": "广发纳斯达克100ETF联接人民币(QDII)C",
-      "net_value": 7.6526,
-      "est_value": 7.6526,
-      "est_change_pct": -0.39,
-      "update_time": "2026-07-26",
+      "net_value": 7.5778,
+      "est_value": 7.5778,
+      "est_change_pct": -0.98,
+      "update_time": "2026-07-27",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -153,10 +144,10 @@
     {
       "code": "270042",
       "name": "广发纳斯达克100ETF联接人民币(QDII)A",
-      "net_value": 7.7876,
-      "est_value": 7.7876,
-      "est_change_pct": -0.39,
-      "update_time": "2026-07-26",
+      "net_value": 7.7115,
+      "est_value": 7.7115,
+      "est_change_pct": -0.98,
+      "update_time": "2026-07-27",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -166,13 +157,13 @@
     {
       "code": "016582",
       "name": "嘉实上海金ETF发起联接C",
-      "net_value": 1.8023,
-      "est_value": 1.8023,
-      "est_change_pct": -1.18,
-      "update_time": "2026-07-27",
+      "net_value": 1.7995,
+      "est_value": 1.7995,
+      "est_change_pct": -0.16,
+      "update_time": "2026-07-28",
       "source": "pingzhongdata",
-      "prediction": "看跌",
-      "recommendation": "考虑减仓",
+      "prediction": "震荡",
+      "recommendation": "持有观望",
       "policy_tag": "无政策影响",
       "policy_score": 0
     }
