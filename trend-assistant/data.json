@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-07-31 10:02:58",
-  "update_timestamp": 1785492178,
+  "update_time": "2026-08-01 07:53:18",
+  "update_timestamp": 1785570798,
   "user_profile": {
     "graduation_year": "2026",
     "major": "数据科学与大数据技术",
@@ -46,11 +46,20 @@
   "trends": [
     {
       "industry": "环保",
-      "change_pct": 56.2,
-      "trend_score": 89,
+      "change_pct": 53.8,
+      "trend_score": 86,
       "direction": "up",
       "policy_count": 4,
       "top_policy": "国务院办公厅转发生态环境部等部门《群众身边水体保护治理行动方案》",
+      "top_source": "国务院"
+    },
+    {
+      "industry": "制造",
+      "change_pct": 41.8,
+      "trend_score": 71,
+      "direction": "up",
+      "policy_count": 3,
+      "top_policy": "《工业绿色低碳发展“十五五”规划》解读",
       "top_source": "国务院"
     },
     {
@@ -60,15 +69,6 @@
       "direction": "up",
       "policy_count": 2,
       "top_policy": "为加快推动工业绿色低碳发展，积极稳妥推进和实现碳达峰，促进经济社会发展全面绿色转型，工业和信息化部近日印发了《工业绿色低碳发展“十五五”规划》。",
-      "top_source": "国务院"
-    },
-    {
-      "industry": "制造",
-      "change_pct": 32.2,
-      "trend_score": 59,
-      "direction": "up",
-      "policy_count": 2,
-      "top_policy": "《工业绿色低碳发展“十五五”规划》解读",
       "top_source": "国务院"
     },
     {
@@ -118,8 +118,8 @@
     },
     {
       "industry": "环保",
-      "match_score": 67,
-      "trend_signal": "+56.2%",
+      "match_score": 66,
+      "trend_signal": "+53.8%",
       "policy_driver": "国务院办公厅转发生态环境部等部门《群众身边水体保护治理行动方案》",
       "entry_barrier": "需要一定基础"
     },
@@ -132,8 +132,8 @@
     },
     {
       "industry": "制造",
-      "match_score": 58,
-      "trend_signal": "+32.2%",
+      "match_score": 61,
+      "trend_signal": "+41.8%",
       "policy_driver": "《工业绿色低碳发展“十五五”规划》解读",
       "entry_barrier": "需要一定基础"
     },
@@ -149,36 +149,36 @@
     {
       "code": "006479",
       "name": "广发纳斯达克100ETF联接人民币(QDII)C",
-      "net_value": 7.4171,
-      "est_value": 7.4171,
-      "est_change_pct": -2.12,
-      "update_time": "2026-07-28",
+      "net_value": 7.6637,
+      "est_value": 7.6637,
+      "est_change_pct": 3.32,
+      "update_time": "2026-07-29",
       "source": "pingzhongdata",
-      "prediction": "看跌",
-      "recommendation": "考虑减仓",
+      "prediction": "震荡",
+      "recommendation": "持有观望",
       "policy_tag": "无政策影响",
       "policy_score": 0
     },
     {
       "code": "270042",
       "name": "广发纳斯达克100ETF联接人民币(QDII)A",
-      "net_value": 7.548,
-      "est_value": 7.548,
-      "est_change_pct": -2.12,
-      "update_time": "2026-07-28",
+      "net_value": 7.7989,
+      "est_value": 7.7989,
+      "est_change_pct": 3.32,
+      "update_time": "2026-07-29",
       "source": "pingzhongdata",
-      "prediction": "看跌",
-      "recommendation": "考虑减仓",
+      "prediction": "震荡",
+      "recommendation": "持有观望",
       "policy_tag": "无政策影响",
       "policy_score": 0
     },
     {
       "code": "016582",
       "name": "嘉实上海金ETF发起联接C",
-      "net_value": 1.7955,
-      "est_value": 1.7955,
-      "est_change_pct": -0.22,
-      "update_time": "2026-07-29",
+      "net_value": 1.8082,
+      "est_value": 1.8082,
+      "est_change_pct": 0.71,
+      "update_time": "2026-07-30",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -195,9 +195,14 @@
       "桃子",
       "葡萄"
     ],
-    "month": 7
+    "month": 8
   },
   "policies_raw": [
+    {
+      "source": "国务院",
+      "title": "国务院关于印发《知识产权保护和运用“十五五”规划》的通知",
+      "url": "https://www.gov.cn/zhengce/content/202607/content_7077199.htm"
+    },
     {
       "source": "国务院",
       "title": "国务院关于出境入境管理的规定",
@@ -232,11 +237,6 @@
       "source": "国务院",
       "title": "国务院办公厅转发生态环境部等部门《群众身边水体保护治理行动方案》",
       "url": "https://www.gov.cn/zhengce/content/202607/content_7075364.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "中办国办关于完善自然资源资产管理制度体系的意见",
-      "url": "./202607/content_7075234.htm"
     },
     {
       "source": "国务院",
