@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-08-02 07:54:38",
-  "update_timestamp": 1785657278,
+  "update_time": "2026-08-03 12:39:45",
+  "update_timestamp": 1785760785,
   "user_profile": {
     "graduation_year": "2026",
     "major": "数据科学与大数据技术",
@@ -26,8 +26,8 @@
     },
     {
       "source": "国务院",
-      "title": "国务院办公厅转发生态环境部等部门《群众身边水体保护治理行动方案》",
-      "industry": "环保",
+      "title": "国务院常务会议解读 | 住房公积金将更好满足居民多样化住房消费需求",
+      "industry": "消费",
       "direction": "up"
     },
     {
@@ -45,15 +45,6 @@
   ],
   "trends": [
     {
-      "industry": "环保",
-      "change_pct": 53.8,
-      "trend_score": 86,
-      "direction": "up",
-      "policy_count": 4,
-      "top_policy": "国务院办公厅转发生态环境部等部门《群众身边水体保护治理行动方案》",
-      "top_source": "国务院"
-    },
-    {
       "industry": "制造",
       "change_pct": 41.8,
       "trend_score": 71,
@@ -63,12 +54,21 @@
       "top_source": "国务院"
     },
     {
-      "industry": "新能源",
-      "change_pct": 34.6,
-      "trend_score": 62,
+      "industry": "环保",
+      "change_pct": 41.8,
+      "trend_score": 71,
+      "direction": "up",
+      "policy_count": 3,
+      "top_policy": "《工业绿色低碳发展“十五五”规划》解读",
+      "top_source": "国务院"
+    },
+    {
+      "industry": "消费",
+      "change_pct": 32.2,
+      "trend_score": 59,
       "direction": "up",
       "policy_count": 2,
-      "top_policy": "为加快推动工业绿色低碳发展，积极稳妥推进和实现碳达峰，促进经济社会发展全面绿色转型，工业和信息化部近日印发了《工业绿色低碳发展“十五五”规划》。",
+      "top_policy": "国务院常务会议解读 | 住房公积金将更好满足居民多样化住房消费需求",
       "top_source": "国务院"
     },
     {
@@ -78,15 +78,6 @@
       "direction": "up",
       "policy_count": 2,
       "top_policy": "《医疗卫生强基工程中医药行动方案》政策解读",
-      "top_source": "国务院"
-    },
-    {
-      "industry": "消费",
-      "change_pct": 32.2,
-      "trend_score": 59,
-      "direction": "up",
-      "policy_count": 2,
-      "top_policy": "中欧班列横亘亚欧、连接东西，有效衔接生产和消费，极大促进了沿线国家商品流通与产业互补，运输货物品类覆盖53大门类、5万多个品种。",
       "top_source": "国务院"
     },
     {
@@ -106,6 +97,15 @@
       "policy_count": 1,
       "top_policy": "中共中央 国务院印发《关于加强新时代社会工作的意见》",
       "top_source": "国务院"
+    },
+    {
+      "industry": "新能源",
+      "change_pct": 22.6,
+      "trend_score": 47,
+      "direction": "stable",
+      "policy_count": 1,
+      "top_policy": "为加快推动工业绿色低碳发展，积极稳妥推进和实现碳达峰，促进经济社会发展全面绿色转型，工业和信息化部近日印发了《工业绿色低碳发展“十五五”规划》。",
+      "top_source": "国务院"
     }
   ],
   "employment": [
@@ -117,21 +117,14 @@
       "entry_barrier": "零基础可入门"
     },
     {
-      "industry": "环保",
-      "match_score": 66,
-      "trend_signal": "+53.8%",
-      "policy_driver": "国务院办公厅转发生态环境部等部门《群众身边水体保护治理行动方案》",
-      "entry_barrier": "需要一定基础"
-    },
-    {
-      "industry": "新能源",
-      "match_score": 64,
-      "trend_signal": "+34.6%",
-      "policy_driver": "为加快推动工业绿色低碳发展，积极稳妥推进和实现碳达峰，促进经济社会发展全面绿色转型，工业和信息化部近日印发了《工业绿色低碳发展“十五五”规划》。",
-      "entry_barrier": "需要一定基础"
-    },
-    {
       "industry": "制造",
+      "match_score": 61,
+      "trend_signal": "+41.8%",
+      "policy_driver": "《工业绿色低碳发展“十五五”规划》解读",
+      "entry_barrier": "需要一定基础"
+    },
+    {
+      "industry": "环保",
       "match_score": 61,
       "trend_signal": "+41.8%",
       "policy_driver": "《工业绿色低碳发展“十五五”规划》解读",
@@ -141,7 +134,14 @@
       "industry": "消费",
       "match_score": 53,
       "trend_signal": "+32.2%",
-      "policy_driver": "中欧班列横亘亚欧、连接东西，有效衔接生产和消费，极大促进了沿线国家商品流通与产业互补，运输货物品类覆盖53大门类、5万多个品种。",
+      "policy_driver": "国务院常务会议解读 | 住房公积金将更好满足居民多样化住房消费需求",
+      "entry_barrier": "需要一定基础"
+    },
+    {
+      "industry": "旅游",
+      "match_score": 39,
+      "trend_signal": "+22.6%",
+      "policy_driver": "国务院关于出境入境管理的规定",
       "entry_barrier": "需要一定基础"
     }
   ],
@@ -162,10 +162,10 @@
     {
       "code": "270042",
       "name": "广发纳斯达克100ETF联接人民币(QDII)A",
-      "net_value": 7.7989,
-      "est_value": 7.7989,
-      "est_change_pct": 3.32,
-      "update_time": "2026-07-29",
+      "net_value": 7.8438,
+      "est_value": 7.8438,
+      "est_change_pct": 0.58,
+      "update_time": "2026-07-30",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -198,6 +198,11 @@
     "month": 8
   },
   "policies_raw": [
+    {
+      "source": "国务院",
+      "title": "集成电路布图设计保护条例",
+      "url": "https://www.gov.cn/zhengce/content/202608/content_7077398.htm"
+    },
     {
       "source": "国务院",
       "title": "国务院关于印发《知识产权保护和运用“十五五”规划》的通知",
@@ -235,43 +240,38 @@
     },
     {
       "source": "国务院",
-      "title": "国务院办公厅转发生态环境部等部门《群众身边水体保护治理行动方案》",
-      "url": "https://www.gov.cn/zhengce/content/202607/content_7075364.htm"
+      "title": "推动企业年金转移接续更高效",
+      "url": "./202608/content_7077335.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "什么是企业年金？新发布的《规程》对用人单位和职工有什么影响？记者采访了人力资源社会保障部养老保险司有关负责人、企业年金管理机构和社保专家等。",
+      "url": "./202608/content_7077335.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "国务院常务会议解读 | 住房公积金将更好满足居民多样化住房消费需求",
+      "url": "./202607/content_7077250.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "7月31日召开的国务院常务会议，审议通过《国务院关于修改〈住房公积金管理条例〉的决定（草案）》。",
+      "url": "./202607/content_7077250.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "国务院常务会议解读 | 国务院常务会议部署新型电网、物流网建设",
+      "url": "./202607/content_7077244.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "7月31日召开的国务院常务会议明确提出加快实施“十五五”规划确定的重大项目，扎实推进“六张网”规划建设，并围绕高质量建设新型电网和加快推进物流网建设作出部署。",
+      "url": "./202607/content_7077244.htm"
     },
     {
       "source": "国务院",
       "title": "《工业绿色低碳发展“十五五”规划》解读",
       "url": "./202607/content_7077144.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "为加快推动工业绿色低碳发展，积极稳妥推进和实现碳达峰，促进经济社会发展全面绿色转型，工业和信息化部近日印发了《工业绿色低碳发展“十五五”规划》。",
-      "url": "./202607/content_7077144.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "司法部负责人就《关于国务院行政复议案件处理程序的若干规定》答记者问",
-      "url": "./202607/content_7077013.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "2026年7月22日，国务院办公厅印发《关于国务院行政复议案件处理程序的若干规定》，自印发之日起施行。",
-      "url": "./202607/content_7077013.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "《医疗卫生强基工程中医药行动方案》政策解读",
-      "url": "./202607/content_7076911.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "近日，国家中医药管理局等11部门联合印发了《医疗卫生强基工程中医药行动方案》。",
-      "url": "./202607/content_7076911.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "中国空调15天运到欧洲，靠它→",
-      "url": "./202607/content_7076863.htm"
     }
   ]
 }
