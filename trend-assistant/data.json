@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-08-03 12:39:45",
-  "update_timestamp": 1785760785,
+  "update_time": "2026-08-04 10:14:29",
+  "update_timestamp": 1785838469,
   "user_profile": {
     "graduation_year": "2026",
     "major": "数据科学与大数据技术",
@@ -45,6 +45,15 @@
   ],
   "trends": [
     {
+      "industry": "就业",
+      "change_pct": 44.2,
+      "trend_score": 74,
+      "direction": "up",
+      "policy_count": 3,
+      "top_policy": "中共中央 国务院印发《关于加强新时代社会工作的意见》",
+      "top_source": "国务院"
+    },
+    {
       "industry": "制造",
       "change_pct": 41.8,
       "trend_score": 71,
@@ -72,30 +81,12 @@
       "top_source": "国务院"
     },
     {
-      "industry": "医疗",
-      "change_pct": 32.2,
-      "trend_score": 59,
-      "direction": "up",
-      "policy_count": 2,
-      "top_policy": "《医疗卫生强基工程中医药行动方案》政策解读",
-      "top_source": "国务院"
-    },
-    {
       "industry": "旅游",
       "change_pct": 22.6,
       "trend_score": 47,
       "direction": "stable",
       "policy_count": 1,
       "top_policy": "国务院关于出境入境管理的规定",
-      "top_source": "国务院"
-    },
-    {
-      "industry": "就业",
-      "change_pct": 22.6,
-      "trend_score": 47,
-      "direction": "stable",
-      "policy_count": 1,
-      "top_policy": "中共中央 国务院印发《关于加强新时代社会工作的意见》",
       "top_source": "国务院"
     },
     {
@@ -110,10 +101,10 @@
   ],
   "employment": [
     {
-      "industry": "医疗",
-      "match_score": 73,
-      "trend_signal": "+32.2%",
-      "policy_driver": "《医疗卫生强基工程中医药行动方案》政策解读",
+      "industry": "就业",
+      "match_score": 87,
+      "trend_signal": "+44.2%",
+      "policy_driver": "中共中央 国务院印发《关于加强新时代社会工作的意见》",
       "entry_barrier": "零基础可入门"
     },
     {
@@ -149,10 +140,10 @@
     {
       "code": "006479",
       "name": "广发纳斯达克100ETF联接人民币(QDII)C",
-      "net_value": 7.6637,
-      "est_value": 7.6637,
-      "est_change_pct": 3.32,
-      "update_time": "2026-07-29",
+      "net_value": 7.7077,
+      "est_value": 7.7077,
+      "est_change_pct": 0.57,
+      "update_time": "2026-07-30",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -175,10 +166,10 @@
     {
       "code": "016582",
       "name": "嘉实上海金ETF发起联接C",
-      "net_value": 1.8082,
-      "est_value": 1.8082,
-      "est_change_pct": 0.71,
-      "update_time": "2026-07-30",
+      "net_value": 1.8052,
+      "est_value": 1.8052,
+      "est_change_pct": -0.17,
+      "update_time": "2026-08-02",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -240,6 +231,26 @@
     },
     {
       "source": "国务院",
+      "title": "全国专业技术人才总量超8000万",
+      "url": "./202608/content_7077453.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "《人力资源和社会保障事业发展“十五五”规划》日前印发，对“优化人才发展体制机制  壮大高素质人才队伍”作出部署。",
+      "url": "./202608/content_7077453.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "新型电力系统建设迎来“十五五”发展路线图",
+      "url": "./202608/content_7077423.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "规划明确未来五年我国电力发展的总体思路，提出到2030年初步建成新型电力系统的战略目标，部署电力行业发展的主要目标、重大工程、重点任务。",
+      "url": "./202608/content_7077423.htm"
+    },
+    {
+      "source": "国务院",
       "title": "推动企业年金转移接续更高效",
       "url": "./202608/content_7077335.htm"
     },
@@ -252,26 +263,6 @@
       "source": "国务院",
       "title": "国务院常务会议解读 | 住房公积金将更好满足居民多样化住房消费需求",
       "url": "./202607/content_7077250.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "7月31日召开的国务院常务会议，审议通过《国务院关于修改〈住房公积金管理条例〉的决定（草案）》。",
-      "url": "./202607/content_7077250.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "国务院常务会议解读 | 国务院常务会议部署新型电网、物流网建设",
-      "url": "./202607/content_7077244.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "7月31日召开的国务院常务会议明确提出加快实施“十五五”规划确定的重大项目，扎实推进“六张网”规划建设，并围绕高质量建设新型电网和加快推进物流网建设作出部署。",
-      "url": "./202607/content_7077244.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "《工业绿色低碳发展“十五五”规划》解读",
-      "url": "./202607/content_7077144.htm"
     }
   ]
 }
