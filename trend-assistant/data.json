@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-08-05 10:03:56",
-  "update_timestamp": 1785924236,
+  "update_time": "2026-08-06 10:13:02",
+  "update_timestamp": 1786011182,
   "user_profile": {
     "graduation_year": "2026",
     "major": "数据科学与大数据技术",
@@ -29,18 +29,6 @@
       "title": "国务院常务会议解读 | 住房公积金将更好满足居民多样化住房消费需求",
       "industry": "消费",
       "direction": "up"
-    },
-    {
-      "source": "国务院",
-      "title": "《工业绿色低碳发展“十五五”规划》解读",
-      "industry": "制造",
-      "direction": "up"
-    },
-    {
-      "source": "国务院",
-      "title": "为加快推动工业绿色低碳发展，积极稳妥推进和实现碳达峰，促进经济社会发展全面绿色转型，工业和信息化部近日印发了《工业绿色低碳发展“十五五”规划》。",
-      "industry": "新能源",
-      "direction": "up"
     }
   ],
   "trends": [
@@ -51,24 +39,6 @@
       "direction": "up",
       "policy_count": 3,
       "top_policy": "中共中央 国务院印发《关于加强新时代社会工作的意见》",
-      "top_source": "国务院"
-    },
-    {
-      "industry": "制造",
-      "change_pct": 41.8,
-      "trend_score": 71,
-      "direction": "up",
-      "policy_count": 3,
-      "top_policy": "《工业绿色低碳发展“十五五”规划》解读",
-      "top_source": "国务院"
-    },
-    {
-      "industry": "环保",
-      "change_pct": 41.8,
-      "trend_score": 71,
-      "direction": "up",
-      "policy_count": 3,
-      "top_policy": "《工业绿色低碳发展“十五五”规划》解读",
       "top_source": "国务院"
     },
     {
@@ -90,12 +60,21 @@
       "top_source": "国务院"
     },
     {
-      "industry": "新能源",
+      "industry": "制造",
       "change_pct": 22.6,
       "trend_score": 47,
       "direction": "stable",
       "policy_count": 1,
-      "top_policy": "为加快推动工业绿色低碳发展，积极稳妥推进和实现碳达峰，促进经济社会发展全面绿色转型，工业和信息化部近日印发了《工业绿色低碳发展“十五五”规划》。",
+      "top_policy": "图表：《工业绿色低碳发展“十五五”规划》发布",
+      "top_source": "国务院"
+    },
+    {
+      "industry": "环保",
+      "change_pct": 22.6,
+      "trend_score": 47,
+      "direction": "stable",
+      "policy_count": 1,
+      "top_policy": "图表：《工业绿色低碳发展“十五五”规划》发布",
       "top_source": "国务院"
     }
   ],
@@ -109,16 +88,16 @@
     },
     {
       "industry": "制造",
-      "match_score": 61,
-      "trend_signal": "+41.8%",
-      "policy_driver": "《工业绿色低碳发展“十五五”规划》解读",
+      "match_score": 54,
+      "trend_signal": "+22.6%",
+      "policy_driver": "图表：《工业绿色低碳发展“十五五”规划》发布",
       "entry_barrier": "需要一定基础"
     },
     {
       "industry": "环保",
-      "match_score": 61,
-      "trend_signal": "+41.8%",
-      "policy_driver": "《工业绿色低碳发展“十五五”规划》解读",
+      "match_score": 54,
+      "trend_signal": "+22.6%",
+      "policy_driver": "图表：《工业绿色低碳发展“十五五”规划》发布",
       "entry_barrier": "需要一定基础"
     },
     {
@@ -140,10 +119,10 @@
     {
       "code": "006479",
       "name": "广发纳斯达克100ETF联接人民币(QDII)C",
-      "net_value": 7.8445,
-      "est_value": 7.8445,
-      "est_change_pct": 1.77,
-      "update_time": "2026-08-02",
+      "net_value": 8.1097,
+      "est_value": 8.1097,
+      "est_change_pct": 3.38,
+      "update_time": "2026-08-03",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -153,10 +132,10 @@
     {
       "code": "270042",
       "name": "广发纳斯达克100ETF联接人民币(QDII)A",
-      "net_value": 7.9831,
-      "est_value": 7.9831,
-      "est_change_pct": 1.78,
-      "update_time": "2026-08-02",
+      "net_value": 8.253,
+      "est_value": 8.253,
+      "est_change_pct": 3.38,
+      "update_time": "2026-08-03",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -166,10 +145,10 @@
     {
       "code": "016582",
       "name": "嘉实上海金ETF发起联接C",
-      "net_value": 1.8045,
-      "est_value": 1.8045,
-      "est_change_pct": -0.04,
-      "update_time": "2026-08-03",
+      "net_value": 1.8502,
+      "est_value": 1.8502,
+      "est_change_pct": 2.53,
+      "update_time": "2026-08-04",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -231,6 +210,16 @@
     },
     {
       "source": "国务院",
+      "title": "这份规划，为“十五五”气象观测建设划重点",
+      "url": "./202608/content_7077560.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "近日，中国气象局与国家发展和改革委员会联合发布《国家综合气象观测系统建设“十五五”规划》，对未来五年国家综合气象观测系统建设作出部署。",
+      "url": "./202608/content_7077560.htm"
+    },
+    {
+      "source": "国务院",
       "title": "全国专业技术人才总量超8000万",
       "url": "./202608/content_7077453.htm"
     },
@@ -253,16 +242,6 @@
       "source": "国务院",
       "title": "推动企业年金转移接续更高效",
       "url": "./202608/content_7077335.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "什么是企业年金？新发布的《规程》对用人单位和职工有什么影响？记者采访了人力资源社会保障部养老保险司有关负责人、企业年金管理机构和社保专家等。",
-      "url": "./202608/content_7077335.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "国务院常务会议解读 | 住房公积金将更好满足居民多样化住房消费需求",
-      "url": "./202607/content_7077250.htm"
     }
   ]
 }
