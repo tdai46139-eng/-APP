@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-08-06 10:13:02",
-  "update_timestamp": 1786011182,
+  "update_time": "2026-08-07 05:52:50",
+  "update_timestamp": 1786081970,
   "user_profile": {
     "graduation_year": "2026",
     "major": "数据科学与大数据技术",
@@ -42,12 +42,12 @@
       "top_source": "国务院"
     },
     {
-      "industry": "消费",
+      "industry": "制造",
       "change_pct": 32.2,
       "trend_score": 59,
       "direction": "up",
       "policy_count": 2,
-      "top_policy": "国务院常务会议解读 | 住房公积金将更好满足居民多样化住房消费需求",
+      "top_policy": "图表：上半年我国机械工业规上企业增加值同比增长6.4%",
       "top_source": "国务院"
     },
     {
@@ -60,12 +60,12 @@
       "top_source": "国务院"
     },
     {
-      "industry": "制造",
+      "industry": "消费",
       "change_pct": 22.6,
       "trend_score": 47,
       "direction": "stable",
       "policy_count": 1,
-      "top_policy": "图表：《工业绿色低碳发展“十五五”规划》发布",
+      "top_policy": "国务院常务会议解读 | 住房公积金将更好满足居民多样化住房消费需求",
       "top_source": "国务院"
     },
     {
@@ -88,9 +88,9 @@
     },
     {
       "industry": "制造",
-      "match_score": 54,
-      "trend_signal": "+22.6%",
-      "policy_driver": "图表：《工业绿色低碳发展“十五五”规划》发布",
+      "match_score": 58,
+      "trend_signal": "+32.2%",
+      "policy_driver": "图表：上半年我国机械工业规上企业增加值同比增长6.4%",
       "entry_barrier": "需要一定基础"
     },
     {
@@ -102,8 +102,8 @@
     },
     {
       "industry": "消费",
-      "match_score": 53,
-      "trend_signal": "+32.2%",
+      "match_score": 49,
+      "trend_signal": "+22.6%",
       "policy_driver": "国务院常务会议解读 | 住房公积金将更好满足居民多样化住房消费需求",
       "entry_barrier": "需要一定基础"
     },
@@ -119,10 +119,10 @@
     {
       "code": "006479",
       "name": "广发纳斯达克100ETF联接人民币(QDII)C",
-      "net_value": 8.1097,
-      "est_value": 8.1097,
-      "est_change_pct": 3.38,
-      "update_time": "2026-08-03",
+      "net_value": 8.0373,
+      "est_value": 8.0373,
+      "est_change_pct": -0.89,
+      "update_time": "2026-08-04",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -132,10 +132,10 @@
     {
       "code": "270042",
       "name": "广发纳斯达克100ETF联接人民币(QDII)A",
-      "net_value": 8.253,
-      "est_value": 8.253,
-      "est_change_pct": 3.38,
-      "update_time": "2026-08-03",
+      "net_value": 8.1795,
+      "est_value": 8.1795,
+      "est_change_pct": -0.89,
+      "update_time": "2026-08-04",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -145,10 +145,10 @@
     {
       "code": "016582",
       "name": "嘉实上海金ETF发起联接C",
-      "net_value": 1.8502,
-      "est_value": 1.8502,
-      "est_change_pct": 2.53,
-      "update_time": "2026-08-04",
+      "net_value": 1.8855,
+      "est_value": 1.8855,
+      "est_change_pct": 1.91,
+      "update_time": "2026-08-05",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -210,6 +210,16 @@
     },
     {
       "source": "国务院",
+      "title": "新华时评：“发力提效”释放鲜明政策信号",
+      "url": "./202608/content_7077612.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "推动宏观政策发力提效，重在存量增量政策并举；推动宏观政策发力提效，尤需打好政策“组合拳”；推动宏观政策发力提效，既要优化政策供给，又要强化政策落地。",
+      "url": "./202608/content_7077612.htm"
+    },
+    {
+      "source": "国务院",
       "title": "这份规划，为“十五五”气象观测建设划重点",
       "url": "./202608/content_7077560.htm"
     },
@@ -232,16 +242,6 @@
       "source": "国务院",
       "title": "新型电力系统建设迎来“十五五”发展路线图",
       "url": "./202608/content_7077423.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "规划明确未来五年我国电力发展的总体思路，提出到2030年初步建成新型电力系统的战略目标，部署电力行业发展的主要目标、重大工程、重点任务。",
-      "url": "./202608/content_7077423.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "推动企业年金转移接续更高效",
-      "url": "./202608/content_7077335.htm"
     }
   ]
 }
