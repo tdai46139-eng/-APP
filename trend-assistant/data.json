@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-08-07 05:52:50",
-  "update_timestamp": 1786081970,
+  "update_time": "2026-08-08 03:59:38",
+  "update_timestamp": 1786161578,
   "user_profile": {
     "graduation_year": "2026",
     "major": "数据科学与大数据技术",
@@ -42,15 +42,6 @@
       "top_source": "国务院"
     },
     {
-      "industry": "制造",
-      "change_pct": 32.2,
-      "trend_score": 59,
-      "direction": "up",
-      "policy_count": 2,
-      "top_policy": "图表：上半年我国机械工业规上企业增加值同比增长6.4%",
-      "top_source": "国务院"
-    },
-    {
       "industry": "旅游",
       "change_pct": 22.6,
       "trend_score": 47,
@@ -69,12 +60,12 @@
       "top_source": "国务院"
     },
     {
-      "industry": "环保",
+      "industry": "制造",
       "change_pct": 22.6,
       "trend_score": 47,
       "direction": "stable",
       "policy_count": 1,
-      "top_policy": "图表：《工业绿色低碳发展“十五五”规划》发布",
+      "top_policy": "图表：上半年我国机械工业规上企业增加值同比增长6.4%",
       "top_source": "国务院"
     }
   ],
@@ -88,16 +79,9 @@
     },
     {
       "industry": "制造",
-      "match_score": 58,
-      "trend_signal": "+32.2%",
-      "policy_driver": "图表：上半年我国机械工业规上企业增加值同比增长6.4%",
-      "entry_barrier": "需要一定基础"
-    },
-    {
-      "industry": "环保",
       "match_score": 54,
       "trend_signal": "+22.6%",
-      "policy_driver": "图表：《工业绿色低碳发展“十五五”规划》发布",
+      "policy_driver": "图表：上半年我国机械工业规上企业增加值同比增长6.4%",
       "entry_barrier": "需要一定基础"
     },
     {
@@ -119,10 +103,10 @@
     {
       "code": "006479",
       "name": "广发纳斯达克100ETF联接人民币(QDII)C",
-      "net_value": 8.0373,
-      "est_value": 8.0373,
-      "est_change_pct": -0.89,
-      "update_time": "2026-08-04",
+      "net_value": 8.0062,
+      "est_value": 8.0062,
+      "est_change_pct": -0.39,
+      "update_time": "2026-08-05",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -132,10 +116,10 @@
     {
       "code": "270042",
       "name": "广发纳斯达克100ETF联接人民币(QDII)A",
-      "net_value": 8.1795,
-      "est_value": 8.1795,
-      "est_change_pct": -0.89,
-      "update_time": "2026-08-04",
+      "net_value": 8.1478,
+      "est_value": 8.1478,
+      "est_change_pct": -0.39,
+      "update_time": "2026-08-05",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -145,10 +129,10 @@
     {
       "code": "016582",
       "name": "嘉实上海金ETF发起联接C",
-      "net_value": 1.8855,
-      "est_value": 1.8855,
-      "est_change_pct": 1.91,
-      "update_time": "2026-08-05",
+      "net_value": 1.9035,
+      "est_value": 1.9035,
+      "est_change_pct": 0.95,
+      "update_time": "2026-08-06",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
