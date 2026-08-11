@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-08-10 05:10:00",
-  "update_timestamp": 1786338600,
+  "update_time": "2026-08-11 04:49:51",
+  "update_timestamp": 1786423791,
   "user_profile": {
     "graduation_year": "2026",
     "major": "数据科学与大数据技术",
@@ -23,12 +23,6 @@
       "title": "中共中央 国务院印发《关于加强新时代社会工作的意见》",
       "industry": "就业",
       "direction": "up"
-    },
-    {
-      "source": "国务院",
-      "title": "国务院常务会议解读 | 住房公积金将更好满足居民多样化住房消费需求",
-      "industry": "消费",
-      "direction": "up"
     }
   ],
   "trends": [
@@ -48,15 +42,6 @@
       "direction": "stable",
       "policy_count": 1,
       "top_policy": "国务院关于出境入境管理的规定",
-      "top_source": "国务院"
-    },
-    {
-      "industry": "消费",
-      "change_pct": 22.6,
-      "trend_score": 47,
-      "direction": "stable",
-      "policy_count": 1,
-      "top_policy": "国务院常务会议解读 | 住房公积金将更好满足居民多样化住房消费需求",
       "top_source": "国务院"
     },
     {
@@ -85,13 +70,6 @@
       "entry_barrier": "需要一定基础"
     },
     {
-      "industry": "消费",
-      "match_score": 49,
-      "trend_signal": "+22.6%",
-      "policy_driver": "国务院常务会议解读 | 住房公积金将更好满足居民多样化住房消费需求",
-      "entry_barrier": "需要一定基础"
-    },
-    {
       "industry": "旅游",
       "match_score": 39,
       "trend_signal": "+22.6%",
@@ -103,10 +81,10 @@
     {
       "code": "006479",
       "name": "广发纳斯达克100ETF联接人民币(QDII)C",
-      "net_value": 8.0062,
-      "est_value": 8.0062,
-      "est_change_pct": -0.39,
-      "update_time": "2026-08-05",
+      "net_value": 8.102,
+      "est_value": 8.102,
+      "est_change_pct": 1.2,
+      "update_time": "2026-08-06",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -116,10 +94,10 @@
     {
       "code": "270042",
       "name": "广发纳斯达克100ETF联接人民币(QDII)A",
-      "net_value": 8.1478,
-      "est_value": 8.1478,
-      "est_change_pct": -0.39,
-      "update_time": "2026-08-05",
+      "net_value": 8.2454,
+      "est_value": 8.2454,
+      "est_change_pct": 1.2,
+      "update_time": "2026-08-06",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -129,10 +107,10 @@
     {
       "code": "016582",
       "name": "嘉实上海金ETF发起联接C",
-      "net_value": 1.9035,
-      "est_value": 1.9035,
-      "est_change_pct": 0.95,
-      "update_time": "2026-08-06",
+      "net_value": 1.9286,
+      "est_value": 1.9286,
+      "est_change_pct": 1.32,
+      "update_time": "2026-08-09",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -194,6 +172,16 @@
     },
     {
       "source": "国务院",
+      "title": "7月份数据出炉，如何看待当前物价运行态势？",
+      "url": "./202608/content_7077757.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "统计数据显示，7月份，CPI同比涨幅比上月回落0.5个百分点，为今年2月以来首次降至1%以下。",
+      "url": "./202608/content_7077757.htm"
+    },
+    {
+      "source": "国务院",
       "title": "新华时评：“发力提效”释放鲜明政策信号",
       "url": "./202608/content_7077612.htm"
     },
@@ -216,16 +204,6 @@
       "source": "国务院",
       "title": "全国专业技术人才总量超8000万",
       "url": "./202608/content_7077453.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "《人力资源和社会保障事业发展“十五五”规划》日前印发，对“优化人才发展体制机制  壮大高素质人才队伍”作出部署。",
-      "url": "./202608/content_7077453.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "新型电力系统建设迎来“十五五”发展路线图",
-      "url": "./202608/content_7077423.htm"
     }
   ]
 }
