@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-08-13 05:48:49",
-  "update_timestamp": 1786600129,
+  "update_time": "2026-08-14 05:44:37",
+  "update_timestamp": 1786686277,
   "user_profile": {
     "graduation_year": "2026",
     "major": "数据科学与大数据技术",
@@ -20,7 +20,7 @@
     },
     {
       "source": "国务院",
-      "title": "中共中央 国务院印发《关于加强新时代社会工作的意见》",
+      "title": "全国专业技术人才总量超8000万",
       "industry": "就业",
       "direction": "up"
     }
@@ -28,11 +28,11 @@
   "trends": [
     {
       "industry": "就业",
-      "change_pct": 44.2,
-      "trend_score": 74,
+      "change_pct": 32.2,
+      "trend_score": 59,
       "direction": "up",
-      "policy_count": 3,
-      "top_policy": "中共中央 国务院印发《关于加强新时代社会工作的意见》",
+      "policy_count": 2,
+      "top_policy": "全国专业技术人才总量超8000万",
       "top_source": "国务院"
     },
     {
@@ -57,9 +57,9 @@
   "employment": [
     {
       "industry": "就业",
-      "match_score": 87,
-      "trend_signal": "+44.2%",
-      "policy_driver": "中共中央 国务院印发《关于加强新时代社会工作的意见》",
+      "match_score": 83,
+      "trend_signal": "+32.2%",
+      "policy_driver": "全国专业技术人才总量超8000万",
       "entry_barrier": "零基础可入门"
     },
     {
@@ -81,10 +81,10 @@
     {
       "code": "006479",
       "name": "广发纳斯达克100ETF联接人民币(QDII)C",
-      "net_value": 8.0469,
-      "est_value": 8.0469,
-      "est_change_pct": -0.31,
-      "update_time": "2026-08-10",
+      "net_value": 8.105,
+      "est_value": 8.105,
+      "est_change_pct": 0.72,
+      "update_time": "2026-08-11",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -94,10 +94,10 @@
     {
       "code": "270042",
       "name": "广发纳斯达克100ETF联接人民币(QDII)A",
-      "net_value": 8.1894,
-      "est_value": 8.1894,
-      "est_change_pct": -0.31,
-      "update_time": "2026-08-10",
+      "net_value": 8.2485,
+      "est_value": 8.2485,
+      "est_change_pct": 0.72,
+      "update_time": "2026-08-11",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -107,10 +107,10 @@
     {
       "code": "016582",
       "name": "嘉实上海金ETF发起联接C",
-      "net_value": 1.9504,
-      "est_value": 1.9504,
-      "est_change_pct": 0.88,
-      "update_time": "2026-08-11",
+      "net_value": 1.9397,
+      "est_value": 1.9397,
+      "est_change_pct": -0.55,
+      "update_time": "2026-08-12",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -130,6 +130,11 @@
     "month": 8
   },
   "policies_raw": [
+    {
+      "source": "国务院",
+      "title": "国务院关于修改和废止部分行政法规的决定",
+      "url": "https://www.gov.cn/zhengce/content/202608/content_7077980.htm"
+    },
     {
       "source": "国务院",
       "title": "国务院办公厅关于重点林区“十五五”期间森林年采伐限额的复函",
@@ -164,11 +169,6 @@
       "source": "国务院",
       "title": "国务院关于同意将山东省潍坊市列为国家历史文化名城的批复",
       "url": "https://www.gov.cn/zhengce/content/202607/content_7076508.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "中共中央 国务院印发《关于加强新时代社会工作的意见》",
-      "url": "./202607/content_7076433.htm"
     },
     {
       "source": "国务院",
