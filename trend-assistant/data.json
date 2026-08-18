@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-08-17 03:15:27",
-  "update_timestamp": 1786936527,
+  "update_time": "2026-08-18 03:09:17",
+  "update_timestamp": 1787022557,
   "user_profile": {
     "graduation_year": "2026",
     "major": "数据科学与大数据技术",
@@ -23,12 +23,6 @@
       "title": "未来五年，安全应急装备产业这样发展",
       "industry": "制造",
       "direction": "up"
-    },
-    {
-      "source": "国务院",
-      "title": "全国专业技术人才总量超8000万",
-      "industry": "就业",
-      "direction": "up"
     }
   ],
   "trends": [
@@ -42,15 +36,6 @@
       "top_source": "国务院"
     },
     {
-      "industry": "就业",
-      "change_pct": 32.2,
-      "trend_score": 59,
-      "direction": "up",
-      "policy_count": 2,
-      "top_policy": "全国专业技术人才总量超8000万",
-      "top_source": "国务院"
-    },
-    {
       "industry": "旅游",
       "change_pct": 22.6,
       "trend_score": 47,
@@ -61,13 +46,6 @@
     }
   ],
   "employment": [
-    {
-      "industry": "就业",
-      "match_score": 83,
-      "trend_signal": "+32.2%",
-      "policy_driver": "全国专业技术人才总量超8000万",
-      "entry_barrier": "零基础可入门"
-    },
     {
       "industry": "制造",
       "match_score": 59,
@@ -87,10 +65,10 @@
     {
       "code": "006479",
       "name": "广发纳斯达克100ETF联接人民币(QDII)C",
-      "net_value": 8.1995,
-      "est_value": 8.1995,
-      "est_change_pct": 1.17,
-      "update_time": "2026-08-12",
+      "net_value": 8.1879,
+      "est_value": 8.1879,
+      "est_change_pct": -0.14,
+      "update_time": "2026-08-13",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -100,10 +78,10 @@
     {
       "code": "270042",
       "name": "广发纳斯达克100ETF联接人民币(QDII)A",
-      "net_value": 8.3449,
-      "est_value": 8.3449,
-      "est_change_pct": 1.17,
-      "update_time": "2026-08-12",
+      "net_value": 8.333,
+      "est_value": 8.333,
+      "est_change_pct": -0.14,
+      "update_time": "2026-08-13",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -113,13 +91,13 @@
     {
       "code": "016582",
       "name": "嘉实上海金ETF发起联接C",
-      "net_value": 1.9182,
-      "est_value": 1.9182,
-      "est_change_pct": -1.11,
-      "update_time": "2026-08-13",
+      "net_value": 1.9443,
+      "est_value": 1.9443,
+      "est_change_pct": 1.36,
+      "update_time": "2026-08-16",
       "source": "pingzhongdata",
-      "prediction": "看跌",
-      "recommendation": "考虑减仓",
+      "prediction": "震荡",
+      "recommendation": "持有观望",
       "policy_tag": "无政策影响",
       "policy_score": 0
     }
@@ -136,6 +114,11 @@
     "month": 8
   },
   "policies_raw": [
+    {
+      "source": "国务院",
+      "title": "国务院关于《特殊教育发展提升“十五五”行动计划》的批复",
+      "url": "https://www.gov.cn/zhengce/content/202608/content_7078320.htm"
+    },
     {
       "source": "国务院",
       "title": "国务院关于修改和废止部分行政法规的决定",
@@ -168,13 +151,18 @@
     },
     {
       "source": "国务院",
-      "title": "国办印发《关于国务院行政复议案件处理程序的若干规定》的通知",
+      "title": "国务院办公厅印发《关于国务院行政复议案件处理程序的若干规定》的通知",
       "url": "https://www.gov.cn/zhengce/content/202607/content_7076684.htm"
     },
     {
       "source": "国务院",
-      "title": "国务院关于同意将山东省潍坊市列为国家历史文化名城的批复",
-      "url": "https://www.gov.cn/zhengce/content/202607/content_7076508.htm"
+      "title": "总体平稳 向新向优——透视前7个月国民经济数据",
+      "url": "./202608/content_7078365.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "前7个月我国主要经济指标运行情况如何？当前国民经济呈现哪些特点？如何研判下阶段经济走势？在国新办17日举行的新闻发布会上，国家统计局新闻发言人就相关情况进行介绍。",
+      "url": "./202608/content_7078365.htm"
     },
     {
       "source": "国务院",
@@ -200,16 +188,6 @@
       "source": "国务院",
       "title": "7月份数据出炉，如何看待当前物价运行态势？",
       "url": "./202608/content_7077757.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "统计数据显示，7月份，CPI同比涨幅比上月回落0.5个百分点，为今年2月以来首次降至1%以下。",
-      "url": "./202608/content_7077757.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "新华时评：“发力提效”释放鲜明政策信号",
-      "url": "./202608/content_7077612.htm"
     }
   ]
 }
