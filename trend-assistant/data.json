@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-08-18 03:09:17",
-  "update_timestamp": 1787022557,
+  "update_time": "2026-08-19 03:12:59",
+  "update_timestamp": 1787109179,
   "user_profile": {
     "graduation_year": "2026",
     "major": "数据科学与大数据技术",
@@ -27,6 +27,15 @@
   ],
   "trends": [
     {
+      "industry": "旅游",
+      "change_pct": 44.2,
+      "trend_score": 74,
+      "direction": "up",
+      "policy_count": 3,
+      "top_policy": "国务院关于出境入境管理的规定",
+      "top_source": "国务院"
+    },
+    {
       "industry": "制造",
       "change_pct": 34.6,
       "trend_score": 62,
@@ -36,12 +45,12 @@
       "top_source": "国务院"
     },
     {
-      "industry": "旅游",
-      "change_pct": 22.6,
-      "trend_score": 47,
-      "direction": "stable",
-      "policy_count": 1,
-      "top_policy": "国务院关于出境入境管理的规定",
+      "industry": "消费",
+      "change_pct": 32.2,
+      "trend_score": 59,
+      "direction": "up",
+      "policy_count": 2,
+      "top_policy": "为深入贯彻党中央、国务院关于大力提振消费的决策部署，充分发挥交通运输在畅通循环经济、激发消费潜能中的基础性作用，近日，交通运输部印发了《精品自驾旅游公路实施方案》。",
       "top_source": "国务院"
     }
   ],
@@ -54,9 +63,16 @@
       "entry_barrier": "需要一定基础"
     },
     {
+      "industry": "消费",
+      "match_score": 53,
+      "trend_signal": "+32.2%",
+      "policy_driver": "为深入贯彻党中央、国务院关于大力提振消费的决策部署，充分发挥交通运输在畅通循环经济、激发消费潜能中的基础性作用，近日，交通运输部印发了《精品自驾旅游公路实施方案》。",
+      "entry_barrier": "需要一定基础"
+    },
+    {
       "industry": "旅游",
-      "match_score": 39,
-      "trend_signal": "+22.6%",
+      "match_score": 47,
+      "trend_signal": "+44.2%",
       "policy_driver": "国务院关于出境入境管理的规定",
       "entry_barrier": "需要一定基础"
     }
@@ -65,10 +81,10 @@
     {
       "code": "006479",
       "name": "广发纳斯达克100ETF联接人民币(QDII)C",
-      "net_value": 8.1879,
-      "est_value": 8.1879,
-      "est_change_pct": -0.14,
-      "update_time": "2026-08-13",
+      "net_value": 8.1732,
+      "est_value": 8.1732,
+      "est_change_pct": -0.18,
+      "update_time": "2026-08-16",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -78,10 +94,10 @@
     {
       "code": "270042",
       "name": "广发纳斯达克100ETF联接人民币(QDII)A",
-      "net_value": 8.333,
-      "est_value": 8.333,
-      "est_change_pct": -0.14,
-      "update_time": "2026-08-13",
+      "net_value": 8.3182,
+      "est_value": 8.3182,
+      "est_change_pct": -0.18,
+      "update_time": "2026-08-16",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -91,10 +107,10 @@
     {
       "code": "016582",
       "name": "嘉实上海金ETF发起联接C",
-      "net_value": 1.9443,
-      "est_value": 1.9443,
-      "est_change_pct": 1.36,
-      "update_time": "2026-08-16",
+      "net_value": 1.9463,
+      "est_value": 1.9463,
+      "est_change_pct": 0.1,
+      "update_time": "2026-08-17",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -114,6 +130,11 @@
     "month": 8
   },
   "policies_raw": [
+    {
+      "source": "国务院",
+      "title": "国务院关于修改《住房公积金管理条例》的决定",
+      "url": "https://www.gov.cn/zhengce/content/202608/content_7078477.htm"
+    },
     {
       "source": "国务院",
       "title": "国务院关于《特殊教育发展提升“十五五”行动计划》的批复",
@@ -146,13 +167,18 @@
     },
     {
       "source": "国务院",
-      "title": "中共中央 国务院转发《中央宣传部、司法部关于开展法治宣传教育的第九个五年规划（2026－2030年）》",
-      "url": "./202607/content_7076696.htm"
+      "title": "国办印发《关于国务院行政复议案件处理程序的若干规定》的通知",
+      "url": "https://www.gov.cn/zhengce/content/202607/content_7076684.htm"
     },
     {
       "source": "国务院",
-      "title": "国务院办公厅印发《关于国务院行政复议案件处理程序的若干规定》的通知",
-      "url": "https://www.gov.cn/zhengce/content/202607/content_7076684.htm"
+      "title": "《精品自驾旅游公路实施方案》政策解读",
+      "url": "./202608/content_7078394.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "为深入贯彻党中央、国务院关于大力提振消费的决策部署，充分发挥交通运输在畅通循环经济、激发消费潜能中的基础性作用，近日，交通运输部印发了《精品自驾旅游公路实施方案》。",
+      "url": "./202608/content_7078394.htm"
     },
     {
       "source": "国务院",
@@ -178,16 +204,6 @@
       "source": "国务院",
       "title": "总量合理、结构向优——透视7月金融数据",
       "url": "./202608/content_7078086.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "中国人民银行当日发布的金融统计数据显示，7月末，我国社会融资规模存量为463.27万亿元，同比增长7.4%；M2余额为355.51万亿元，同比增长7.7%。",
-      "url": "./202608/content_7078086.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "7月份数据出炉，如何看待当前物价运行态势？",
-      "url": "./202608/content_7077757.htm"
     }
   ]
 }
