@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-08-19 03:12:59",
-  "update_timestamp": 1787109179,
+  "update_time": "2026-08-20 03:11:43",
+  "update_timestamp": 1787195503,
   "user_profile": {
     "graduation_year": "2026",
     "major": "数据科学与大数据技术",
@@ -16,6 +16,12 @@
       "source": "国务院",
       "title": "国务院关于出境入境管理的规定",
       "industry": "旅游",
+      "direction": "up"
+    },
+    {
+      "source": "国务院",
+      "title": "商务部等9部门近日联合印发《关于进一步激发下沉市场活力 活跃县域消费的意见》，以后在家乡县城“买买买”将迎来大升级。",
+      "industry": "消费",
       "direction": "up"
     },
     {
@@ -36,21 +42,21 @@
       "top_source": "国务院"
     },
     {
+      "industry": "消费",
+      "change_pct": 41.8,
+      "trend_score": 71,
+      "direction": "up",
+      "policy_count": 3,
+      "top_policy": "商务部等9部门近日联合印发《关于进一步激发下沉市场活力 活跃县域消费的意见》，以后在家乡县城“买买买”将迎来大升级。",
+      "top_source": "国务院"
+    },
+    {
       "industry": "制造",
       "change_pct": 34.6,
       "trend_score": 62,
       "direction": "up",
       "policy_count": 2,
       "top_policy": "未来五年，安全应急装备产业这样发展",
-      "top_source": "国务院"
-    },
-    {
-      "industry": "消费",
-      "change_pct": 32.2,
-      "trend_score": 59,
-      "direction": "up",
-      "policy_count": 2,
-      "top_policy": "为深入贯彻党中央、国务院关于大力提振消费的决策部署，充分发挥交通运输在畅通循环经济、激发消费潜能中的基础性作用，近日，交通运输部印发了《精品自驾旅游公路实施方案》。",
       "top_source": "国务院"
     }
   ],
@@ -64,9 +70,9 @@
     },
     {
       "industry": "消费",
-      "match_score": 53,
-      "trend_signal": "+32.2%",
-      "policy_driver": "为深入贯彻党中央、国务院关于大力提振消费的决策部署，充分发挥交通运输在畅通循环经济、激发消费潜能中的基础性作用，近日，交通运输部印发了《精品自驾旅游公路实施方案》。",
+      "match_score": 56,
+      "trend_signal": "+41.8%",
+      "policy_driver": "商务部等9部门近日联合印发《关于进一步激发下沉市场活力 活跃县域消费的意见》，以后在家乡县城“买买买”将迎来大升级。",
       "entry_barrier": "需要一定基础"
     },
     {
@@ -81,39 +87,39 @@
     {
       "code": "006479",
       "name": "广发纳斯达克100ETF联接人民币(QDII)C",
-      "net_value": 8.1732,
-      "est_value": 8.1732,
-      "est_change_pct": -0.18,
-      "update_time": "2026-08-16",
+      "net_value": 8.0371,
+      "est_value": 8.0371,
+      "est_change_pct": -1.67,
+      "update_time": "2026-08-17",
       "source": "pingzhongdata",
-      "prediction": "震荡",
-      "recommendation": "持有观望",
+      "prediction": "看跌",
+      "recommendation": "考虑减仓",
       "policy_tag": "无政策影响",
       "policy_score": 0
     },
     {
       "code": "270042",
       "name": "广发纳斯达克100ETF联接人民币(QDII)A",
-      "net_value": 8.3182,
-      "est_value": 8.3182,
-      "est_change_pct": -0.18,
-      "update_time": "2026-08-16",
+      "net_value": 8.1798,
+      "est_value": 8.1798,
+      "est_change_pct": -1.66,
+      "update_time": "2026-08-17",
       "source": "pingzhongdata",
-      "prediction": "震荡",
-      "recommendation": "持有观望",
+      "prediction": "看跌",
+      "recommendation": "考虑减仓",
       "policy_tag": "无政策影响",
       "policy_score": 0
     },
     {
       "code": "016582",
       "name": "嘉实上海金ETF发起联接C",
-      "net_value": 1.9463,
-      "est_value": 1.9463,
-      "est_change_pct": 0.1,
-      "update_time": "2026-08-17",
+      "net_value": 1.9249,
+      "est_value": 1.9249,
+      "est_change_pct": -1.1,
+      "update_time": "2026-08-18",
       "source": "pingzhongdata",
-      "prediction": "震荡",
-      "recommendation": "持有观望",
+      "prediction": "看跌",
+      "recommendation": "考虑减仓",
       "policy_tag": "无政策影响",
       "policy_score": 0
     }
@@ -172,6 +178,26 @@
     },
     {
       "source": "国务院",
+      "title": "普惠扩围 全链赋能——《住房公积金管理条例》修改解读",
+      "url": "./202608/content_7078648.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "住房公积金制度是我国城镇住房制度的重要组成部分，关系广大群众切身利益。《国务院关于修改〈住房公积金管理条例〉的决定》自2026年9月20日起施行。",
+      "url": "./202608/content_7078648.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "奔“县”了 ！家乡的好东西，越来越多",
+      "url": "./202608/content_7078590.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "商务部等9部门近日联合印发《关于进一步激发下沉市场活力 活跃县域消费的意见》，以后在家乡县城“买买买”将迎来大升级。",
+      "url": "./202608/content_7078590.htm"
+    },
+    {
+      "source": "国务院",
       "title": "《精品自驾旅游公路实施方案》政策解读",
       "url": "./202608/content_7078394.htm"
     },
@@ -184,26 +210,6 @@
       "source": "国务院",
       "title": "总体平稳 向新向优——透视前7个月国民经济数据",
       "url": "./202608/content_7078365.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "前7个月我国主要经济指标运行情况如何？当前国民经济呈现哪些特点？如何研判下阶段经济走势？在国新办17日举行的新闻发布会上，国家统计局新闻发言人就相关情况进行介绍。",
-      "url": "./202608/content_7078365.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "未来五年，安全应急装备产业这样发展",
-      "url": "./202608/content_7078114.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "工业和信息化部、应急管理部近日联合印发《安全应急装备产业发展“十五五”规划》，明确了未来五年安全应急装备产业发展的细分目标、重点方向和实施路径。",
-      "url": "./202608/content_7078114.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "总量合理、结构向优——透视7月金融数据",
-      "url": "./202608/content_7078086.htm"
     }
   ]
 }
