@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-08-21 03:30:27",
-  "update_timestamp": 1787283027,
+  "update_time": "2026-08-22 03:07:26",
+  "update_timestamp": 1787368046,
   "user_profile": {
     "graduation_year": "2026",
     "major": "数据科学与大数据技术",
@@ -34,17 +34,17 @@
   "trends": [
     {
       "industry": "旅游",
-      "change_pct": 56.2,
-      "trend_score": 89,
+      "change_pct": 44.2,
+      "trend_score": 74,
       "direction": "up",
-      "policy_count": 4,
+      "policy_count": 3,
       "top_policy": "国务院关于出境入境管理的规定",
       "top_source": "国务院"
     },
     {
       "industry": "消费",
-      "change_pct": 41.8,
-      "trend_score": 71,
+      "change_pct": 44.2,
+      "trend_score": 74,
       "direction": "up",
       "policy_count": 3,
       "top_policy": "商务部等9部门近日联合印发《关于进一步激发下沉市场活力 活跃县域消费的意见》，以后在家乡县城“买买买”将迎来大升级。",
@@ -70,15 +70,15 @@
     },
     {
       "industry": "消费",
-      "match_score": 56,
-      "trend_signal": "+41.8%",
+      "match_score": 57,
+      "trend_signal": "+44.2%",
       "policy_driver": "商务部等9部门近日联合印发《关于进一步激发下沉市场活力 活跃县域消费的意见》，以后在家乡县城“买买买”将迎来大升级。",
       "entry_barrier": "需要一定基础"
     },
     {
       "industry": "旅游",
-      "match_score": 52,
-      "trend_signal": "+56.2%",
+      "match_score": 47,
+      "trend_signal": "+44.2%",
       "policy_driver": "国务院关于出境入境管理的规定",
       "entry_barrier": "需要一定基础"
     }
@@ -87,10 +87,10 @@
     {
       "code": "006479",
       "name": "广发纳斯达克100ETF联接人民币(QDII)C",
-      "net_value": 8.0124,
-      "est_value": 8.0124,
-      "est_change_pct": -0.31,
-      "update_time": "2026-08-18",
+      "net_value": 7.9502,
+      "est_value": 7.9502,
+      "est_change_pct": -0.78,
+      "update_time": "2026-08-19",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -100,10 +100,10 @@
     {
       "code": "270042",
       "name": "广发纳斯达克100ETF联接人民币(QDII)A",
-      "net_value": 8.1546,
-      "est_value": 8.1546,
-      "est_change_pct": -0.31,
-      "update_time": "2026-08-18",
+      "net_value": 8.0914,
+      "est_value": 8.0914,
+      "est_change_pct": -0.78,
+      "update_time": "2026-08-19",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -113,10 +113,10 @@
     {
       "code": "016582",
       "name": "嘉实上海金ETF发起联接C",
-      "net_value": 1.9783,
-      "est_value": 1.9783,
-      "est_change_pct": 2.77,
-      "update_time": "2026-08-19",
+      "net_value": 2.0078,
+      "est_value": 2.0078,
+      "est_change_pct": 1.49,
+      "update_time": "2026-08-20",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
