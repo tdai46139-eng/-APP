@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-08-26 03:34:06",
-  "update_timestamp": 1787715246,
+  "update_time": "2026-08-28 06:17:09",
+  "update_timestamp": 1787897829,
   "user_profile": {
     "graduation_year": "2026",
     "major": "数据科学与大数据技术",
@@ -14,50 +14,50 @@
   "policy_wind": [
     {
       "source": "国务院",
-      "title": "商务部等9部门近日联合印发《关于进一步激发下沉市场活力 活跃县域消费的意见》，以后在家乡县城“买买买”将迎来大升级。",
-      "industry": "消费",
+      "title": "国务院新闻办公室8月26日举行新闻发布会，工业和信息化部介绍全力抓好“十五五”规划实施，加快推进新型工业化有关情况。未来5年，这些新兴产业、新场景、新材料将迎来新发展。",
+      "industry": "制造",
       "direction": "up"
     },
     {
       "source": "国务院",
-      "title": "《精品自驾旅游公路实施方案》政策解读",
-      "industry": "旅游",
+      "title": "商务部等9部门近日联合印发《关于进一步激发下沉市场活力 活跃县域消费的意见》，以后在家乡县城“买买买”将迎来大升级。",
+      "industry": "消费",
       "direction": "up"
     }
   ],
   "trends": [
     {
-      "industry": "消费",
+      "industry": "制造",
       "change_pct": 32.2,
       "trend_score": 59,
       "direction": "up",
       "policy_count": 2,
-      "top_policy": "商务部等9部门近日联合印发《关于进一步激发下沉市场活力 活跃县域消费的意见》，以后在家乡县城“买买买”将迎来大升级。",
+      "top_policy": "国务院新闻办公室8月26日举行新闻发布会，工业和信息化部介绍全力抓好“十五五”规划实施，加快推进新型工业化有关情况。未来5年，这些新兴产业、新场景、新材料将迎来新发展。",
       "top_source": "国务院"
     },
     {
-      "industry": "旅游",
-      "change_pct": 32.2,
-      "trend_score": 59,
-      "direction": "up",
-      "policy_count": 2,
-      "top_policy": "《精品自驾旅游公路实施方案》政策解读",
+      "industry": "消费",
+      "change_pct": 22.6,
+      "trend_score": 47,
+      "direction": "stable",
+      "policy_count": 1,
+      "top_policy": "商务部等9部门近日联合印发《关于进一步激发下沉市场活力 活跃县域消费的意见》，以后在家乡县城“买买买”将迎来大升级。",
       "top_source": "国务院"
     }
   ],
   "employment": [
     {
-      "industry": "消费",
-      "match_score": 53,
+      "industry": "制造",
+      "match_score": 58,
       "trend_signal": "+32.2%",
-      "policy_driver": "商务部等9部门近日联合印发《关于进一步激发下沉市场活力 活跃县域消费的意见》，以后在家乡县城“买买买”将迎来大升级。",
+      "policy_driver": "国务院新闻办公室8月26日举行新闻发布会，工业和信息化部介绍全力抓好“十五五”规划实施，加快推进新型工业化有关情况。未来5年，这些新兴产业、新场景、新材料将迎来新发展。",
       "entry_barrier": "需要一定基础"
     },
     {
-      "industry": "旅游",
-      "match_score": 43,
-      "trend_signal": "+32.2%",
-      "policy_driver": "《精品自驾旅游公路实施方案》政策解读",
+      "industry": "消费",
+      "match_score": 49,
+      "trend_signal": "+22.6%",
+      "policy_driver": "商务部等9部门近日联合印发《关于进一步激发下沉市场活力 活跃县域消费的意见》，以后在家乡县城“买买买”将迎来大升级。",
       "entry_barrier": "需要一定基础"
     }
   ],
@@ -65,10 +65,10 @@
     {
       "code": "006479",
       "name": "广发纳斯达克100ETF联接人民币(QDII)C",
-      "net_value": 7.9007,
-      "est_value": 7.9007,
-      "est_change_pct": -0.96,
-      "update_time": "2026-08-23",
+      "net_value": 7.9526,
+      "est_value": 7.9526,
+      "est_change_pct": 0.03,
+      "update_time": "2026-08-25",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -78,10 +78,10 @@
     {
       "code": "270042",
       "name": "广发纳斯达克100ETF联接人民币(QDII)A",
-      "net_value": 8.0412,
-      "est_value": 8.0412,
-      "est_change_pct": -0.96,
-      "update_time": "2026-08-23",
+      "net_value": 8.0941,
+      "est_value": 8.0941,
+      "est_change_pct": 0.03,
+      "update_time": "2026-08-25",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -91,10 +91,10 @@
     {
       "code": "016582",
       "name": "嘉实上海金ETF发起联接C",
-      "net_value": 2.044,
-      "est_value": 2.044,
-      "est_change_pct": -0.18,
-      "update_time": "2026-08-24",
+      "net_value": 2.0259,
+      "est_value": 2.0259,
+      "est_change_pct": -0.66,
+      "update_time": "2026-08-26",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -156,6 +156,16 @@
     },
     {
       "source": "国务院",
+      "title": "未来5年，这些新兴产业、新场景、新材料将迎来新发展！",
+      "url": "./202608/content_7079223.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "国务院新闻办公室8月26日举行新闻发布会，工业和信息化部介绍全力抓好“十五五”规划实施，加快推进新型工业化有关情况。未来5年，这些新兴产业、新场景、新材料将迎来新发展。",
+      "url": "./202608/content_7079223.htm"
+    },
+    {
+      "source": "国务院",
       "title": "国务院常务会议解读 | 国务院常务会议部署新一代通信网建设",
       "url": "./202608/content_7078876.htm"
     },
@@ -178,16 +188,6 @@
       "source": "国务院",
       "title": "下半年财政政策这样发力！最新发布",
       "url": "./202608/content_7078847.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "8月21日，在国新办新闻发布会上，财政部有关负责人介绍下半年政策发力重点。",
-      "url": "./202608/content_7078847.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "普惠扩围 全链赋能——《住房公积金管理条例》修改解读",
-      "url": "./202608/content_7078648.htm"
     }
   ]
 }
