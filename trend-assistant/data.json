@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-08-28 06:17:09",
-  "update_timestamp": 1787897829,
+  "update_time": "2026-08-29 04:26:49",
+  "update_timestamp": 1787977609,
   "user_profile": {
     "graduation_year": "2026",
     "major": "数据科学与大数据技术",
@@ -43,9 +43,25 @@
       "policy_count": 1,
       "top_policy": "商务部等9部门近日联合印发《关于进一步激发下沉市场活力 活跃县域消费的意见》，以后在家乡县城“买买买”将迎来大升级。",
       "top_source": "国务院"
+    },
+    {
+      "industry": "数字经济",
+      "change_pct": 22.6,
+      "trend_score": 47,
+      "direction": "stable",
+      "policy_count": 1,
+      "top_policy": "图表：我国5G移动电话用户占比超七成",
+      "top_source": "国务院"
     }
   ],
   "employment": [
+    {
+      "industry": "数字经济",
+      "match_score": 89,
+      "trend_signal": "+22.6%",
+      "policy_driver": "图表：我国5G移动电话用户占比超七成",
+      "entry_barrier": "零基础可入门"
+    },
     {
       "industry": "制造",
       "match_score": 58,
@@ -65,10 +81,10 @@
     {
       "code": "006479",
       "name": "广发纳斯达克100ETF联接人民币(QDII)C",
-      "net_value": 7.9526,
-      "est_value": 7.9526,
-      "est_change_pct": 0.03,
-      "update_time": "2026-08-25",
+      "net_value": 8.066,
+      "est_value": 8.066,
+      "est_change_pct": 1.43,
+      "update_time": "2026-08-26",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -78,10 +94,10 @@
     {
       "code": "270042",
       "name": "广发纳斯达克100ETF联接人民币(QDII)A",
-      "net_value": 8.0941,
-      "est_value": 8.0941,
-      "est_change_pct": 0.03,
-      "update_time": "2026-08-25",
+      "net_value": 8.2095,
+      "est_value": 8.2095,
+      "est_change_pct": 1.43,
+      "update_time": "2026-08-26",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -91,10 +107,10 @@
     {
       "code": "016582",
       "name": "嘉实上海金ETF发起联接C",
-      "net_value": 2.0259,
-      "est_value": 2.0259,
-      "est_change_pct": -0.66,
-      "update_time": "2026-08-26",
+      "net_value": 2.0288,
+      "est_value": 2.0288,
+      "est_change_pct": 0.14,
+      "update_time": "2026-08-27",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
