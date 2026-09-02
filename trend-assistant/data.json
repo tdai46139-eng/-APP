@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-09-01 02:13:30",
-  "update_timestamp": 1788228810,
+  "update_time": "2026-09-02 01:36:11",
+  "update_timestamp": 1788312971,
   "user_profile": {
     "graduation_year": "2026",
     "major": "数据科学与大数据技术",
@@ -14,76 +14,66 @@
   "policy_wind": [
     {
       "source": "国务院",
-      "title": "国务院新闻办公室8月26日举行新闻发布会，工业和信息化部介绍全力抓好“十五五”规划实施，加快推进新型工业化有关情况。未来5年，这些新兴产业、新场景、新材料将迎来新发展。",
+      "title": "商务部消费促进司负责人解读《关于推动商品消费扩容升级的实施意见》",
+      "industry": "消费",
+      "direction": "up"
+    },
+    {
+      "source": "国务院",
+      "title": "近日，商务部会同国家发展改革委、工业和信息化部、财政部、农业农村部、文化和旅游部、市场监管总局等部门印发《关于推动商品消费扩容升级的实施意见》。",
       "industry": "制造",
       "direction": "up"
     }
   ],
   "trends": [
     {
-      "industry": "制造",
-      "change_pct": 22.6,
-      "trend_score": 47,
-      "direction": "stable",
-      "policy_count": 1,
-      "top_policy": "国务院新闻办公室8月26日举行新闻发布会，工业和信息化部介绍全力抓好“十五五”规划实施，加快推进新型工业化有关情况。未来5年，这些新兴产业、新场景、新材料将迎来新发展。",
-      "top_source": "国务院"
-    },
-    {
-      "industry": "AI",
-      "change_pct": 22.6,
-      "trend_score": 47,
-      "direction": "stable",
-      "policy_count": 1,
-      "top_policy": "图表：人工智能应用服务商培育专项行动启动",
-      "top_source": "国务院"
-    },
-    {
       "industry": "消费",
-      "change_pct": 22.6,
-      "trend_score": 47,
-      "direction": "stable",
-      "policy_count": 1,
-      "top_policy": "图表：7部门发文推动商品消费扩容升级",
+      "change_pct": 32.2,
+      "trend_score": 59,
+      "direction": "up",
+      "policy_count": 2,
+      "top_policy": "商务部消费促进司负责人解读《关于推动商品消费扩容升级的实施意见》",
       "top_source": "国务院"
     },
     {
-      "industry": "数字经济",
+      "industry": "制造",
+      "change_pct": 32.2,
+      "trend_score": 59,
+      "direction": "up",
+      "policy_count": 2,
+      "top_policy": "近日，商务部会同国家发展改革委、工业和信息化部、财政部、农业农村部、文化和旅游部、市场监管总局等部门印发《关于推动商品消费扩容升级的实施意见》。",
+      "top_source": "国务院"
+    },
+    {
+      "industry": "新能源",
       "change_pct": 22.6,
       "trend_score": 47,
       "direction": "stable",
       "policy_count": 1,
-      "top_policy": "图表：我国5G移动电话用户占比超七成",
+      "top_policy": "图表：我国光伏发电装机历史性超过煤电",
       "top_source": "国务院"
     }
   ],
   "employment": [
     {
-      "industry": "AI",
-      "match_score": 94,
+      "industry": "新能源",
+      "match_score": 59,
       "trend_signal": "+22.6%",
-      "policy_driver": "图表：人工智能应用服务商培育专项行动启动",
-      "entry_barrier": "零基础可入门"
-    },
-    {
-      "industry": "数字经济",
-      "match_score": 89,
-      "trend_signal": "+22.6%",
-      "policy_driver": "图表：我国5G移动电话用户占比超七成",
-      "entry_barrier": "零基础可入门"
+      "policy_driver": "图表：我国光伏发电装机历史性超过煤电",
+      "entry_barrier": "需要一定基础"
     },
     {
       "industry": "制造",
-      "match_score": 54,
-      "trend_signal": "+22.6%",
-      "policy_driver": "国务院新闻办公室8月26日举行新闻发布会，工业和信息化部介绍全力抓好“十五五”规划实施，加快推进新型工业化有关情况。未来5年，这些新兴产业、新场景、新材料将迎来新发展。",
+      "match_score": 58,
+      "trend_signal": "+32.2%",
+      "policy_driver": "近日，商务部会同国家发展改革委、工业和信息化部、财政部、农业农村部、文化和旅游部、市场监管总局等部门印发《关于推动商品消费扩容升级的实施意见》。",
       "entry_barrier": "需要一定基础"
     },
     {
       "industry": "消费",
-      "match_score": 49,
-      "trend_signal": "+22.6%",
-      "policy_driver": "图表：7部门发文推动商品消费扩容升级",
+      "match_score": 53,
+      "trend_signal": "+32.2%",
+      "policy_driver": "商务部消费促进司负责人解读《关于推动商品消费扩容升级的实施意见》",
       "entry_barrier": "需要一定基础"
     }
   ],
@@ -91,10 +81,10 @@
     {
       "code": "006479",
       "name": "广发纳斯达克100ETF联接人民币(QDII)C",
-      "net_value": 8.0064,
-      "est_value": 8.0064,
-      "est_change_pct": -0.74,
-      "update_time": "2026-08-27",
+      "net_value": 8.0135,
+      "est_value": 8.0135,
+      "est_change_pct": 0.09,
+      "update_time": "2026-08-30",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -104,10 +94,10 @@
     {
       "code": "270042",
       "name": "广发纳斯达克100ETF联接人民币(QDII)A",
-      "net_value": 8.1488,
-      "est_value": 8.1488,
-      "est_change_pct": -0.74,
-      "update_time": "2026-08-27",
+      "net_value": 8.1562,
+      "est_value": 8.1562,
+      "est_change_pct": 0.09,
+      "update_time": "2026-08-30",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -117,13 +107,13 @@
     {
       "code": "016582",
       "name": "嘉实上海金ETF发起联接C",
-      "net_value": 1.9587,
-      "est_value": 1.9587,
-      "est_change_pct": -3.46,
-      "update_time": "2026-08-30",
+      "net_value": 1.9545,
+      "est_value": 1.9545,
+      "est_change_pct": -0.21,
+      "update_time": "2026-08-31",
       "source": "pingzhongdata",
-      "prediction": "看跌",
-      "recommendation": "考虑减仓",
+      "prediction": "震荡",
+      "recommendation": "持有观望",
       "policy_tag": "无政策影响",
       "policy_score": 0
     }
@@ -182,38 +172,38 @@
     },
     {
       "source": "国务院",
+      "title": "国务院常务会议解读 | 国务院常务会议部署城市地下管网建设工作",
+      "url": "./202609/content_7079760.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "会议指出，地下管网是现代化基础设施网络体系重要组成部分，要以系统思维加快推进建设，从源头消除安全隐患，提高城市功能品质。",
+      "url": "./202609/content_7079760.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "国务院常务会议解读 | 国务院常务会议研究部署促进招商引资高质量发展",
+      "url": "./202608/content_7079730.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "规范招商引资是建设全国统一大市场的重要内容。8月31日召开的国务院常务会议，研究促进招商引资高质量发展有关工作，并作出一系列针对性部署。",
+      "url": "./202608/content_7079730.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "商务部消费促进司负责人解读《关于推动商品消费扩容升级的实施意见》",
+      "url": "./202608/content_7079711.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "近日，商务部会同国家发展改革委、工业和信息化部、财政部、农业农村部、文化和旅游部、市场监管总局等部门印发《关于推动商品消费扩容升级的实施意见》。",
+      "url": "./202608/content_7079711.htm"
+    },
+    {
+      "source": "国务院",
       "title": "两部门有关负责人解读《物流网建设实施方案》",
       "url": "./202608/content_7079472.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "近日，经国务院同意，国家发展改革委、交通运输部联合印发《物流网建设实施方案》。实施方案部署哪些重点任务？如何确保实施方案落地见效？",
-      "url": "./202608/content_7079472.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "未来5年，这些新兴产业、新场景、新材料将迎来新发展！",
-      "url": "./202608/content_7079223.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "国务院新闻办公室8月26日举行新闻发布会，工业和信息化部介绍全力抓好“十五五”规划实施，加快推进新型工业化有关情况。未来5年，这些新兴产业、新场景、新材料将迎来新发展。",
-      "url": "./202608/content_7079223.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "国务院常务会议解读 | 国务院常务会议部署新一代通信网建设",
-      "url": "./202608/content_7078876.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "当前，科技日新月异，作为“六张网”的重要组成部分，新一代通信网已不仅是单一的网络基础设施，更是连接数字经济、实体经济、民生服务，贯通经济社会发展的信息“大动脉”。",
-      "url": "./202608/content_7078876.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "国务院常务会议解读 | 国务院常务会议部署进一步清理拖欠企业账款工作",
-      "url": "./202608/content_7078874.htm"
     }
   ]
 }
