@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-09-03 01:40:18",
-  "update_timestamp": 1788399618,
+  "update_time": "2026-09-04 01:33:53",
+  "update_timestamp": 1788485633,
   "user_profile": {
     "graduation_year": "2026",
     "major": "数据科学与大数据技术",
@@ -81,39 +81,39 @@
     {
       "code": "006479",
       "name": "广发纳斯达克100ETF联接人民币(QDII)C",
-      "net_value": 7.9075,
-      "est_value": 7.9075,
-      "est_change_pct": -1.32,
-      "update_time": "2026-08-31",
+      "net_value": 7.9272,
+      "est_value": 7.9272,
+      "est_change_pct": 0.25,
+      "update_time": "2026-09-01",
       "source": "pingzhongdata",
-      "prediction": "看跌",
-      "recommendation": "考虑减仓",
+      "prediction": "震荡",
+      "recommendation": "持有观望",
       "policy_tag": "无政策影响",
       "policy_score": 0
     },
     {
       "code": "270042",
       "name": "广发纳斯达克100ETF联接人民币(QDII)A",
-      "net_value": 8.0483,
-      "est_value": 8.0483,
-      "est_change_pct": -1.32,
-      "update_time": "2026-08-31",
+      "net_value": 8.0684,
+      "est_value": 8.0684,
+      "est_change_pct": 0.25,
+      "update_time": "2026-09-01",
       "source": "pingzhongdata",
-      "prediction": "看跌",
-      "recommendation": "考虑减仓",
+      "prediction": "震荡",
+      "recommendation": "持有观望",
       "policy_tag": "无政策影响",
       "policy_score": 0
     },
     {
       "code": "016582",
       "name": "嘉实上海金ETF发起联接C",
-      "net_value": 1.9073,
-      "est_value": 1.9073,
-      "est_change_pct": -2.41,
-      "update_time": "2026-09-01",
+      "net_value": 1.9497,
+      "est_value": 1.9497,
+      "est_change_pct": 2.22,
+      "update_time": "2026-09-02",
       "source": "pingzhongdata",
-      "prediction": "看跌",
-      "recommendation": "考虑减仓",
+      "prediction": "震荡",
+      "recommendation": "持有观望",
       "policy_tag": "无政策影响",
       "policy_score": 0
     }
@@ -172,6 +172,16 @@
     },
     {
       "source": "国务院",
+      "title": "有关部门和专家解读《物流网建设实施方案》",
+      "url": "./202609/content_7080083.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "国家发展改革委、交通运输部近日联合印发《物流网建设实施方案》。《实施方案》有何亮点？将如何落地？记者采访了有关部门和专家。",
+      "url": "./202609/content_7080083.htm"
+    },
+    {
+      "source": "国务院",
       "title": "国务院常务会议解读 | 国务院常务会议部署城市地下管网建设工作",
       "url": "./202609/content_7079760.htm"
     },
@@ -194,16 +204,6 @@
       "source": "国务院",
       "title": "商务部消费促进司负责人解读《关于推动商品消费扩容升级的实施意见》",
       "url": "./202608/content_7079711.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "近日，商务部会同国家发展改革委、工业和信息化部、财政部、农业农村部、文化和旅游部、市场监管总局等部门印发《关于推动商品消费扩容升级的实施意见》。",
-      "url": "./202608/content_7079711.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "两部门有关负责人解读《物流网建设实施方案》",
-      "url": "./202608/content_7079472.htm"
     }
   ]
 }
