@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-09-04 01:33:53",
-  "update_timestamp": 1788485633,
+  "update_time": "2026-09-05 01:35:28",
+  "update_timestamp": 1788572128,
   "user_profile": {
     "graduation_year": "2026",
     "major": "数据科学与大数据技术",
@@ -81,10 +81,10 @@
     {
       "code": "006479",
       "name": "广发纳斯达克100ETF联接人民币(QDII)C",
-      "net_value": 7.9272,
-      "est_value": 7.9272,
-      "est_change_pct": 0.25,
-      "update_time": "2026-09-01",
+      "net_value": 8.017,
+      "est_value": 8.017,
+      "est_change_pct": 1.13,
+      "update_time": "2026-09-02",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -94,10 +94,10 @@
     {
       "code": "270042",
       "name": "广发纳斯达克100ETF联接人民币(QDII)A",
-      "net_value": 8.0684,
-      "est_value": 8.0684,
-      "est_change_pct": 0.25,
-      "update_time": "2026-09-01",
+      "net_value": 8.1599,
+      "est_value": 8.1599,
+      "est_change_pct": 1.13,
+      "update_time": "2026-09-02",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -107,10 +107,10 @@
     {
       "code": "016582",
       "name": "嘉实上海金ETF发起联接C",
-      "net_value": 1.9497,
-      "est_value": 1.9497,
-      "est_change_pct": 2.22,
-      "update_time": "2026-09-02",
+      "net_value": 1.9646,
+      "est_value": 1.9646,
+      "est_change_pct": 0.76,
+      "update_time": "2026-09-03",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -130,6 +130,11 @@
     "month": 9
   },
   "policies_raw": [
+    {
+      "source": "国务院",
+      "title": "电力安全事故应急处置和调查处理条例",
+      "url": "https://www.gov.cn/zhengce/content/202609/content_7080188.htm"
+    },
     {
       "source": "国务院",
       "title": "中共中央办公厅 国务院办公厅印发《党政领导干部生态环境损害责任追究办法》",
@@ -164,11 +169,6 @@
       "source": "国务院",
       "title": "集成电路布图设计保护条例",
       "url": "https://www.gov.cn/zhengce/content/202608/content_7077398.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "国务院关于印发《知识产权保护和运用“十五五”规划》的通知",
-      "url": "https://www.gov.cn/zhengce/content/202607/content_7077199.htm"
     },
     {
       "source": "国务院",
