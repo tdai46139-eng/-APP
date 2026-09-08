@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-09-07 01:27:59",
-  "update_timestamp": 1788744479,
+  "update_time": "2026-09-08 01:37:28",
+  "update_timestamp": 1788831448,
   "user_profile": {
     "graduation_year": "2026",
     "major": "数据科学与大数据技术",
@@ -37,10 +37,10 @@
     },
     {
       "industry": "制造",
-      "change_pct": 32.2,
-      "trend_score": 59,
-      "direction": "up",
-      "policy_count": 2,
+      "change_pct": 22.6,
+      "trend_score": 47,
+      "direction": "stable",
+      "policy_count": 1,
       "top_policy": "近日，商务部会同国家发展改革委、工业和信息化部、财政部、农业农村部、文化和旅游部、市场监管总局等部门印发《关于推动商品消费扩容升级的实施意见》。",
       "top_source": "国务院"
     },
@@ -64,8 +64,8 @@
     },
     {
       "industry": "制造",
-      "match_score": 58,
-      "trend_signal": "+32.2%",
+      "match_score": 54,
+      "trend_signal": "+22.6%",
       "policy_driver": "近日，商务部会同国家发展改革委、工业和信息化部、财政部、农业农村部、文化和旅游部、市场监管总局等部门印发《关于推动商品消费扩容升级的实施意见》。",
       "entry_barrier": "需要一定基础"
     },
@@ -81,10 +81,10 @@
     {
       "code": "006479",
       "name": "广发纳斯达克100ETF联接人民币(QDII)C",
-      "net_value": 8.017,
-      "est_value": 8.017,
-      "est_change_pct": 1.13,
-      "update_time": "2026-09-02",
+      "net_value": 8.031,
+      "est_value": 8.031,
+      "est_change_pct": 0.17,
+      "update_time": "2026-09-03",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -94,10 +94,10 @@
     {
       "code": "270042",
       "name": "广发纳斯达克100ETF联接人民币(QDII)A",
-      "net_value": 8.1599,
-      "est_value": 8.1599,
-      "est_change_pct": 1.13,
-      "update_time": "2026-09-02",
+      "net_value": 8.1742,
+      "est_value": 8.1742,
+      "est_change_pct": 0.18,
+      "update_time": "2026-09-03",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -107,13 +107,13 @@
     {
       "code": "016582",
       "name": "嘉实上海金ETF发起联接C",
-      "net_value": 1.9646,
-      "est_value": 1.9646,
-      "est_change_pct": 0.76,
-      "update_time": "2026-09-03",
+      "net_value": 1.935,
+      "est_value": 1.935,
+      "est_change_pct": -1.51,
+      "update_time": "2026-09-06",
       "source": "pingzhongdata",
-      "prediction": "震荡",
-      "recommendation": "持有观望",
+      "prediction": "看跌",
+      "recommendation": "考虑减仓",
       "policy_tag": "无政策影响",
       "policy_score": 0
     }
@@ -172,6 +172,26 @@
     },
     {
       "source": "国务院",
+      "title": "“十五五”，生育险、长护险、医保报销将有这些变化",
+      "url": "./202609/content_7080253.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "国务院新闻办9月4日举行“开局起步‘十五五’”系列主题新闻发布会，介绍推进医保高质量发展有关情况。",
+      "url": "./202609/content_7080253.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "国新办发布会解读“十五五”体育强国建设“任务书”",
+      "url": "./202609/content_7080143.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "今年7月，经国务院批复同意，国家体育总局印发《体育强国建设“十五五”规划》，对“十五五”时期加快建设体育强国、推动体育高质量发展作出了系统部署。",
+      "url": "./202609/content_7080143.htm"
+    },
+    {
+      "source": "国务院",
       "title": "有关部门和专家解读《物流网建设实施方案》",
       "url": "./202609/content_7080083.htm"
     },
@@ -184,26 +204,6 @@
       "source": "国务院",
       "title": "国务院常务会议解读 | 国务院常务会议部署城市地下管网建设工作",
       "url": "./202609/content_7079760.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "会议指出，地下管网是现代化基础设施网络体系重要组成部分，要以系统思维加快推进建设，从源头消除安全隐患，提高城市功能品质。",
-      "url": "./202609/content_7079760.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "国务院常务会议解读 | 国务院常务会议研究部署促进招商引资高质量发展",
-      "url": "./202608/content_7079730.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "规范招商引资是建设全国统一大市场的重要内容。8月31日召开的国务院常务会议，研究促进招商引资高质量发展有关工作，并作出一系列针对性部署。",
-      "url": "./202608/content_7079730.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "商务部消费促进司负责人解读《关于推动商品消费扩容升级的实施意见》",
-      "url": "./202608/content_7079711.htm"
     }
   ]
 }
