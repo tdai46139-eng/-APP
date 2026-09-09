@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-09-08 01:37:28",
-  "update_timestamp": 1788831448,
+  "update_time": "2026-09-09 01:44:52",
+  "update_timestamp": 1788918292,
   "user_profile": {
     "graduation_year": "2026",
     "major": "数据科学与大数据技术",
@@ -11,80 +11,35 @@
       "统计学"
     ]
   },
-  "policy_wind": [
-    {
-      "source": "国务院",
-      "title": "商务部消费促进司负责人解读《关于推动商品消费扩容升级的实施意见》",
-      "industry": "消费",
-      "direction": "up"
-    },
-    {
-      "source": "国务院",
-      "title": "近日，商务部会同国家发展改革委、工业和信息化部、财政部、农业农村部、文化和旅游部、市场监管总局等部门印发《关于推动商品消费扩容升级的实施意见》。",
-      "industry": "制造",
-      "direction": "up"
-    }
-  ],
+  "policy_wind": [],
   "trends": [
     {
-      "industry": "消费",
-      "change_pct": 32.2,
-      "trend_score": 59,
-      "direction": "up",
-      "policy_count": 2,
-      "top_policy": "商务部消费促进司负责人解读《关于推动商品消费扩容升级的实施意见》",
-      "top_source": "国务院"
-    },
-    {
-      "industry": "制造",
+      "industry": "就业",
       "change_pct": 22.6,
       "trend_score": 47,
       "direction": "stable",
       "policy_count": 1,
-      "top_policy": "近日，商务部会同国家发展改革委、工业和信息化部、财政部、农业农村部、文化和旅游部、市场监管总局等部门印发《关于推动商品消费扩容升级的实施意见》。",
-      "top_source": "国务院"
-    },
-    {
-      "industry": "新能源",
-      "change_pct": 22.6,
-      "trend_score": 47,
-      "direction": "stable",
-      "policy_count": 1,
-      "top_policy": "图表：我国光伏发电装机历史性超过煤电",
+      "top_policy": "灵活就业人员等重点人群参加基本医保将有哪些新变化",
       "top_source": "国务院"
     }
   ],
   "employment": [
     {
-      "industry": "新能源",
-      "match_score": 59,
+      "industry": "就业",
+      "match_score": 79,
       "trend_signal": "+22.6%",
-      "policy_driver": "图表：我国光伏发电装机历史性超过煤电",
-      "entry_barrier": "需要一定基础"
-    },
-    {
-      "industry": "制造",
-      "match_score": 54,
-      "trend_signal": "+22.6%",
-      "policy_driver": "近日，商务部会同国家发展改革委、工业和信息化部、财政部、农业农村部、文化和旅游部、市场监管总局等部门印发《关于推动商品消费扩容升级的实施意见》。",
-      "entry_barrier": "需要一定基础"
-    },
-    {
-      "industry": "消费",
-      "match_score": 53,
-      "trend_signal": "+32.2%",
-      "policy_driver": "商务部消费促进司负责人解读《关于推动商品消费扩容升级的实施意见》",
-      "entry_barrier": "需要一定基础"
+      "policy_driver": "灵活就业人员等重点人群参加基本医保将有哪些新变化",
+      "entry_barrier": "零基础可入门"
     }
   ],
   "funds": [
     {
       "code": "006479",
       "name": "广发纳斯达克100ETF联接人民币(QDII)C",
-      "net_value": 8.031,
-      "est_value": 8.031,
-      "est_change_pct": 0.17,
-      "update_time": "2026-09-03",
+      "net_value": 8.0315,
+      "est_value": 8.0315,
+      "est_change_pct": 0.01,
+      "update_time": "2026-09-06",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -94,10 +49,10 @@
     {
       "code": "270042",
       "name": "广发纳斯达克100ETF联接人民币(QDII)A",
-      "net_value": 8.1742,
-      "est_value": 8.1742,
-      "est_change_pct": 0.18,
-      "update_time": "2026-09-03",
+      "net_value": 8.1747,
+      "est_value": 8.1747,
+      "est_change_pct": 0.01,
+      "update_time": "2026-09-06",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -107,13 +62,13 @@
     {
       "code": "016582",
       "name": "嘉实上海金ETF发起联接C",
-      "net_value": 1.935,
-      "est_value": 1.935,
-      "est_change_pct": -1.51,
-      "update_time": "2026-09-06",
+      "net_value": 1.9395,
+      "est_value": 1.9395,
+      "est_change_pct": 0.23,
+      "update_time": "2026-09-07",
       "source": "pingzhongdata",
-      "prediction": "看跌",
-      "recommendation": "考虑减仓",
+      "prediction": "震荡",
+      "recommendation": "持有观望",
       "policy_tag": "无政策影响",
       "policy_score": 0
     }
@@ -172,6 +127,26 @@
     },
     {
       "source": "国务院",
+      "title": "未来，乡村振兴投入机制这样完善",
+      "url": "./202609/content_7080369.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "未来如何保障乡村振兴投入力度不断增强，“三农”领域投入结构不断优化？健全多元投入格局是关键。",
+      "url": "./202609/content_7080369.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "推动历史经典产业高质量发展 这场发布会划重点",
+      "url": "./202609/content_7080363.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "从丝绸、茶叶、瓷器、中药，到酿造、工艺美术、文房四宝，这些文化底蕴深厚的中华传统特色产业均属于历史经典产业。",
+      "url": "./202609/content_7080363.htm"
+    },
+    {
+      "source": "国务院",
       "title": "“十五五”，生育险、长护险、医保报销将有这些变化",
       "url": "./202609/content_7080253.htm"
     },
@@ -184,26 +159,6 @@
       "source": "国务院",
       "title": "国新办发布会解读“十五五”体育强国建设“任务书”",
       "url": "./202609/content_7080143.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "今年7月，经国务院批复同意，国家体育总局印发《体育强国建设“十五五”规划》，对“十五五”时期加快建设体育强国、推动体育高质量发展作出了系统部署。",
-      "url": "./202609/content_7080143.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "有关部门和专家解读《物流网建设实施方案》",
-      "url": "./202609/content_7080083.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "国家发展改革委、交通运输部近日联合印发《物流网建设实施方案》。《实施方案》有何亮点？将如何落地？记者采访了有关部门和专家。",
-      "url": "./202609/content_7080083.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "国务院常务会议解读 | 国务院常务会议部署城市地下管网建设工作",
-      "url": "./202609/content_7079760.htm"
     }
   ]
 }
