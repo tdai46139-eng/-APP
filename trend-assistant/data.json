@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-09-11 01:39:26",
-  "update_timestamp": 1789090766,
+  "update_time": "2026-09-12 01:45:42",
+  "update_timestamp": 1789177542,
   "user_profile": {
     "graduation_year": "2026",
     "major": "数据科学与大数据技术",
@@ -59,39 +59,39 @@
     {
       "code": "006479",
       "name": "广发纳斯达克100ETF联接人民币(QDII)C",
-      "net_value": 7.9947,
-      "est_value": 7.9947,
-      "est_change_pct": -0.34,
-      "update_time": "2026-09-08",
+      "net_value": 7.9075,
+      "est_value": 7.9075,
+      "est_change_pct": -1.09,
+      "update_time": "2026-09-09",
       "source": "pingzhongdata",
-      "prediction": "震荡",
-      "recommendation": "持有观望",
+      "prediction": "看跌",
+      "recommendation": "考虑减仓",
       "policy_tag": "无政策影响",
       "policy_score": 0
     },
     {
       "code": "270042",
       "name": "广发纳斯达克100ETF联接人民币(QDII)A",
-      "net_value": 8.1373,
-      "est_value": 8.1373,
-      "est_change_pct": -0.34,
-      "update_time": "2026-09-08",
+      "net_value": 8.0487,
+      "est_value": 8.0487,
+      "est_change_pct": -1.09,
+      "update_time": "2026-09-09",
       "source": "pingzhongdata",
-      "prediction": "震荡",
-      "recommendation": "持有观望",
+      "prediction": "看跌",
+      "recommendation": "考虑减仓",
       "policy_tag": "无政策影响",
       "policy_score": 0
     },
     {
       "code": "016582",
       "name": "嘉实上海金ETF发起联接C",
-      "net_value": 1.9441,
-      "est_value": 1.9441,
-      "est_change_pct": 0.42,
-      "update_time": "2026-09-09",
+      "net_value": 1.9167,
+      "est_value": 1.9167,
+      "est_change_pct": -1.41,
+      "update_time": "2026-09-10",
       "source": "pingzhongdata",
-      "prediction": "震荡",
-      "recommendation": "持有观望",
+      "prediction": "看跌",
+      "recommendation": "考虑减仓",
       "policy_tag": "无政策影响",
       "policy_score": 0
     }
@@ -108,6 +108,11 @@
     "month": 9
   },
   "policies_raw": [
+    {
+      "source": "国务院",
+      "title": "市场监督管理所条例",
+      "url": "https://www.gov.cn/zhengce/content/202609/content_7080735.htm"
+    },
     {
       "source": "国务院",
       "title": "国务院办公厅关于加强中小企业回款难问题治理有关工作的通知",
@@ -142,11 +147,6 @@
       "source": "国务院",
       "title": "国务院关于修改和废止部分行政法规的决定",
       "url": "https://www.gov.cn/zhengce/content/202608/content_7077980.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "国务院办公厅关于重点林区“十五五”期间森林年采伐限额的复函",
-      "url": "https://www.gov.cn/zhengce/content/202608/content_7077887.htm"
     },
     {
       "source": "国务院",
