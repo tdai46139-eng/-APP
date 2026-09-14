@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-09-13 01:36:07",
-  "update_timestamp": 1789263367,
+  "update_time": "2026-09-14 01:54:37",
+  "update_timestamp": 1789350877,
   "user_profile": {
     "graduation_year": "2026",
     "major": "数据科学与大数据技术",
@@ -14,6 +14,18 @@
   "policy_wind": [
     {
       "source": "国务院",
+      "title": "智能网联新能源汽车产业发展“十五五”规划亮点详解",
+      "industry": "新能源",
+      "direction": "up"
+    },
+    {
+      "source": "国务院",
+      "title": "国务院常务会议解读｜国务院常务会议研究算力网建设有关工作",
+      "industry": "AI",
+      "direction": "up"
+    },
+    {
+      "source": "国务院",
       "title": "历史经典产业是中华文明的智慧结晶和民族瑰宝。工业和信息化部等六部门7日对外发布《关于推动历史经典产业高质量发展的意见》，国新办当天举行新闻发布会介绍有关情况。",
       "industry": "制造",
       "direction": "up"
@@ -21,12 +33,30 @@
   ],
   "trends": [
     {
+      "industry": "AI",
+      "change_pct": 34.6,
+      "trend_score": 62,
+      "direction": "up",
+      "policy_count": 2,
+      "top_policy": "国务院常务会议解读｜国务院常务会议研究算力网建设有关工作",
+      "top_source": "国务院"
+    },
+    {
       "industry": "就业",
       "change_pct": 34.6,
       "trend_score": 62,
       "direction": "up",
       "policy_count": 2,
       "top_policy": "图表：11个新职业发布 开辟就业新空间",
+      "top_source": "国务院"
+    },
+    {
+      "industry": "新能源",
+      "change_pct": 32.2,
+      "trend_score": 59,
+      "direction": "up",
+      "policy_count": 2,
+      "top_policy": "智能网联新能源汽车产业发展“十五五”规划亮点详解",
       "top_source": "国务院"
     },
     {
@@ -41,11 +71,25 @@
   ],
   "employment": [
     {
+      "industry": "AI",
+      "match_score": 99,
+      "trend_signal": "+34.6%",
+      "policy_driver": "国务院常务会议解读｜国务院常务会议研究算力网建设有关工作",
+      "entry_barrier": "零基础可入门"
+    },
+    {
       "industry": "就业",
       "match_score": 84,
       "trend_signal": "+34.6%",
       "policy_driver": "图表：11个新职业发布 开辟就业新空间",
       "entry_barrier": "零基础可入门"
+    },
+    {
+      "industry": "新能源",
+      "match_score": 63,
+      "trend_signal": "+32.2%",
+      "policy_driver": "智能网联新能源汽车产业发展“十五五”规划亮点详解",
+      "entry_barrier": "需要一定基础"
     },
     {
       "industry": "制造",
@@ -150,6 +194,26 @@
     },
     {
       "source": "国务院",
+      "title": "智能网联新能源汽车产业发展“十五五”规划亮点详解",
+      "url": "./202609/content_7080809.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "《智能网联新能源汽车产业发展“十五五”规划》9月11日对外发布，一项项部署关乎你我出行生活，勾勒未来汽车产业新图景。",
+      "url": "./202609/content_7080809.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "国务院常务会议解读｜国务院常务会议研究算力网建设有关工作",
+      "url": "./202609/content_7080805.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "算力网是人工智能发展的基础支撑。9月11日召开的国务院常务会议，研究算力网建设有关工作。",
+      "url": "./202609/content_7080805.htm"
+    },
+    {
+      "source": "国务院",
       "title": "近日，农业农村部、中央农办、国家发展改革委、财政部、中国人民银行、金融监管总局联合印发《坚持农业农村优先发展 完善乡村振兴投入机制实施方案》。",
       "url": "./202609/content_7080613.htm"
     },
@@ -162,26 +226,6 @@
       "source": "国务院",
       "title": "国家统计局9日发布的数据显示，8月份，全国居民消费价格指数（CPI）同比上涨0.8%，环比上涨0.4%，扣除食品和能源价格的核心CPI同比上涨1.0%。从最新物价数据中，能读出哪些信息？",
       "url": "./202609/content_7080565.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "未来，乡村振兴投入机制这样完善",
-      "url": "./202609/content_7080369.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "未来如何保障乡村振兴投入力度不断增强，“三农”领域投入结构不断优化？健全多元投入格局是关键。",
-      "url": "./202609/content_7080369.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "推动历史经典产业高质量发展 这场发布会划重点",
-      "url": "./202609/content_7080363.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "历史经典产业是中华文明的智慧结晶和民族瑰宝。工业和信息化部等六部门7日对外发布《关于推动历史经典产业高质量发展的意见》，国新办当天举行新闻发布会介绍有关情况。",
-      "url": "./202609/content_7080363.htm"
     }
   ]
 }
