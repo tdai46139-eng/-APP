@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-09-14 01:54:37",
-  "update_timestamp": 1789350877,
+  "update_time": "2026-09-15 02:03:18",
+  "update_timestamp": 1789437798,
   "user_profile": {
     "graduation_year": "2026",
     "major": "数据科学与大数据技术",
@@ -29,6 +29,12 @@
       "title": "历史经典产业是中华文明的智慧结晶和民族瑰宝。工业和信息化部等六部门7日对外发布《关于推动历史经典产业高质量发展的意见》，国新办当天举行新闻发布会介绍有关情况。",
       "industry": "制造",
       "direction": "up"
+    },
+    {
+      "source": "国务院",
+      "title": "图表：推动健康中国建设取得决定性进展——国新办发布会聚焦卫生健康领域“十五五”工作重点",
+      "industry": "医疗",
+      "direction": "up"
     }
   ],
   "trends": [
@@ -42,15 +48,6 @@
       "top_source": "国务院"
     },
     {
-      "industry": "就业",
-      "change_pct": 34.6,
-      "trend_score": 62,
-      "direction": "up",
-      "policy_count": 2,
-      "top_policy": "图表：11个新职业发布 开辟就业新空间",
-      "top_source": "国务院"
-    },
-    {
       "industry": "新能源",
       "change_pct": 32.2,
       "trend_score": 59,
@@ -60,12 +57,30 @@
       "top_source": "国务院"
     },
     {
+      "industry": "就业",
+      "change_pct": 25.0,
+      "trend_score": 50,
+      "direction": "stable",
+      "policy_count": 1,
+      "top_policy": "图表：11个新职业发布 开辟就业新空间",
+      "top_source": "国务院"
+    },
+    {
       "industry": "制造",
       "change_pct": 22.6,
       "trend_score": 47,
       "direction": "stable",
       "policy_count": 1,
       "top_policy": "历史经典产业是中华文明的智慧结晶和民族瑰宝。工业和信息化部等六部门7日对外发布《关于推动历史经典产业高质量发展的意见》，国新办当天举行新闻发布会介绍有关情况。",
+      "top_source": "国务院"
+    },
+    {
+      "industry": "医疗",
+      "change_pct": 22.6,
+      "trend_score": 47,
+      "direction": "stable",
+      "policy_count": 1,
+      "top_policy": "图表：推动健康中国建设取得决定性进展——国新办发布会聚焦卫生健康领域“十五五”工作重点",
       "top_source": "国务院"
     }
   ],
@@ -79,10 +94,17 @@
     },
     {
       "industry": "就业",
-      "match_score": 84,
-      "trend_signal": "+34.6%",
+      "match_score": 80,
+      "trend_signal": "+25.0%",
       "policy_driver": "图表：11个新职业发布 开辟就业新空间",
       "entry_barrier": "零基础可入门"
+    },
+    {
+      "industry": "医疗",
+      "match_score": 69,
+      "trend_signal": "+22.6%",
+      "policy_driver": "图表：推动健康中国建设取得决定性进展——国新办发布会聚焦卫生健康领域“十五五”工作重点",
+      "entry_barrier": "需要一定基础"
     },
     {
       "industry": "新能源",
@@ -103,39 +125,39 @@
     {
       "code": "006479",
       "name": "广发纳斯达克100ETF联接人民币(QDII)C",
-      "net_value": 7.9075,
-      "est_value": 7.9075,
-      "est_change_pct": -1.09,
-      "update_time": "2026-09-09",
+      "net_value": 7.9752,
+      "est_value": 7.9752,
+      "est_change_pct": 0.86,
+      "update_time": "2026-09-10",
       "source": "pingzhongdata",
-      "prediction": "看跌",
-      "recommendation": "考虑减仓",
+      "prediction": "震荡",
+      "recommendation": "持有观望",
       "policy_tag": "无政策影响",
       "policy_score": 0
     },
     {
       "code": "270042",
       "name": "广发纳斯达克100ETF联接人民币(QDII)A",
-      "net_value": 8.0487,
-      "est_value": 8.0487,
-      "est_change_pct": -1.09,
-      "update_time": "2026-09-09",
+      "net_value": 8.1177,
+      "est_value": 8.1177,
+      "est_change_pct": 0.86,
+      "update_time": "2026-09-10",
       "source": "pingzhongdata",
-      "prediction": "看跌",
-      "recommendation": "考虑减仓",
+      "prediction": "震荡",
+      "recommendation": "持有观望",
       "policy_tag": "无政策影响",
       "policy_score": 0
     },
     {
       "code": "016582",
       "name": "嘉实上海金ETF发起联接C",
-      "net_value": 1.9167,
-      "est_value": 1.9167,
-      "est_change_pct": -1.41,
-      "update_time": "2026-09-10",
+      "net_value": 1.9032,
+      "est_value": 1.9032,
+      "est_change_pct": -0.7,
+      "update_time": "2026-09-13",
       "source": "pingzhongdata",
-      "prediction": "看跌",
-      "recommendation": "考虑减仓",
+      "prediction": "震荡",
+      "recommendation": "持有观望",
       "policy_tag": "无政策影响",
       "policy_score": 0
     }
@@ -154,6 +176,11 @@
   "policies_raw": [
     {
       "source": "国务院",
+      "title": "中共中央办公厅 国务院办公厅 中央军委办公厅印发《退役军人服务和保障“十五五”规划》",
+      "url": "./202609/content_7081017.htm"
+    },
+    {
+      "source": "国务院",
       "title": "市场监督管理所条例",
       "url": "https://www.gov.cn/zhengce/content/202609/content_7080735.htm"
     },
@@ -169,7 +196,7 @@
     },
     {
       "source": "国务院",
-      "title": "中共中央办公厅 国务院办公厅印发《党政领导干部生态环境损害责任追究办法》",
+      "title": "中办国办印发《党政领导干部生态环境损害责任追究办法》",
       "url": "./202608/content_7079098.htm"
     },
     {
@@ -186,11 +213,6 @@
       "source": "国务院",
       "title": "国务院关于《特殊教育发展提升“十五五”行动计划》的批复",
       "url": "https://www.gov.cn/zhengce/content/202608/content_7078320.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "国务院关于修改和废止部分行政法规的决定",
-      "url": "https://www.gov.cn/zhengce/content/202608/content_7077980.htm"
     },
     {
       "source": "国务院",
