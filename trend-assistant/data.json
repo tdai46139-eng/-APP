@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-09-18 01:45:36",
-  "update_timestamp": 1789695936,
+  "update_time": "2026-09-19 01:50:26",
+  "update_timestamp": 1789782626,
   "user_profile": {
     "graduation_year": "2026",
     "major": "数据科学与大数据技术",
@@ -14,14 +14,14 @@
   "policy_wind": [
     {
       "source": "国务院",
-      "title": "从8月份主要指标来看，经济运行主要呈现“三稳两快”的特点。“三稳”表现在生产稳、就业稳、物价稳。",
-      "industry": "就业",
+      "title": "国务院办公厅转发文化和旅游部等部门《关于促进房车消费的若干措施》的通知",
+      "industry": "消费",
       "direction": "up"
     },
     {
       "source": "国务院",
-      "title": "商务部消费促进司负责人解读《促进智能家居消费行动方案》",
-      "industry": "消费",
+      "title": "从8月份主要指标来看，经济运行主要呈现“三稳两快”的特点。“三稳”表现在生产稳、就业稳、物价稳。",
+      "industry": "就业",
       "direction": "up"
     },
     {
@@ -40,11 +40,11 @@
   "trends": [
     {
       "industry": "消费",
-      "change_pct": 32.2,
-      "trend_score": 59,
+      "change_pct": 41.8,
+      "trend_score": 71,
       "direction": "up",
-      "policy_count": 2,
-      "top_policy": "商务部消费促进司负责人解读《促进智能家居消费行动方案》",
+      "policy_count": 3,
+      "top_policy": "国务院办公厅转发文化和旅游部等部门《关于促进房车消费的若干措施》的通知",
       "top_source": "国务院"
     },
     {
@@ -82,15 +82,6 @@
       "policy_count": 1,
       "top_policy": "近日，商务部会同国家发展改革委、工业和信息化部、民政部、财政部、自然资源部、住房城乡建设部、市场监管总局等部门印发《促进智能家居消费行动方案》。",
       "top_source": "国务院"
-    },
-    {
-      "industry": "医疗",
-      "change_pct": 22.6,
-      "trend_score": 47,
-      "direction": "stable",
-      "policy_count": 1,
-      "top_policy": "图表：推动健康中国建设取得决定性进展——国新办发布会聚焦卫生健康领域“十五五”工作重点",
-      "top_source": "国务院"
     }
   ],
   "employment": [
@@ -109,6 +100,13 @@
       "entry_barrier": "需要一定基础"
     },
     {
+      "industry": "消费",
+      "match_score": 56,
+      "trend_signal": "+41.8%",
+      "policy_driver": "国务院办公厅转发文化和旅游部等部门《关于促进房车消费的若干措施》的通知",
+      "entry_barrier": "需要一定基础"
+    },
+    {
       "industry": "制造",
       "match_score": 54,
       "trend_signal": "+22.6%",
@@ -121,23 +119,16 @@
       "trend_signal": "+22.6%",
       "policy_driver": "近日，商务部会同国家发展改革委、工业和信息化部、民政部、财政部、自然资源部、住房城乡建设部、市场监管总局等部门印发《促进智能家居消费行动方案》。",
       "entry_barrier": "需要一定基础"
-    },
-    {
-      "industry": "消费",
-      "match_score": 53,
-      "trend_signal": "+32.2%",
-      "policy_driver": "商务部消费促进司负责人解读《促进智能家居消费行动方案》",
-      "entry_barrier": "需要一定基础"
     }
   ],
   "funds": [
     {
       "code": "006479",
       "name": "广发纳斯达克100ETF联接人民币(QDII)C",
-      "net_value": 7.8451,
-      "est_value": 7.8451,
-      "est_change_pct": -0.04,
-      "update_time": "2026-09-15",
+      "net_value": 7.975,
+      "est_value": 7.975,
+      "est_change_pct": 1.66,
+      "update_time": "2026-09-16",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -147,10 +138,10 @@
     {
       "code": "270042",
       "name": "广发纳斯达克100ETF联接人民币(QDII)A",
-      "net_value": 7.9853,
-      "est_value": 7.9853,
-      "est_change_pct": -0.04,
-      "update_time": "2026-09-15",
+      "net_value": 8.1175,
+      "est_value": 8.1175,
+      "est_change_pct": 1.66,
+      "update_time": "2026-09-16",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -160,10 +151,10 @@
     {
       "code": "016582",
       "name": "嘉实上海金ETF发起联接C",
-      "net_value": 1.9027,
-      "est_value": 1.9027,
-      "est_change_pct": -0.26,
-      "update_time": "2026-09-16",
+      "net_value": 1.9297,
+      "est_value": 1.9297,
+      "est_change_pct": 1.42,
+      "update_time": "2026-09-17",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -183,6 +174,11 @@
     "month": 9
   },
   "policies_raw": [
+    {
+      "source": "国务院",
+      "title": "国务院办公厅转发文化和旅游部等部门《关于促进房车消费的若干措施》的通知",
+      "url": "https://www.gov.cn/zhengce/content/202609/content_7081441.htm"
+    },
     {
       "source": "国务院",
       "title": "国务院办公厅关于进一步加强烟花爆竹全链条安全监管的意见",
@@ -217,11 +213,6 @@
       "source": "国务院",
       "title": "中共中央 国务院 中央军委关于给张陆颁发“二级航天功勋奖章” 授予武飞、张洪章“英雄航天员”荣誉称号并颁发“三级航天功勋奖章”的决定",
       "url": "./202608/content_7078711.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "国务院关于修改《住房公积金管理条例》的决定",
-      "url": "https://www.gov.cn/zhengce/content/202608/content_7078477.htm"
     },
     {
       "source": "国务院",
