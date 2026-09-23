@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-09-22 02:01:49",
-  "update_timestamp": 1790042509,
+  "update_time": "2026-09-23 01:59:41",
+  "update_timestamp": 1790128781,
   "user_profile": {
     "graduation_year": "2026",
     "major": "数据科学与大数据技术",
@@ -87,10 +87,10 @@
     {
       "code": "006479",
       "name": "广发纳斯达克100ETF联接人民币(QDII)C",
-      "net_value": 8.0206,
-      "est_value": 8.0206,
-      "est_change_pct": 0.57,
-      "update_time": "2026-09-17",
+      "net_value": 8.2471,
+      "est_value": 8.2471,
+      "est_change_pct": 2.82,
+      "update_time": "2026-09-20",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -100,10 +100,10 @@
     {
       "code": "270042",
       "name": "广发纳斯达克100ETF联接人民币(QDII)A",
-      "net_value": 8.1639,
-      "est_value": 8.1639,
-      "est_change_pct": 0.57,
-      "update_time": "2026-09-17",
+      "net_value": 8.3947,
+      "est_value": 8.3947,
+      "est_change_pct": 2.83,
+      "update_time": "2026-09-20",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -113,10 +113,10 @@
     {
       "code": "016582",
       "name": "嘉实上海金ETF发起联接C",
-      "net_value": 1.9129,
-      "est_value": 1.9129,
-      "est_change_pct": -0.87,
-      "update_time": "2026-09-20",
+      "net_value": 1.8999,
+      "est_value": 1.8999,
+      "est_change_pct": -0.68,
+      "update_time": "2026-09-21",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -178,6 +178,16 @@
     },
     {
       "source": "国务院",
+      "title": "国家新闻出版署有关负责同志就《出版业发展“十五五”规划》答记者问",
+      "url": "./202609/content_7081651.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "近日，国家新闻出版署印发《出版业发展“十五五”规划》。国家新闻出版署有关负责同志就规划有关情况回答了记者提问。",
+      "url": "./202609/content_7081651.htm"
+    },
+    {
+      "source": "国务院",
       "title": "打通堵点释放潜力 十部门推出促进房车消费若干措施",
       "url": "./202609/content_7081497.htm"
     },
@@ -200,16 +210,6 @@
       "source": "国务院",
       "title": "国家统计局新闻发言人就2026年8月份国民经济运行情况答记者问",
       "url": "./202609/content_7081277.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "从8月份主要指标来看，经济运行主要呈现“三稳两快”的特点。“三稳”表现在生产稳、就业稳、物价稳。",
-      "url": "./202609/content_7081277.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "8月经济数据出炉，如何看待国民经济运行态势？",
-      "url": "./202609/content_7081216.htm"
     }
   ]
 }
