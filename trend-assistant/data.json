@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-09-23 01:59:41",
-  "update_timestamp": 1790128781,
+  "update_time": "2026-09-24 01:48:40",
+  "update_timestamp": 1790214520,
   "user_profile": {
     "graduation_year": "2026",
     "major": "数据科学与大数据技术",
@@ -87,10 +87,10 @@
     {
       "code": "006479",
       "name": "广发纳斯达克100ETF联接人民币(QDII)C",
-      "net_value": 8.2471,
-      "est_value": 8.2471,
-      "est_change_pct": 2.82,
-      "update_time": "2026-09-20",
+      "net_value": 8.3111,
+      "est_value": 8.3111,
+      "est_change_pct": 0.78,
+      "update_time": "2026-09-21",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -100,10 +100,10 @@
     {
       "code": "270042",
       "name": "广发纳斯达克100ETF联接人民币(QDII)A",
-      "net_value": 8.3947,
-      "est_value": 8.3947,
-      "est_change_pct": 2.83,
-      "update_time": "2026-09-20",
+      "net_value": 8.4599,
+      "est_value": 8.4599,
+      "est_change_pct": 0.78,
+      "update_time": "2026-09-21",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -113,10 +113,10 @@
     {
       "code": "016582",
       "name": "嘉实上海金ETF发起联接C",
-      "net_value": 1.8999,
-      "est_value": 1.8999,
-      "est_change_pct": -0.68,
-      "update_time": "2026-09-21",
+      "net_value": 1.9065,
+      "est_value": 1.9065,
+      "est_change_pct": 0.35,
+      "update_time": "2026-09-22",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -136,6 +136,11 @@
     "month": 9
   },
   "policies_raw": [
+    {
+      "source": "国务院",
+      "title": "国务院办公厅关于印发《“高效办成一件事”2026年度第二批重点事项清单》的通知",
+      "url": "https://www.gov.cn/zhengce/content/202609/content_7081880.htm"
+    },
     {
       "source": "国务院",
       "title": "中共中央办公厅 国务院办公厅印发《关于分类推进高校改革的意见》",
@@ -170,11 +175,6 @@
       "source": "国务院",
       "title": "电力安全事故应急处置和调查处理条例",
       "url": "https://www.gov.cn/zhengce/content/202609/content_7080188.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "中共中央办公厅 国务院办公厅印发《党政领导干部生态环境损害责任追究办法》",
-      "url": "./202608/content_7079098.htm"
     },
     {
       "source": "国务院",
