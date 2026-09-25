@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-09-24 01:48:40",
-  "update_timestamp": 1790214520,
+  "update_time": "2026-09-25 02:05:21",
+  "update_timestamp": 1790301921,
   "user_profile": {
     "graduation_year": "2026",
     "major": "数据科学与大数据技术",
@@ -14,7 +14,7 @@
   "policy_wind": [
     {
       "source": "国务院",
-      "title": "国务院办公厅转发文化和旅游部等部门《关于促进房车消费的若干措施》的通知",
+      "title": "关于促进房车消费的若干措施",
       "industry": "消费",
       "direction": "up"
     },
@@ -38,7 +38,7 @@
       "trend_score": 71,
       "direction": "up",
       "policy_count": 3,
-      "top_policy": "国务院办公厅转发文化和旅游部等部门《关于促进房车消费的若干措施》的通知",
+      "top_policy": "关于促进房车消费的若干措施",
       "top_source": "国务院"
     },
     {
@@ -79,7 +79,7 @@
       "industry": "消费",
       "match_score": 56,
       "trend_signal": "+41.8%",
-      "policy_driver": "国务院办公厅转发文化和旅游部等部门《关于促进房车消费的若干措施》的通知",
+      "policy_driver": "关于促进房车消费的若干措施",
       "entry_barrier": "需要一定基础"
     }
   ],
@@ -87,10 +87,10 @@
     {
       "code": "006479",
       "name": "广发纳斯达克100ETF联接人民币(QDII)C",
-      "net_value": 8.3111,
-      "est_value": 8.3111,
-      "est_change_pct": 0.78,
-      "update_time": "2026-09-21",
+      "net_value": 8.2404,
+      "est_value": 8.2404,
+      "est_change_pct": -0.85,
+      "update_time": "2026-09-22",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -100,10 +100,10 @@
     {
       "code": "270042",
       "name": "广发纳斯达克100ETF联接人民币(QDII)A",
-      "net_value": 8.4599,
-      "est_value": 8.4599,
-      "est_change_pct": 0.78,
-      "update_time": "2026-09-21",
+      "net_value": 8.388,
+      "est_value": 8.388,
+      "est_change_pct": -0.85,
+      "update_time": "2026-09-22",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -113,13 +113,13 @@
     {
       "code": "016582",
       "name": "嘉实上海金ETF发起联接C",
-      "net_value": 1.9065,
-      "est_value": 1.9065,
-      "est_change_pct": 0.35,
-      "update_time": "2026-09-22",
+      "net_value": 1.8843,
+      "est_value": 1.8843,
+      "est_change_pct": -1.16,
+      "update_time": "2026-09-23",
       "source": "pingzhongdata",
-      "prediction": "震荡",
-      "recommendation": "持有观望",
+      "prediction": "看跌",
+      "recommendation": "考虑减仓",
       "policy_tag": "无政策影响",
       "policy_score": 0
     }
@@ -138,6 +138,11 @@
   "policies_raw": [
     {
       "source": "国务院",
+      "title": "中华人民共和国审计法实施条例",
+      "url": "https://www.gov.cn/zhengce/content/202609/content_7081972.htm"
+    },
+    {
+      "source": "国务院",
       "title": "国务院办公厅关于印发《“高效办成一件事”2026年度第二批重点事项清单》的通知",
       "url": "https://www.gov.cn/zhengce/content/202609/content_7081880.htm"
     },
@@ -148,7 +153,7 @@
     },
     {
       "source": "国务院",
-      "title": "国务院办公厅转发文化和旅游部等部门《关于促进房车消费的若干措施》的通知",
+      "title": "关于促进房车消费的若干措施",
       "url": "https://www.gov.cn/zhengce/content/202609/content_7081441.htm"
     },
     {
@@ -173,8 +178,13 @@
     },
     {
       "source": "国务院",
-      "title": "电力安全事故应急处置和调查处理条例",
-      "url": "https://www.gov.cn/zhengce/content/202609/content_7080188.htm"
+      "title": "“十五五”民政事业有这些重点",
+      "url": "./202609/content_7081959.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "9月23日，国务院新闻办举行“开局起步‘十五五’”系列主题新闻发布会，介绍“十五五”时期推进民政事业高质量发展有关情况。",
+      "url": "./202609/content_7081959.htm"
     },
     {
       "source": "国务院",
@@ -200,16 +210,6 @@
       "source": "国务院",
       "title": "国务院常务会议解读 | 国务院常务会议部署实施医疗康复护理扩容提升工程",
       "url": "./202609/content_7081473.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "会议部署实施医疗康复护理扩容提升工程，指出要以基层为重点建强医疗康复护理服务体系，推动康复护理资源向社区、家庭延伸，增强城乡居民康复护理服务可及性。",
-      "url": "./202609/content_7081473.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "国家统计局新闻发言人就2026年8月份国民经济运行情况答记者问",
-      "url": "./202609/content_7081277.htm"
     }
   ]
 }
