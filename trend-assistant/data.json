@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-09-29 02:55:27",
-  "update_timestamp": 1790650527,
+  "update_time": "2026-09-30 02:36:25",
+  "update_timestamp": 1790735785,
   "user_profile": {
     "graduation_year": "2026",
     "major": "数据科学与大数据技术",
@@ -14,14 +14,14 @@
   "policy_wind": [
     {
       "source": "国务院",
-      "title": "关于促进房车消费的若干措施",
-      "industry": "消费",
+      "title": "国务院关于《医疗康复护理扩容提升工程实施方案》的批复",
+      "industry": "医疗",
       "direction": "up"
     },
     {
       "source": "国务院",
-      "title": "国务院常务会议解读 | 国务院常务会议部署实施医疗康复护理扩容提升工程",
-      "industry": "医疗",
+      "title": "关于促进房车消费的若干措施",
+      "industry": "消费",
       "direction": "up"
     },
     {
@@ -33,21 +33,21 @@
   ],
   "trends": [
     {
+      "industry": "医疗",
+      "change_pct": 41.8,
+      "trend_score": 71,
+      "direction": "up",
+      "policy_count": 3,
+      "top_policy": "国务院关于《医疗康复护理扩容提升工程实施方案》的批复",
+      "top_source": "国务院"
+    },
+    {
       "industry": "消费",
       "change_pct": 41.8,
       "trend_score": 71,
       "direction": "up",
       "policy_count": 3,
       "top_policy": "关于促进房车消费的若干措施",
-      "top_source": "国务院"
-    },
-    {
-      "industry": "医疗",
-      "change_pct": 32.2,
-      "trend_score": 59,
-      "direction": "up",
-      "policy_count": 2,
-      "top_policy": "国务院常务会议解读 | 国务院常务会议部署实施医疗康复护理扩容提升工程",
       "top_source": "国务院"
     },
     {
@@ -88,9 +88,9 @@
     },
     {
       "industry": "医疗",
-      "match_score": 73,
-      "trend_signal": "+32.2%",
-      "policy_driver": "国务院常务会议解读 | 国务院常务会议部署实施医疗康复护理扩容提升工程",
+      "match_score": 76,
+      "trend_signal": "+41.8%",
+      "policy_driver": "国务院关于《医疗康复护理扩容提升工程实施方案》的批复",
       "entry_barrier": "零基础可入门"
     },
     {
@@ -119,10 +119,10 @@
     {
       "code": "006479",
       "name": "广发纳斯达克100ETF联接人民币(QDII)C",
-      "net_value": 8.2443,
-      "est_value": 8.2443,
-      "est_change_pct": 0.05,
-      "update_time": "2026-09-23",
+      "net_value": 8.1777,
+      "est_value": 8.1777,
+      "est_change_pct": -0.81,
+      "update_time": "2026-09-27",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -132,10 +132,10 @@
     {
       "code": "270042",
       "name": "广发纳斯达克100ETF联接人民币(QDII)A",
-      "net_value": 8.392,
-      "est_value": 8.392,
-      "est_change_pct": 0.05,
-      "update_time": "2026-09-23",
+      "net_value": 8.3244,
+      "est_value": 8.3244,
+      "est_change_pct": -0.81,
+      "update_time": "2026-09-27",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -145,13 +145,13 @@
     {
       "code": "016582",
       "name": "嘉实上海金ETF发起联接C",
-      "net_value": 1.8381,
-      "est_value": 1.8381,
-      "est_change_pct": -2.45,
-      "update_time": "2026-09-27",
+      "net_value": 1.8254,
+      "est_value": 1.8254,
+      "est_change_pct": -0.69,
+      "update_time": "2026-09-28",
       "source": "pingzhongdata",
-      "prediction": "看跌",
-      "recommendation": "考虑减仓",
+      "prediction": "震荡",
+      "recommendation": "持有观望",
       "policy_tag": "无政策影响",
       "policy_score": 0
     }
@@ -168,6 +168,16 @@
     "month": 9
   },
   "policies_raw": [
+    {
+      "source": "国务院",
+      "title": "国务院关于《医疗康复护理扩容提升工程实施方案》的批复",
+      "url": "https://www.gov.cn/zhengce/content/202609/content_7082378.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "中共中央办公厅 国务院办公厅印发《文化遗产保护传承“十五五”规划》",
+      "url": "./202609/content_7082364.htm"
+    },
     {
       "source": "国务院",
       "title": "中华人民共和国审计法实施条例",
@@ -197,16 +207,6 @@
       "source": "国务院",
       "title": "中共中央办公厅 国务院办公厅 中央军委办公厅印发《退役军人服务和保障“十五五”规划》",
       "url": "./202609/content_7081017.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "市场监督管理所条例",
-      "url": "https://www.gov.cn/zhengce/content/202609/content_7080735.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "国务院办公厅关于加强中小企业回款难问题治理有关工作的通知",
-      "url": "https://www.gov.cn/zhengce/content/202609/content_7080627.htm"
     },
     {
       "source": "国务院",
