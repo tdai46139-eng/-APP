@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-10-07 02:53:06",
-  "update_timestamp": 1791341586,
+  "update_time": "2026-10-08 03:10:33",
+  "update_timestamp": 1791429033,
   "user_profile": {
     "graduation_year": "2026",
     "major": "数据科学与大数据技术",
@@ -33,21 +33,21 @@
   ],
   "trends": [
     {
+      "industry": "医疗",
+      "change_pct": 53.8,
+      "trend_score": 86,
+      "direction": "up",
+      "policy_count": 4,
+      "top_policy": "国务院关于《医疗康复护理扩容提升工程实施方案》的批复",
+      "top_source": "国务院"
+    },
+    {
       "industry": "消费",
       "change_pct": 51.4,
       "trend_score": 83,
       "direction": "up",
       "policy_count": 4,
       "top_policy": "国务院办公厅关于发展体育赛事激发消费活力的意见",
-      "top_source": "国务院"
-    },
-    {
-      "industry": "医疗",
-      "change_pct": 41.8,
-      "trend_score": 71,
-      "direction": "up",
-      "policy_count": 3,
-      "top_policy": "国务院关于《医疗康复护理扩容提升工程实施方案》的批复",
       "top_source": "国务院"
     },
     {
@@ -60,37 +60,44 @@
       "top_source": "国务院"
     },
     {
-      "industry": "新能源",
+      "industry": "AI",
       "change_pct": 22.6,
       "trend_score": 47,
       "direction": "stable",
       "policy_count": 1,
-      "top_policy": "图表：我国提出到2030年全固态电池初步实现规模化应用",
+      "top_policy": "图表：国庆假期智能、绿色、健康商品需求旺盛",
       "top_source": "国务院"
     },
     {
-      "industry": "制造",
+      "industry": "环保",
       "change_pct": 22.6,
       "trend_score": 47,
       "direction": "stable",
       "policy_count": 1,
-      "top_policy": "图表：2026年前8个月全国规模以上工业企业利润增长15.7%",
+      "top_policy": "图表：国庆假期智能、绿色、健康商品需求旺盛",
       "top_source": "国务院"
     }
   ],
   "employment": [
     {
-      "industry": "就业",
-      "match_score": 79,
+      "industry": "AI",
+      "match_score": 94,
       "trend_signal": "+22.6%",
-      "policy_driver": "从8月份主要指标来看，经济运行主要呈现“三稳两快”的特点。“三稳”表现在生产稳、就业稳、物价稳。",
+      "policy_driver": "图表：国庆假期智能、绿色、健康商品需求旺盛",
       "entry_barrier": "零基础可入门"
     },
     {
       "industry": "医疗",
-      "match_score": 76,
-      "trend_signal": "+41.8%",
+      "match_score": 81,
+      "trend_signal": "+53.8%",
       "policy_driver": "国务院关于《医疗康复护理扩容提升工程实施方案》的批复",
+      "entry_barrier": "零基础可入门"
+    },
+    {
+      "industry": "就业",
+      "match_score": 79,
+      "trend_signal": "+22.6%",
+      "policy_driver": "从8月份主要指标来看，经济运行主要呈现“三稳两快”的特点。“三稳”表现在生产稳、就业稳、物价稳。",
       "entry_barrier": "零基础可入门"
     },
     {
@@ -101,17 +108,10 @@
       "entry_barrier": "需要一定基础"
     },
     {
-      "industry": "新能源",
-      "match_score": 59,
-      "trend_signal": "+22.6%",
-      "policy_driver": "图表：我国提出到2030年全固态电池初步实现规模化应用",
-      "entry_barrier": "需要一定基础"
-    },
-    {
-      "industry": "制造",
+      "industry": "环保",
       "match_score": 54,
       "trend_signal": "+22.6%",
-      "policy_driver": "图表：2026年前8个月全国规模以上工业企业利润增长15.7%",
+      "policy_driver": "图表：国庆假期智能、绿色、健康商品需求旺盛",
       "entry_barrier": "需要一定基础"
     }
   ],
