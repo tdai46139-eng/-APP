@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-10-08 03:10:33",
-  "update_timestamp": 1791429033,
+  "update_time": "2026-10-09 03:16:38",
+  "update_timestamp": 1791515798,
   "user_profile": {
     "graduation_year": "2026",
     "major": "数据科学与大数据技术",
@@ -60,6 +60,15 @@
       "top_source": "国务院"
     },
     {
+      "industry": "新能源",
+      "change_pct": 22.6,
+      "trend_score": 47,
+      "direction": "stable",
+      "policy_count": 1,
+      "top_policy": "图表：国庆假期高速公路新能源汽车日均充电量同比增长51.42%",
+      "top_source": "国务院"
+    },
+    {
       "industry": "AI",
       "change_pct": 22.6,
       "trend_score": 47,
@@ -108,10 +117,10 @@
       "entry_barrier": "需要一定基础"
     },
     {
-      "industry": "环保",
-      "match_score": 54,
+      "industry": "新能源",
+      "match_score": 59,
       "trend_signal": "+22.6%",
-      "policy_driver": "图表：国庆假期智能、绿色、健康商品需求旺盛",
+      "policy_driver": "图表：国庆假期高速公路新能源汽车日均充电量同比增长51.42%",
       "entry_barrier": "需要一定基础"
     }
   ],
@@ -119,10 +128,10 @@
     {
       "code": "006479",
       "name": "广发纳斯达克100ETF联接人民币(QDII)C",
-      "net_value": 8.1948,
-      "est_value": 8.1948,
-      "est_change_pct": 0.21,
-      "update_time": "2026-09-28",
+      "net_value": 8.2072,
+      "est_value": 8.2072,
+      "est_change_pct": 0.15,
+      "update_time": "2026-09-29",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -132,10 +141,10 @@
     {
       "code": "270042",
       "name": "广发纳斯达克100ETF联接人民币(QDII)A",
-      "net_value": 8.3418,
-      "est_value": 8.3418,
-      "est_change_pct": 0.21,
-      "update_time": "2026-09-28",
+      "net_value": 8.3545,
+      "est_value": 8.3545,
+      "est_change_pct": 0.15,
+      "update_time": "2026-09-29",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -145,13 +154,13 @@
     {
       "code": "016582",
       "name": "嘉实上海金ETF发起联接C",
-      "net_value": 1.8488,
-      "est_value": 1.8488,
-      "est_change_pct": 1.28,
-      "update_time": "2026-09-29",
+      "net_value": 1.8148,
+      "est_value": 1.8148,
+      "est_change_pct": -1.84,
+      "update_time": "2026-10-07",
       "source": "pingzhongdata",
-      "prediction": "震荡",
-      "recommendation": "持有观望",
+      "prediction": "看跌",
+      "recommendation": "考虑减仓",
       "policy_tag": "无政策影响",
       "policy_score": 0
     }
@@ -170,6 +179,11 @@
   "policies_raw": [
     {
       "source": "国务院",
+      "title": "国务院关于《国家残疾预防行动计划（2026—2030年）》的批复",
+      "url": "https://www.gov.cn/zhengce/content/202610/content_7082737.htm"
+    },
+    {
+      "source": "国务院",
       "title": "国务院办公厅关于发展体育赛事激发消费活力的意见",
       "url": "https://www.gov.cn/zhengce/content/202609/content_7082492.htm"
     },
@@ -180,7 +194,7 @@
     },
     {
       "source": "国务院",
-      "title": "中共中央办公厅 国务院办公厅印发《文化遗产保护传承“十五五”规划》",
+      "title": "中办国办印发《文化遗产保护传承“十五五”规划》",
       "url": "./202609/content_7082364.htm"
     },
     {
@@ -202,11 +216,6 @@
       "source": "国务院",
       "title": "国务院办公厅转发文化和旅游部等部门《关于促进房车消费的若干措施》的通知",
       "url": "https://www.gov.cn/zhengce/content/202609/content_7081441.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "国务院办公厅关于进一步加强烟花爆竹全链条安全监管的意见",
-      "url": "https://www.gov.cn/zhengce/content/202609/content_7081356.htm"
     },
     {
       "source": "国务院",
