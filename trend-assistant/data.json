@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-10-09 03:16:38",
-  "update_timestamp": 1791515798,
+  "update_time": "2026-10-10 02:56:20",
+  "update_timestamp": 1791600980,
   "user_profile": {
     "graduation_year": "2026",
     "major": "数据科学与大数据技术",
@@ -23,40 +23,25 @@
       "title": "国务院关于《医疗康复护理扩容提升工程实施方案》的批复",
       "industry": "医疗",
       "direction": "up"
-    },
-    {
-      "source": "国务院",
-      "title": "从8月份主要指标来看，经济运行主要呈现“三稳两快”的特点。“三稳”表现在生产稳、就业稳、物价稳。",
-      "industry": "就业",
-      "direction": "up"
     }
   ],
   "trends": [
     {
-      "industry": "医疗",
-      "change_pct": 53.8,
-      "trend_score": 86,
-      "direction": "up",
-      "policy_count": 4,
-      "top_policy": "国务院关于《医疗康复护理扩容提升工程实施方案》的批复",
-      "top_source": "国务院"
-    },
-    {
       "industry": "消费",
-      "change_pct": 51.4,
-      "trend_score": 83,
+      "change_pct": 41.8,
+      "trend_score": 71,
       "direction": "up",
-      "policy_count": 4,
+      "policy_count": 3,
       "top_policy": "国务院办公厅关于发展体育赛事激发消费活力的意见",
       "top_source": "国务院"
     },
     {
-      "industry": "就业",
+      "industry": "医疗",
       "change_pct": 22.6,
       "trend_score": 47,
       "direction": "stable",
       "policy_count": 1,
-      "top_policy": "从8月份主要指标来看，经济运行主要呈现“三稳两快”的特点。“三稳”表现在生产稳、就业稳、物价稳。",
+      "top_policy": "国务院关于《医疗康复护理扩容提升工程实施方案》的批复",
       "top_source": "国务院"
     },
     {
@@ -67,53 +52,14 @@
       "policy_count": 1,
       "top_policy": "图表：国庆假期高速公路新能源汽车日均充电量同比增长51.42%",
       "top_source": "国务院"
-    },
-    {
-      "industry": "AI",
-      "change_pct": 22.6,
-      "trend_score": 47,
-      "direction": "stable",
-      "policy_count": 1,
-      "top_policy": "图表：国庆假期智能、绿色、健康商品需求旺盛",
-      "top_source": "国务院"
-    },
-    {
-      "industry": "环保",
-      "change_pct": 22.6,
-      "trend_score": 47,
-      "direction": "stable",
-      "policy_count": 1,
-      "top_policy": "图表：国庆假期智能、绿色、健康商品需求旺盛",
-      "top_source": "国务院"
     }
   ],
   "employment": [
     {
-      "industry": "AI",
-      "match_score": 94,
-      "trend_signal": "+22.6%",
-      "policy_driver": "图表：国庆假期智能、绿色、健康商品需求旺盛",
-      "entry_barrier": "零基础可入门"
-    },
-    {
       "industry": "医疗",
-      "match_score": 81,
-      "trend_signal": "+53.8%",
-      "policy_driver": "国务院关于《医疗康复护理扩容提升工程实施方案》的批复",
-      "entry_barrier": "零基础可入门"
-    },
-    {
-      "industry": "就业",
-      "match_score": 79,
+      "match_score": 69,
       "trend_signal": "+22.6%",
-      "policy_driver": "从8月份主要指标来看，经济运行主要呈现“三稳两快”的特点。“三稳”表现在生产稳、就业稳、物价稳。",
-      "entry_barrier": "零基础可入门"
-    },
-    {
-      "industry": "消费",
-      "match_score": 60,
-      "trend_signal": "+51.4%",
-      "policy_driver": "国务院办公厅关于发展体育赛事激发消费活力的意见",
+      "policy_driver": "国务院关于《医疗康复护理扩容提升工程实施方案》的批复",
       "entry_barrier": "需要一定基础"
     },
     {
@@ -122,16 +68,23 @@
       "trend_signal": "+22.6%",
       "policy_driver": "图表：国庆假期高速公路新能源汽车日均充电量同比增长51.42%",
       "entry_barrier": "需要一定基础"
+    },
+    {
+      "industry": "消费",
+      "match_score": 56,
+      "trend_signal": "+41.8%",
+      "policy_driver": "国务院办公厅关于发展体育赛事激发消费活力的意见",
+      "entry_barrier": "需要一定基础"
     }
   ],
   "funds": [
     {
       "code": "006479",
       "name": "广发纳斯达克100ETF联接人民币(QDII)C",
-      "net_value": 8.2072,
-      "est_value": 8.2072,
-      "est_change_pct": 0.15,
-      "update_time": "2026-09-29",
+      "net_value": 8.2909,
+      "est_value": 8.2909,
+      "est_change_pct": 1.02,
+      "update_time": "2026-10-07",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -141,10 +94,10 @@
     {
       "code": "270042",
       "name": "广发纳斯达克100ETF联接人民币(QDII)A",
-      "net_value": 8.3545,
-      "est_value": 8.3545,
-      "est_change_pct": 0.15,
-      "update_time": "2026-09-29",
+      "net_value": 8.44,
+      "est_value": 8.44,
+      "est_change_pct": 1.02,
+      "update_time": "2026-10-07",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -154,13 +107,13 @@
     {
       "code": "016582",
       "name": "嘉实上海金ETF发起联接C",
-      "net_value": 1.8148,
-      "est_value": 1.8148,
-      "est_change_pct": -1.84,
-      "update_time": "2026-10-07",
+      "net_value": 1.8436,
+      "est_value": 1.8436,
+      "est_change_pct": 1.59,
+      "update_time": "2026-10-08",
       "source": "pingzhongdata",
-      "prediction": "看跌",
-      "recommendation": "考虑减仓",
+      "prediction": "震荡",
+      "recommendation": "持有观望",
       "policy_tag": "无政策影响",
       "policy_score": 0
     }
@@ -177,6 +130,11 @@
     "month": 10
   },
   "policies_raw": [
+    {
+      "source": "国务院",
+      "title": "中共中央 国务院关于发展新质生产力的意见",
+      "url": "./202610/content_7082820.htm"
+    },
     {
       "source": "国务院",
       "title": "国务院关于《国家残疾预防行动计划（2026—2030年）》的批复",
@@ -214,8 +172,23 @@
     },
     {
       "source": "国务院",
-      "title": "国务院办公厅转发文化和旅游部等部门《关于促进房车消费的若干措施》的通知",
-      "url": "https://www.gov.cn/zhengce/content/202609/content_7081441.htm"
+      "title": "国家发展改革委有关负责同志就《关于发展新质生产力的意见》答记者问",
+      "url": "./202610/content_7082860.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "近日，中共中央、国务院印发《关于发展新质生产力的意见》。国家发展改革委有关负责同志就《意见》接受采访，回答记者提问。",
+      "url": "./202610/content_7082860.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "加快发展新质生产力，顶层设计和路线图来了",
+      "url": "./202610/content_7082841.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "新一轮科技革命和产业变革为发展新质生产力开辟了广阔前景，只有抓住历史机遇，加快高水平科技自立自强，全面增强自主创新能力，才能始终掌握战略主动。",
+      "url": "./202610/content_7082841.htm"
     },
     {
       "source": "国务院",
@@ -231,26 +204,6 @@
       "source": "国务院",
       "title": "“十五五”民政事业有这些重点",
       "url": "./202609/content_7081959.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "9月23日，国务院新闻办举行“开局起步‘十五五’”系列主题新闻发布会，介绍“十五五”时期推进民政事业高质量发展有关情况。",
-      "url": "./202609/content_7081959.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "国家新闻出版署有关负责同志就《出版业发展“十五五”规划》答记者问",
-      "url": "./202609/content_7081651.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "近日，国家新闻出版署印发《出版业发展“十五五”规划》。国家新闻出版署有关负责同志就规划有关情况回答了记者提问。",
-      "url": "./202609/content_7081651.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "打通堵点释放潜力 十部门推出促进房车消费若干措施",
-      "url": "./202609/content_7081497.htm"
     }
   ]
 }
