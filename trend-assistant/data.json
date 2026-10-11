@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-10-10 02:56:20",
-  "update_timestamp": 1791600980,
+  "update_time": "2026-10-11 02:25:34",
+  "update_timestamp": 1791685534,
   "user_profile": {
     "graduation_year": "2026",
     "major": "数据科学与大数据技术",
@@ -45,28 +45,28 @@
       "top_source": "国务院"
     },
     {
-      "industry": "新能源",
+      "industry": "就业",
       "change_pct": 22.6,
       "trend_score": 47,
       "direction": "stable",
       "policy_count": 1,
-      "top_policy": "图表：国庆假期高速公路新能源汽车日均充电量同比增长51.42%",
+      "top_policy": "图表：2026年前三季度全国城镇新增就业1052万人",
       "top_source": "国务院"
     }
   ],
   "employment": [
     {
+      "industry": "就业",
+      "match_score": 79,
+      "trend_signal": "+22.6%",
+      "policy_driver": "图表：2026年前三季度全国城镇新增就业1052万人",
+      "entry_barrier": "零基础可入门"
+    },
+    {
       "industry": "医疗",
       "match_score": 69,
       "trend_signal": "+22.6%",
       "policy_driver": "国务院关于《医疗康复护理扩容提升工程实施方案》的批复",
-      "entry_barrier": "需要一定基础"
-    },
-    {
-      "industry": "新能源",
-      "match_score": 59,
-      "trend_signal": "+22.6%",
-      "policy_driver": "图表：国庆假期高速公路新能源汽车日均充电量同比增长51.42%",
       "entry_barrier": "需要一定基础"
     },
     {
