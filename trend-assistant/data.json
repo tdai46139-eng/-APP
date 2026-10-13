@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-10-12 02:50:11",
-  "update_timestamp": 1791773411,
+  "update_time": "2026-10-13 04:06:05",
+  "update_timestamp": 1791864365,
   "user_profile": {
     "graduation_year": "2026",
     "major": "数据科学与大数据技术",
@@ -28,10 +28,10 @@
   "trends": [
     {
       "industry": "消费",
-      "change_pct": 41.8,
-      "trend_score": 71,
+      "change_pct": 32.2,
+      "trend_score": 59,
       "direction": "up",
-      "policy_count": 3,
+      "policy_count": 2,
       "top_policy": "国务院办公厅关于发展体育赛事激发消费活力的意见",
       "top_source": "国务院"
     },
@@ -71,8 +71,8 @@
     },
     {
       "industry": "消费",
-      "match_score": 56,
-      "trend_signal": "+41.8%",
+      "match_score": 53,
+      "trend_signal": "+32.2%",
       "policy_driver": "国务院办公厅关于发展体育赛事激发消费活力的意见",
       "entry_barrier": "需要一定基础"
     }
@@ -81,10 +81,10 @@
     {
       "code": "006479",
       "name": "广发纳斯达克100ETF联接人民币(QDII)C",
-      "net_value": 8.2909,
-      "est_value": 8.2909,
-      "est_change_pct": 1.02,
-      "update_time": "2026-10-07",
+      "net_value": 8.3247,
+      "est_value": 8.3247,
+      "est_change_pct": 0.41,
+      "update_time": "2026-10-08",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -94,10 +94,10 @@
     {
       "code": "270042",
       "name": "广发纳斯达克100ETF联接人民币(QDII)A",
-      "net_value": 8.44,
-      "est_value": 8.44,
-      "est_change_pct": 1.02,
-      "update_time": "2026-10-07",
+      "net_value": 8.4745,
+      "est_value": 8.4745,
+      "est_change_pct": 0.41,
+      "update_time": "2026-10-08",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -107,10 +107,10 @@
     {
       "code": "016582",
       "name": "嘉实上海金ETF发起联接C",
-      "net_value": 1.8436,
-      "est_value": 1.8436,
-      "est_change_pct": 1.59,
-      "update_time": "2026-10-08",
+      "net_value": 1.8392,
+      "est_value": 1.8392,
+      "est_change_pct": -0.24,
+      "update_time": "2026-10-11",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -172,6 +172,16 @@
     },
     {
       "source": "国务院",
+      "title": "商务部电子商务司负责人解读《关于实施品质电商“五优”行动的通知》",
+      "url": "./202610/content_7082909.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "《通知》明确惠民生与促消费结合、规范发展与质量提升并重、数字技术与实体经济融合的原则，重点任务部署15项具体工作，围绕五大维度构建全链条培育体系。",
+      "url": "./202610/content_7082909.htm"
+    },
+    {
+      "source": "国务院",
       "title": "国家发展改革委有关负责同志就《关于发展新质生产力的意见》答记者问",
       "url": "./202610/content_7082860.htm"
     },
@@ -194,16 +204,6 @@
       "source": "国务院",
       "title": "商务部美大司负责人解读第八轮中美经贸磋商成果",
       "url": "./202609/content_7082257.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "9月20日至23日，中美经贸团队在美国纽约和华盛顿举行经贸磋商，取得积极共识，为两国元首会晤贡献了经贸领域的成果。商务部美大司负责人就有关经贸磋商成果进行解读。",
-      "url": "./202609/content_7082257.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "“十五五”民政事业有这些重点",
-      "url": "./202609/content_7081959.htm"
     }
   ]
 }
