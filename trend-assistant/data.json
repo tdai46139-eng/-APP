@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-10-20 02:17:41",
-  "update_timestamp": 1792462661,
+  "update_time": "2026-10-21 02:11:02",
+  "update_timestamp": 1792548662,
   "user_profile": {
     "graduation_year": "2026",
     "major": "数据科学与大数据技术",
@@ -23,6 +23,12 @@
       "title": "国务院关于《医疗康复护理扩容提升工程实施方案》的批复",
       "industry": "医疗",
       "direction": "up"
+    },
+    {
+      "source": "国务院",
+      "title": "当前我国金融总量合理增长，M2和社会融资规模增速均保持在合理水平，为经济持续向好向优创造适宜的货币金融环境。",
+      "industry": "环保",
+      "direction": "up"
     }
   ],
   "trends": [
@@ -36,6 +42,15 @@
       "top_source": "国务院"
     },
     {
+      "industry": "AI",
+      "change_pct": 25.0,
+      "trend_score": 50,
+      "direction": "stable",
+      "policy_count": 1,
+      "top_policy": "图表：我国智能算力规模达2592EFLOPS",
+      "top_source": "国务院"
+    },
+    {
       "industry": "医疗",
       "change_pct": 22.6,
       "trend_score": 47,
@@ -43,14 +58,53 @@
       "policy_count": 1,
       "top_policy": "国务院关于《医疗康复护理扩容提升工程实施方案》的批复",
       "top_source": "国务院"
+    },
+    {
+      "industry": "环保",
+      "change_pct": 22.6,
+      "trend_score": 47,
+      "direction": "stable",
+      "policy_count": 1,
+      "top_policy": "当前我国金融总量合理增长，M2和社会融资规模增速均保持在合理水平，为经济持续向好向优创造适宜的货币金融环境。",
+      "top_source": "国务院"
+    },
+    {
+      "industry": "制造",
+      "change_pct": 22.6,
+      "trend_score": 47,
+      "direction": "stable",
+      "policy_count": 1,
+      "top_policy": "图表：2026年前三季度规模以上工业增加值同比增长5.3%",
+      "top_source": "国务院"
     }
   ],
   "employment": [
+    {
+      "industry": "AI",
+      "match_score": 95,
+      "trend_signal": "+25.0%",
+      "policy_driver": "图表：我国智能算力规模达2592EFLOPS",
+      "entry_barrier": "零基础可入门"
+    },
     {
       "industry": "医疗",
       "match_score": 69,
       "trend_signal": "+22.6%",
       "policy_driver": "国务院关于《医疗康复护理扩容提升工程实施方案》的批复",
+      "entry_barrier": "需要一定基础"
+    },
+    {
+      "industry": "环保",
+      "match_score": 54,
+      "trend_signal": "+22.6%",
+      "policy_driver": "当前我国金融总量合理增长，M2和社会融资规模增速均保持在合理水平，为经济持续向好向优创造适宜的货币金融环境。",
+      "entry_barrier": "需要一定基础"
+    },
+    {
+      "industry": "制造",
+      "match_score": 54,
+      "trend_signal": "+22.6%",
+      "policy_driver": "图表：2026年前三季度规模以上工业增加值同比增长5.3%",
       "entry_barrier": "需要一定基础"
     },
     {
@@ -65,39 +119,39 @@
     {
       "code": "006479",
       "name": "广发纳斯达克100ETF联接人民币(QDII)C",
-      "net_value": 7.8496,
-      "est_value": 7.8496,
-      "est_change_pct": -2.56,
-      "update_time": "2026-10-15",
+      "net_value": 7.9389,
+      "est_value": 7.9389,
+      "est_change_pct": 1.14,
+      "update_time": "2026-10-18",
       "source": "pingzhongdata",
-      "prediction": "看跌",
-      "recommendation": "考虑减仓",
+      "prediction": "震荡",
+      "recommendation": "持有观望",
       "policy_tag": "无政策影响",
       "policy_score": 0
     },
     {
       "code": "270042",
       "name": "广发纳斯达克100ETF联接人民币(QDII)A",
-      "net_value": 7.9912,
-      "est_value": 7.9912,
-      "est_change_pct": -2.56,
-      "update_time": "2026-10-15",
+      "net_value": 8.0822,
+      "est_value": 8.0822,
+      "est_change_pct": 1.14,
+      "update_time": "2026-10-18",
       "source": "pingzhongdata",
-      "prediction": "看跌",
-      "recommendation": "考虑减仓",
+      "prediction": "震荡",
+      "recommendation": "持有观望",
       "policy_tag": "无政策影响",
       "policy_score": 0
     },
     {
       "code": "016582",
       "name": "嘉实上海金ETF发起联接C",
-      "net_value": 1.8336,
-      "est_value": 1.8336,
-      "est_change_pct": 0.11,
-      "update_time": "2026-10-18",
+      "net_value": 1.8121,
+      "est_value": 1.8121,
+      "est_change_pct": -1.17,
+      "update_time": "2026-10-19",
       "source": "pingzhongdata",
-      "prediction": "震荡",
-      "recommendation": "持有观望",
+      "prediction": "看跌",
+      "recommendation": "考虑减仓",
       "policy_tag": "无政策影响",
       "policy_score": 0
     }
@@ -156,38 +210,38 @@
     },
     {
       "source": "国务院",
+      "title": "推动存量政策与增量政策协同发力——国家发展改革委解读经济社会热点",
+      "url": "./202610/content_7083845.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "如何看待前三季度经济运行态势？因地制宜发展新质生产力要把握哪些重点？围绕经济社会热点问题，国家发展改革委20日举行新闻发布会，有关负责人进行深入分析解读。",
+      "url": "./202610/content_7083845.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "推动技术与市场高效对接——多部门详解科技兴商",
+      "url": "./202610/content_7083758.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "商务部等9部门19日发布关于加快推进科技兴商的意见。国新办当日举行新闻发布会，相关部门详解有关情况。",
+      "url": "./202610/content_7083758.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "前三季度金融数据出炉 多元化融资特征鲜明",
+      "url": "./202610/content_7083269.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "当前我国金融总量合理增长，M2和社会融资规模增速均保持在合理水平，为经济持续向好向优创造适宜的货币金融环境。",
+      "url": "./202610/content_7083269.htm"
+    },
+    {
+      "source": "国务院",
       "title": "商务部电子商务司负责人解读《关于实施品质电商“五优”行动的通知》",
       "url": "./202610/content_7082909.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "《通知》明确惠民生与促消费结合、规范发展与质量提升并重、数字技术与实体经济融合的原则，重点任务部署15项具体工作，围绕五大维度构建全链条培育体系。",
-      "url": "./202610/content_7082909.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "国家发展改革委有关负责同志就《关于发展新质生产力的意见》答记者问",
-      "url": "./202610/content_7082860.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "近日，中共中央、国务院印发《关于发展新质生产力的意见》。国家发展改革委有关负责同志就《意见》接受采访，回答记者提问。",
-      "url": "./202610/content_7082860.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "加快发展新质生产力，顶层设计和路线图来了",
-      "url": "./202610/content_7082841.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "新一轮科技革命和产业变革为发展新质生产力开辟了广阔前景，只有抓住历史机遇，加快高水平科技自立自强，全面增强自主创新能力，才能始终掌握战略主动。",
-      "url": "./202610/content_7082841.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "商务部美大司负责人解读第八轮中美经贸磋商成果",
-      "url": "./202609/content_7082257.htm"
     }
   ]
 }
