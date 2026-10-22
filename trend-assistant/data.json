@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-10-21 02:11:02",
-  "update_timestamp": 1792548662,
+  "update_time": "2026-10-22 02:05:12",
+  "update_timestamp": 1792634712,
   "user_profile": {
     "graduation_year": "2026",
     "major": "数据科学与大数据技术",
@@ -119,10 +119,10 @@
     {
       "code": "006479",
       "name": "广发纳斯达克100ETF联接人民币(QDII)C",
-      "net_value": 7.9389,
-      "est_value": 7.9389,
-      "est_change_pct": 1.14,
-      "update_time": "2026-10-18",
+      "net_value": 7.927,
+      "est_value": 7.927,
+      "est_change_pct": -0.15,
+      "update_time": "2026-10-19",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -132,10 +132,10 @@
     {
       "code": "270042",
       "name": "广发纳斯达克100ETF联接人民币(QDII)A",
-      "net_value": 8.0822,
-      "est_value": 8.0822,
-      "est_change_pct": 1.14,
-      "update_time": "2026-10-18",
+      "net_value": 8.0701,
+      "est_value": 8.0701,
+      "est_change_pct": -0.15,
+      "update_time": "2026-10-19",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -145,13 +145,13 @@
     {
       "code": "016582",
       "name": "嘉实上海金ETF发起联接C",
-      "net_value": 1.8121,
-      "est_value": 1.8121,
-      "est_change_pct": -1.17,
-      "update_time": "2026-10-19",
+      "net_value": 1.8019,
+      "est_value": 1.8019,
+      "est_change_pct": -0.56,
+      "update_time": "2026-10-20",
       "source": "pingzhongdata",
-      "prediction": "看跌",
-      "recommendation": "考虑减仓",
+      "prediction": "震荡",
+      "recommendation": "持有观望",
       "policy_tag": "无政策影响",
       "policy_score": 0
     }
@@ -168,6 +168,11 @@
     "month": 10
   },
   "policies_raw": [
+    {
+      "source": "国务院",
+      "title": "中办国办关于推动科技创新和产业创新深度融合的意见",
+      "url": "./202610/content_7083930.htm"
+    },
     {
       "source": "国务院",
       "title": "中共中央 国务院关于发展新质生产力的意见",
@@ -200,13 +205,18 @@
     },
     {
       "source": "国务院",
-      "title": "国务院办公厅关于印发《“高效办成一件事”2026年度第二批重点事项清单》的通知",
+      "title": "国办印发《“高效办成一件事”2026年度第二批重点事项清单》",
       "url": "https://www.gov.cn/zhengce/content/202609/content_7081880.htm"
     },
     {
       "source": "国务院",
-      "title": "中共中央办公厅 国务院办公厅印发《关于分类推进高校改革的意见》",
-      "url": "./202609/content_7081587.htm"
+      "title": "科技部就《关于推动科技创新和产业创新深度融合的意见》答记者问",
+      "url": "./202610/content_7083959.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "近日，中共中央办公厅、国务院办公厅印发《关于推动科技创新和产业创新深度融合的意见》。科技部有关负责人21日就意见接受采访，回答记者提问。",
+      "url": "./202610/content_7083959.htm"
     },
     {
       "source": "国务院",
@@ -232,16 +242,6 @@
       "source": "国务院",
       "title": "前三季度金融数据出炉 多元化融资特征鲜明",
       "url": "./202610/content_7083269.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "当前我国金融总量合理增长，M2和社会融资规模增速均保持在合理水平，为经济持续向好向优创造适宜的货币金融环境。",
-      "url": "./202610/content_7083269.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "商务部电子商务司负责人解读《关于实施品质电商“五优”行动的通知》",
-      "url": "./202610/content_7082909.htm"
     }
   ]
 }
