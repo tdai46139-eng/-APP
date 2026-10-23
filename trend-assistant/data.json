@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-10-22 02:05:12",
-  "update_timestamp": 1792634712,
+  "update_time": "2026-10-23 02:09:48",
+  "update_timestamp": 1792721388,
   "user_profile": {
     "graduation_year": "2026",
     "major": "数据科学与大数据技术",
@@ -119,10 +119,10 @@
     {
       "code": "006479",
       "name": "广发纳斯达克100ETF联接人民币(QDII)C",
-      "net_value": 7.927,
-      "est_value": 7.927,
-      "est_change_pct": -0.15,
-      "update_time": "2026-10-19",
+      "net_value": 8.0143,
+      "est_value": 8.0143,
+      "est_change_pct": 1.1,
+      "update_time": "2026-10-20",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -132,10 +132,10 @@
     {
       "code": "270042",
       "name": "广发纳斯达克100ETF联接人民币(QDII)A",
-      "net_value": 8.0701,
-      "est_value": 8.0701,
-      "est_change_pct": -0.15,
-      "update_time": "2026-10-19",
+      "net_value": 8.159,
+      "est_value": 8.159,
+      "est_change_pct": 1.1,
+      "update_time": "2026-10-20",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -145,10 +145,10 @@
     {
       "code": "016582",
       "name": "嘉实上海金ETF发起联接C",
-      "net_value": 1.8019,
-      "est_value": 1.8019,
-      "est_change_pct": -0.56,
-      "update_time": "2026-10-20",
+      "net_value": 1.7919,
+      "est_value": 1.7919,
+      "est_change_pct": -0.55,
+      "update_time": "2026-10-21",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -210,6 +210,16 @@
     },
     {
       "source": "国务院",
+      "title": "把问题隐患化解在成灾之前——多部门详解“十五五”现代化应急体系建设",
+      "url": "./202610/content_7083970.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "“十五五”时期，如何做好国家应急管理体系和能力现代化建设？国务院新闻办公室21日举行“开局起步‘十五五’”系列主题新闻发布会，相关部门负责人对此进行详解。",
+      "url": "./202610/content_7083970.htm"
+    },
+    {
+      "source": "国务院",
       "title": "科技部就《关于推动科技创新和产业创新深度融合的意见》答记者问",
       "url": "./202610/content_7083959.htm"
     },
@@ -232,16 +242,6 @@
       "source": "国务院",
       "title": "推动技术与市场高效对接——多部门详解科技兴商",
       "url": "./202610/content_7083758.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "商务部等9部门19日发布关于加快推进科技兴商的意见。国新办当日举行新闻发布会，相关部门详解有关情况。",
-      "url": "./202610/content_7083758.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "前三季度金融数据出炉 多元化融资特征鲜明",
-      "url": "./202610/content_7083269.htm"
     }
   ]
 }
