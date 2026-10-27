@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-10-26 01:57:04",
-  "update_timestamp": 1792979824,
+  "update_time": "2026-10-27 02:34:44",
+  "update_timestamp": 1793068484,
   "user_profile": {
     "graduation_year": "2026",
     "major": "数据科学与大数据技术",
@@ -134,39 +134,39 @@
     {
       "code": "006479",
       "name": "广发纳斯达克100ETF联接人民币(QDII)C",
-      "net_value": 7.7815,
-      "est_value": 7.7815,
-      "est_change_pct": -2.9,
-      "update_time": "2026-10-21",
+      "net_value": 7.7783,
+      "est_value": 7.7783,
+      "est_change_pct": -0.04,
+      "update_time": "2026-10-22",
       "source": "pingzhongdata",
-      "prediction": "看跌",
-      "recommendation": "考虑减仓",
+      "prediction": "震荡",
+      "recommendation": "持有观望",
       "policy_tag": "无政策影响",
       "policy_score": 0
     },
     {
       "code": "270042",
       "name": "广发纳斯达克100ETF联接人民币(QDII)A",
-      "net_value": 7.9221,
-      "est_value": 7.9221,
-      "est_change_pct": -2.9,
-      "update_time": "2026-10-21",
+      "net_value": 7.9189,
+      "est_value": 7.9189,
+      "est_change_pct": -0.04,
+      "update_time": "2026-10-22",
       "source": "pingzhongdata",
-      "prediction": "看跌",
-      "recommendation": "考虑减仓",
+      "prediction": "震荡",
+      "recommendation": "持有观望",
       "policy_tag": "无政策影响",
       "policy_score": 0
     },
     {
       "code": "016582",
       "name": "嘉实上海金ETF发起联接C",
-      "net_value": 1.7572,
-      "est_value": 1.7572,
-      "est_change_pct": -1.94,
-      "update_time": "2026-10-22",
+      "net_value": 1.753,
+      "est_value": 1.753,
+      "est_change_pct": -0.24,
+      "update_time": "2026-10-25",
       "source": "pingzhongdata",
-      "prediction": "看跌",
-      "recommendation": "考虑减仓",
+      "prediction": "震荡",
+      "recommendation": "持有观望",
       "policy_tag": "无政策影响",
       "policy_score": 0
     }
@@ -183,6 +183,11 @@
     "month": 10
   },
   "policies_raw": [
+    {
+      "source": "国务院",
+      "title": "事业单位登记管理条例",
+      "url": "https://www.gov.cn/zhengce/content/202610/content_7084279.htm"
+    },
     {
       "source": "国务院",
       "title": "国办关于适应人工智能技术发展助力构建就业友好型发展方式的意见",
@@ -217,11 +222,6 @@
       "source": "国务院",
       "title": "中办国办印发《文化遗产保护传承“十五五”规划》",
       "url": "./202609/content_7082364.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "中华人民共和国审计法实施条例",
-      "url": "https://www.gov.cn/zhengce/content/202609/content_7081972.htm"
     },
     {
       "source": "国务院",
