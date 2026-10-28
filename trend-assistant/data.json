@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-10-27 02:34:44",
-  "update_timestamp": 1793068484,
+  "update_time": "2026-10-28 02:43:38",
+  "update_timestamp": 1793155418,
   "user_profile": {
     "graduation_year": "2026",
     "major": "数据科学与大数据技术",
@@ -48,21 +48,12 @@
       "top_source": "国务院"
     },
     {
-      "industry": "消费",
-      "change_pct": 32.2,
-      "trend_score": 59,
-      "direction": "up",
-      "policy_count": 2,
-      "top_policy": "国务院办公厅关于发展体育赛事激发消费活力的意见",
-      "top_source": "国务院"
-    },
-    {
       "industry": "制造",
       "change_pct": 32.2,
       "trend_score": 59,
       "direction": "up",
       "policy_count": 2,
-      "top_policy": "发票数据显示：三季度工业企业销售收入同比增长加快",
+      "top_policy": "图表：2026年前9个月全国规模以上工业企业利润增长15.5%",
       "top_source": "国务院"
     },
     {
@@ -72,6 +63,15 @@
       "direction": "stable",
       "policy_count": 1,
       "top_policy": "国办关于适应人工智能技术发展助力构建就业友好型发展方式的意见",
+      "top_source": "国务院"
+    },
+    {
+      "industry": "消费",
+      "change_pct": 22.6,
+      "trend_score": 47,
+      "direction": "stable",
+      "policy_count": 1,
+      "top_policy": "国务院办公厅关于发展体育赛事激发消费活力的意见",
       "top_source": "国务院"
     },
     {
@@ -119,13 +119,13 @@
       "industry": "制造",
       "match_score": 58,
       "trend_signal": "+32.2%",
-      "policy_driver": "发票数据显示：三季度工业企业销售收入同比增长加快",
+      "policy_driver": "图表：2026年前9个月全国规模以上工业企业利润增长15.5%",
       "entry_barrier": "需要一定基础"
     },
     {
       "industry": "消费",
-      "match_score": 53,
-      "trend_signal": "+32.2%",
+      "match_score": 49,
+      "trend_signal": "+22.6%",
       "policy_driver": "国务院办公厅关于发展体育赛事激发消费活力的意见",
       "entry_barrier": "需要一定基础"
     }
@@ -134,10 +134,10 @@
     {
       "code": "006479",
       "name": "广发纳斯达克100ETF联接人民币(QDII)C",
-      "net_value": 7.7783,
-      "est_value": 7.7783,
-      "est_change_pct": -0.04,
-      "update_time": "2026-10-22",
+      "net_value": 7.861,
+      "est_value": 7.861,
+      "est_change_pct": 1.06,
+      "update_time": "2026-10-25",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -147,10 +147,10 @@
     {
       "code": "270042",
       "name": "广发纳斯达克100ETF联接人民币(QDII)A",
-      "net_value": 7.9189,
-      "est_value": 7.9189,
-      "est_change_pct": -0.04,
-      "update_time": "2026-10-22",
+      "net_value": 8.0031,
+      "est_value": 8.0031,
+      "est_change_pct": 1.06,
+      "update_time": "2026-10-25",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -160,10 +160,10 @@
     {
       "code": "016582",
       "name": "嘉实上海金ETF发起联接C",
-      "net_value": 1.753,
-      "est_value": 1.753,
-      "est_change_pct": -0.24,
-      "update_time": "2026-10-25",
+      "net_value": 1.7505,
+      "est_value": 1.7505,
+      "est_change_pct": -0.14,
+      "update_time": "2026-10-26",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -225,6 +225,16 @@
     },
     {
       "source": "国务院",
+      "title": "中央编办、司法部负责人就《事业单位登记管理条例》答记者问",
+      "url": "./202610/content_7084292.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "2026年10月17日，国务院总理李强签署第849号国务院令，公布《事业单位登记管理条例》，自2026年12月1日起施行。日前，中央编办、司法部负责人就《条例》有关问题回答了记者提问。",
+      "url": "./202610/content_7084292.htm"
+    },
+    {
+      "source": "国务院",
       "title": "把问题隐患化解在成灾之前——多部门详解“十五五”现代化应急体系建设",
       "url": "./202610/content_7083970.htm"
     },
@@ -247,16 +257,6 @@
       "source": "国务院",
       "title": "推动存量政策与增量政策协同发力——国家发展改革委解读经济社会热点",
       "url": "./202610/content_7083845.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "如何看待前三季度经济运行态势？因地制宜发展新质生产力要把握哪些重点？围绕经济社会热点问题，国家发展改革委20日举行新闻发布会，有关负责人进行深入分析解读。",
-      "url": "./202610/content_7083845.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "推动技术与市场高效对接——多部门详解科技兴商",
-      "url": "./202610/content_7083758.htm"
     }
   ]
 }
