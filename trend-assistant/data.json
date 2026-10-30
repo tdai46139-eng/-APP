@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-10-29 03:03:22",
-  "update_timestamp": 1793243002,
+  "update_time": "2026-10-30 03:08:18",
+  "update_timestamp": 1793329698,
   "user_profile": {
     "graduation_year": "2026",
     "major": "数据科学与大数据技术",
@@ -39,21 +39,21 @@
   ],
   "trends": [
     {
-      "industry": "AI",
-      "change_pct": 37.0,
-      "trend_score": 65,
-      "direction": "up",
-      "policy_count": 2,
-      "top_policy": "国办关于适应人工智能技术发展助力构建就业友好型发展方式的意见",
-      "top_source": "国务院"
-    },
-    {
       "industry": "制造",
       "change_pct": 32.2,
       "trend_score": 59,
       "direction": "up",
       "policy_count": 2,
       "top_policy": "图表：2026年前9个月全国规模以上工业企业利润增长15.5%",
+      "top_source": "国务院"
+    },
+    {
+      "industry": "AI",
+      "change_pct": 22.6,
+      "trend_score": 47,
+      "direction": "stable",
+      "policy_count": 1,
+      "top_policy": "国办关于适应人工智能技术发展助力构建就业友好型发展方式的意见",
       "top_source": "国务院"
     },
     {
@@ -96,8 +96,8 @@
   "employment": [
     {
       "industry": "AI",
-      "match_score": 99,
-      "trend_signal": "+37.0%",
+      "match_score": 94,
+      "trend_signal": "+22.6%",
       "policy_driver": "国办关于适应人工智能技术发展助力构建就业友好型发展方式的意见",
       "entry_barrier": "零基础可入门"
     },
@@ -134,10 +134,10 @@
     {
       "code": "006479",
       "name": "广发纳斯达克100ETF联接人民币(QDII)C",
-      "net_value": 7.9636,
-      "est_value": 7.9636,
-      "est_change_pct": 1.31,
-      "update_time": "2026-10-26",
+      "net_value": 8.0071,
+      "est_value": 8.0071,
+      "est_change_pct": 0.55,
+      "update_time": "2026-10-27",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -147,10 +147,10 @@
     {
       "code": "270042",
       "name": "广发纳斯达克100ETF联接人民币(QDII)A",
-      "net_value": 8.1077,
-      "est_value": 8.1077,
-      "est_change_pct": 1.31,
-      "update_time": "2026-10-26",
+      "net_value": 8.152,
+      "est_value": 8.152,
+      "est_change_pct": 0.55,
+      "update_time": "2026-10-27",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -160,10 +160,10 @@
     {
       "code": "016582",
       "name": "嘉实上海金ETF发起联接C",
-      "net_value": 1.7629,
-      "est_value": 1.7629,
-      "est_change_pct": 0.71,
-      "update_time": "2026-10-27",
+      "net_value": 1.762,
+      "est_value": 1.762,
+      "est_change_pct": -0.05,
+      "update_time": "2026-10-28",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
