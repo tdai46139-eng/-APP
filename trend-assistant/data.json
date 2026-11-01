@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-10-31 02:54:20",
-  "update_timestamp": 1793415260,
+  "update_time": "2026-11-01 02:47:11",
+  "update_timestamp": 1793501231,
   "user_profile": {
     "graduation_year": "2026",
     "major": "数据科学与大数据技术",
@@ -158,14 +158,14 @@
   ],
   "health": {
     "flu_alert": true,
-    "flu_level": "低",
-    "flu_message": "当前流感风险等级: 低，进入高发期，注意防护",
+    "flu_level": "中",
+    "flu_message": "当前流感风险等级: 中，进入高发期，注意防护",
     "seasonal_fruits": [
-      "石榴",
-      "猕猴桃",
-      "苹果"
+      "苹果",
+      "橘子",
+      "冬枣"
     ],
-    "month": 10
+    "month": 11
   },
   "policies_raw": [
     {
