@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-11-01 02:47:11",
-  "update_timestamp": 1793501231,
+  "update_time": "2026-11-02 02:55:19",
+  "update_timestamp": 1793588119,
   "user_profile": {
     "graduation_year": "2026",
     "major": "数据科学与大数据技术",
@@ -170,6 +170,11 @@
   "policies_raw": [
     {
       "source": "国务院",
+      "title": "中共中央关于持之以恒推进全面从严治党若干重大问题的决定",
+      "url": "./202611/content_7084690.htm"
+    },
+    {
+      "source": "国务院",
       "title": "事业单位登记管理条例",
       "url": "https://www.gov.cn/zhengce/content/202610/content_7084279.htm"
     },
@@ -202,11 +207,6 @@
       "source": "国务院",
       "title": "国务院关于《医疗康复护理扩容提升工程实施方案》的批复",
       "url": "https://www.gov.cn/zhengce/content/202609/content_7082378.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "中办国办印发《文化遗产保护传承“十五五”规划》",
-      "url": "./202609/content_7082364.htm"
     },
     {
       "source": "国务院",
