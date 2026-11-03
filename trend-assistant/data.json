@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-11-02 02:55:19",
-  "update_timestamp": 1793588119,
+  "update_time": "2026-11-03 04:12:54",
+  "update_timestamp": 1793679174,
   "user_profile": {
     "graduation_year": "2026",
     "major": "数据科学与大数据技术",
@@ -33,6 +33,15 @@
   ],
   "trends": [
     {
+      "industry": "消费",
+      "change_pct": 41.8,
+      "trend_score": 71,
+      "direction": "up",
+      "policy_count": 3,
+      "top_policy": "国务院办公厅关于发展体育赛事激发消费活力的意见",
+      "top_source": "国务院"
+    },
+    {
       "industry": "制造",
       "change_pct": 32.2,
       "trend_score": 59,
@@ -57,15 +66,6 @@
       "direction": "stable",
       "policy_count": 1,
       "top_policy": "国办关于适应人工智能技术发展助力构建就业友好型发展方式的意见",
-      "top_source": "国务院"
-    },
-    {
-      "industry": "消费",
-      "change_pct": 22.6,
-      "trend_score": 47,
-      "direction": "stable",
-      "policy_count": 1,
-      "top_policy": "国务院办公厅关于发展体育赛事激发消费活力的意见",
       "top_source": "国务院"
     },
     {
@@ -109,8 +109,8 @@
     },
     {
       "industry": "消费",
-      "match_score": 49,
-      "trend_signal": "+22.6%",
+      "match_score": 56,
+      "trend_signal": "+41.8%",
       "policy_driver": "国务院办公厅关于发展体育赛事激发消费活力的意见",
       "entry_barrier": "需要一定基础"
     }
@@ -119,10 +119,10 @@
     {
       "code": "006479",
       "name": "广发纳斯达克100ETF联接人民币(QDII)C",
-      "net_value": 7.8927,
-      "est_value": 7.8927,
-      "est_change_pct": -1.43,
-      "update_time": "2026-10-28",
+      "net_value": 7.616,
+      "est_value": 7.616,
+      "est_change_pct": -3.51,
+      "update_time": "2026-10-29",
       "source": "pingzhongdata",
       "prediction": "看跌",
       "recommendation": "考虑减仓",
@@ -132,10 +132,10 @@
     {
       "code": "270042",
       "name": "广发纳斯达克100ETF联接人民币(QDII)A",
-      "net_value": 8.0355,
-      "est_value": 8.0355,
-      "est_change_pct": -1.43,
-      "update_time": "2026-10-28",
+      "net_value": 7.7539,
+      "est_value": 7.7539,
+      "est_change_pct": -3.5,
+      "update_time": "2026-10-29",
       "source": "pingzhongdata",
       "prediction": "看跌",
       "recommendation": "考虑减仓",
@@ -145,10 +145,10 @@
     {
       "code": "016582",
       "name": "嘉实上海金ETF发起联接C",
-      "net_value": 1.7396,
-      "est_value": 1.7396,
-      "est_change_pct": -1.27,
-      "update_time": "2026-10-29",
+      "net_value": 1.7027,
+      "est_value": 1.7027,
+      "est_change_pct": -2.12,
+      "update_time": "2026-11-01",
       "source": "pingzhongdata",
       "prediction": "看跌",
       "recommendation": "考虑减仓",
@@ -210,6 +210,16 @@
     },
     {
       "source": "国务院",
+      "title": "统筹消费投资 畅通经济循环——从“十五五”专项规划看扩大内需着力点",
+      "url": "./202611/content_7084706.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "锚定扩大内需着力点，一系列部署密集推出、有力实施，供需两端协同发力，促进消费投资良性互动，持续增强国内大循环内生动力和可靠性。",
+      "url": "./202611/content_7084706.htm"
+    },
+    {
+      "source": "国务院",
       "title": "农业农村部就《全国农产品品质提升“十五五”规划》答记者问",
       "url": "./202610/content_7084405.htm"
     },
@@ -232,16 +242,6 @@
       "source": "国务院",
       "title": "把问题隐患化解在成灾之前——多部门详解“十五五”现代化应急体系建设",
       "url": "./202610/content_7083970.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "“十五五”时期，如何做好国家应急管理体系和能力现代化建设？国务院新闻办公室21日举行“开局起步‘十五五’”系列主题新闻发布会，相关部门负责人对此进行详解。",
-      "url": "./202610/content_7083970.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "科技部就《关于推动科技创新和产业创新深度融合的意见》答记者问",
-      "url": "./202610/content_7083959.htm"
     }
   ]
 }
