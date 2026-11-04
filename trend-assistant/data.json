@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-11-03 04:12:54",
-  "update_timestamp": 1793679174,
+  "update_time": "2026-11-04 03:31:23",
+  "update_timestamp": 1793763083,
   "user_profile": {
     "graduation_year": "2026",
     "major": "数据科学与大数据技术",
@@ -39,15 +39,6 @@
       "direction": "up",
       "policy_count": 3,
       "top_policy": "国务院办公厅关于发展体育赛事激发消费活力的意见",
-      "top_source": "国务院"
-    },
-    {
-      "industry": "制造",
-      "change_pct": 32.2,
-      "trend_score": 59,
-      "direction": "up",
-      "policy_count": 2,
-      "top_policy": "图表：2026年前9个月全国规模以上工业企业利润增长15.5%",
       "top_source": "国务院"
     },
     {
@@ -101,13 +92,6 @@
       "entry_barrier": "需要一定基础"
     },
     {
-      "industry": "制造",
-      "match_score": 58,
-      "trend_signal": "+32.2%",
-      "policy_driver": "图表：2026年前9个月全国规模以上工业企业利润增长15.5%",
-      "entry_barrier": "需要一定基础"
-    },
-    {
       "industry": "消费",
       "match_score": 56,
       "trend_signal": "+41.8%",
@@ -119,10 +103,10 @@
     {
       "code": "006479",
       "name": "广发纳斯达克100ETF联接人民币(QDII)C",
-      "net_value": 7.616,
-      "est_value": 7.616,
-      "est_change_pct": -3.51,
-      "update_time": "2026-10-29",
+      "net_value": 7.5101,
+      "est_value": 7.5101,
+      "est_change_pct": -1.39,
+      "update_time": "2026-11-01",
       "source": "pingzhongdata",
       "prediction": "看跌",
       "recommendation": "考虑减仓",
@@ -132,10 +116,10 @@
     {
       "code": "270042",
       "name": "广发纳斯达克100ETF联接人民币(QDII)A",
-      "net_value": 7.7539,
-      "est_value": 7.7539,
-      "est_change_pct": -3.5,
-      "update_time": "2026-10-29",
+      "net_value": 7.6462,
+      "est_value": 7.6462,
+      "est_change_pct": -1.39,
+      "update_time": "2026-11-01",
       "source": "pingzhongdata",
       "prediction": "看跌",
       "recommendation": "考虑减仓",
@@ -145,13 +129,13 @@
     {
       "code": "016582",
       "name": "嘉实上海金ETF发起联接C",
-      "net_value": 1.7027,
-      "est_value": 1.7027,
-      "est_change_pct": -2.12,
-      "update_time": "2026-11-01",
+      "net_value": 1.7126,
+      "est_value": 1.7126,
+      "est_change_pct": 0.58,
+      "update_time": "2026-11-02",
       "source": "pingzhongdata",
-      "prediction": "看跌",
-      "recommendation": "考虑减仓",
+      "prediction": "震荡",
+      "recommendation": "持有观望",
       "policy_tag": "无政策影响",
       "policy_score": 0
     }
