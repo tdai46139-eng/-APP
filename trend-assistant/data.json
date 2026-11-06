@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-11-05 03:52:48",
-  "update_timestamp": 1793850768,
+  "update_time": "2026-11-06 03:50:52",
+  "update_timestamp": 1793937052,
   "user_profile": {
     "graduation_year": "2026",
     "major": "数据科学与大数据技术",
@@ -20,25 +20,19 @@
     },
     {
       "source": "国务院",
-      "title": "国务院办公厅关于发展体育赛事激发消费活力的意见",
+      "title": "统筹消费投资 畅通经济循环——从“十五五”专项规划看扩大内需着力点",
       "industry": "消费",
-      "direction": "up"
-    },
-    {
-      "source": "国务院",
-      "title": "国务院关于《医疗康复护理扩容提升工程实施方案》的批复",
-      "industry": "医疗",
       "direction": "up"
     }
   ],
   "trends": [
     {
       "industry": "消费",
-      "change_pct": 41.8,
-      "trend_score": 71,
+      "change_pct": 32.2,
+      "trend_score": 59,
       "direction": "up",
-      "policy_count": 3,
-      "top_policy": "国务院办公厅关于发展体育赛事激发消费活力的意见",
+      "policy_count": 2,
+      "top_policy": "统筹消费投资 畅通经济循环——从“十五五”专项规划看扩大内需着力点",
       "top_source": "国务院"
     },
     {
@@ -57,15 +51,6 @@
       "direction": "stable",
       "policy_count": 1,
       "top_policy": "国办关于适应人工智能技术发展助力构建就业友好型发展方式的意见",
-      "top_source": "国务院"
-    },
-    {
-      "industry": "医疗",
-      "change_pct": 22.6,
-      "trend_score": 47,
-      "direction": "stable",
-      "policy_count": 1,
-      "top_policy": "国务院关于《医疗康复护理扩容提升工程实施方案》的批复",
       "top_source": "国务院"
     }
   ],
@@ -85,17 +70,10 @@
       "entry_barrier": "零基础可入门"
     },
     {
-      "industry": "医疗",
-      "match_score": 69,
-      "trend_signal": "+22.6%",
-      "policy_driver": "国务院关于《医疗康复护理扩容提升工程实施方案》的批复",
-      "entry_barrier": "需要一定基础"
-    },
-    {
       "industry": "消费",
-      "match_score": 56,
-      "trend_signal": "+41.8%",
-      "policy_driver": "国务院办公厅关于发展体育赛事激发消费活力的意见",
+      "match_score": 53,
+      "trend_signal": "+32.2%",
+      "policy_driver": "统筹消费投资 畅通经济循环——从“十五五”专项规划看扩大内需着力点",
       "entry_barrier": "需要一定基础"
     }
   ],
@@ -103,10 +81,10 @@
     {
       "code": "006479",
       "name": "广发纳斯达克100ETF联接人民币(QDII)C",
-      "net_value": 7.5611,
-      "est_value": 7.5611,
-      "est_change_pct": 0.68,
-      "update_time": "2026-11-02",
+      "net_value": 7.6329,
+      "est_value": 7.6329,
+      "est_change_pct": 0.95,
+      "update_time": "2026-11-03",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -116,10 +94,10 @@
     {
       "code": "270042",
       "name": "广发纳斯达克100ETF联接人民币(QDII)A",
-      "net_value": 7.6982,
-      "est_value": 7.6982,
-      "est_change_pct": 0.68,
-      "update_time": "2026-11-02",
+      "net_value": 7.7714,
+      "est_value": 7.7714,
+      "est_change_pct": 0.95,
+      "update_time": "2026-11-03",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -129,10 +107,10 @@
     {
       "code": "016582",
       "name": "嘉实上海金ETF发起联接C",
-      "net_value": 1.76,
-      "est_value": 1.76,
-      "est_change_pct": 2.77,
-      "update_time": "2026-11-03",
+      "net_value": 1.8031,
+      "est_value": 1.8031,
+      "est_change_pct": 2.45,
+      "update_time": "2026-11-04",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -152,6 +130,21 @@
     "month": 11
   },
   "policies_raw": [
+    {
+      "source": "国务院",
+      "title": "国务院关于辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的批复",
+      "url": "https://www.gov.cn/zhengce/content/202611/content_7085109.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "国务院办公厅关于2027年部分节假日安排的通知",
+      "url": "https://www.gov.cn/zhengce/content/202611/content_7085101.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "国务院关于修改和废止部分行政法规的决定",
+      "url": "https://www.gov.cn/zhengce/content/202611/content_7085098.htm"
+    },
     {
       "source": "国务院",
       "title": "中共中央关于持之以恒推进全面从严治党若干重大问题的决定",
@@ -176,21 +169,6 @@
       "source": "国务院",
       "title": "中共中央 国务院关于发展新质生产力的意见",
       "url": "./202610/content_7082820.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "国务院关于《国家残疾预防行动计划（2026—2030年）》的批复",
-      "url": "https://www.gov.cn/zhengce/content/202610/content_7082737.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "国务院办公厅关于发展体育赛事激发消费活力的意见",
-      "url": "https://www.gov.cn/zhengce/content/202609/content_7082492.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "国务院关于《医疗康复护理扩容提升工程实施方案》的批复",
-      "url": "https://www.gov.cn/zhengce/content/202609/content_7082378.htm"
     },
     {
       "source": "国务院",
