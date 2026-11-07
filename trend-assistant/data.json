@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-11-06 03:50:52",
-  "update_timestamp": 1793937052,
+  "update_time": "2026-11-07 03:24:43",
+  "update_timestamp": 1794021883,
   "user_profile": {
     "graduation_year": "2026",
     "major": "数据科学与大数据技术",
@@ -81,39 +81,39 @@
     {
       "code": "006479",
       "name": "广发纳斯达克100ETF联接人民币(QDII)C",
-      "net_value": 7.6329,
-      "est_value": 7.6329,
-      "est_change_pct": 0.95,
-      "update_time": "2026-11-03",
+      "net_value": 7.1432,
+      "est_value": 7.1432,
+      "est_change_pct": -6.42,
+      "update_time": "2026-11-04",
       "source": "pingzhongdata",
-      "prediction": "震荡",
-      "recommendation": "持有观望",
+      "prediction": "看跌",
+      "recommendation": "考虑减仓",
       "policy_tag": "无政策影响",
       "policy_score": 0
     },
     {
       "code": "270042",
       "name": "广发纳斯达克100ETF联接人民币(QDII)A",
-      "net_value": 7.7714,
-      "est_value": 7.7714,
-      "est_change_pct": 0.95,
-      "update_time": "2026-11-03",
+      "net_value": 7.2728,
+      "est_value": 7.2728,
+      "est_change_pct": -6.42,
+      "update_time": "2026-11-04",
       "source": "pingzhongdata",
-      "prediction": "震荡",
-      "recommendation": "持有观望",
+      "prediction": "看跌",
+      "recommendation": "考虑减仓",
       "policy_tag": "无政策影响",
       "policy_score": 0
     },
     {
       "code": "016582",
       "name": "嘉实上海金ETF发起联接C",
-      "net_value": 1.8031,
-      "est_value": 1.8031,
-      "est_change_pct": 2.45,
-      "update_time": "2026-11-04",
+      "net_value": 1.7685,
+      "est_value": 1.7685,
+      "est_change_pct": -1.92,
+      "update_time": "2026-11-05",
       "source": "pingzhongdata",
-      "prediction": "震荡",
-      "recommendation": "持有观望",
+      "prediction": "看跌",
+      "recommendation": "考虑减仓",
       "policy_tag": "无政策影响",
       "policy_score": 0
     }
@@ -167,8 +167,8 @@
     },
     {
       "source": "国务院",
-      "title": "中共中央 国务院关于发展新质生产力的意见",
-      "url": "./202610/content_7082820.htm"
+      "title": "国家统计局职能配置、内设机构和人员编制规定",
+      "url": "./202611/content_7085350.htm"
     },
     {
       "source": "国务院",
