@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-11-10 04:53:51",
-  "update_timestamp": 1794286431,
+  "update_time": "2026-11-11 03:21:10",
+  "update_timestamp": 1794367270,
   "user_profile": {
     "graduation_year": "2026",
     "major": "数据科学与大数据技术",
@@ -20,12 +20,6 @@
     },
     {
       "source": "国务院",
-      "title": "国务院办公厅关于适应人工智能技术发展助力构建就业友好型发展方式的意见",
-      "industry": "AI",
-      "direction": "up"
-    },
-    {
-      "source": "国务院",
       "title": "近日，国家发展改革委、工业和信息化部、自然资源部、水利部、国管局联合印发了《实施全面节约战略行动方案》。",
       "industry": "制造",
       "direction": "up"
@@ -39,39 +33,21 @@
   ],
   "trends": [
     {
+      "industry": "医疗",
+      "change_pct": 32.2,
+      "trend_score": 59,
+      "direction": "up",
+      "policy_count": 2,
+      "top_policy": "中医药传统知识保护条例",
+      "top_source": "国务院"
+    },
+    {
       "industry": "消费",
       "change_pct": 32.2,
       "trend_score": 59,
       "direction": "up",
       "policy_count": 2,
       "top_policy": "统筹消费投资 畅通经济循环——从“十五五”专项规划看扩大内需着力点",
-      "top_source": "国务院"
-    },
-    {
-      "industry": "医疗",
-      "change_pct": 22.6,
-      "trend_score": 47,
-      "direction": "stable",
-      "policy_count": 1,
-      "top_policy": "中医药传统知识保护条例",
-      "top_source": "国务院"
-    },
-    {
-      "industry": "AI",
-      "change_pct": 22.6,
-      "trend_score": 47,
-      "direction": "stable",
-      "policy_count": 1,
-      "top_policy": "国务院办公厅关于适应人工智能技术发展助力构建就业友好型发展方式的意见",
-      "top_source": "国务院"
-    },
-    {
-      "industry": "就业",
-      "change_pct": 22.6,
-      "trend_score": 47,
-      "direction": "stable",
-      "policy_count": 1,
-      "top_policy": "国务院办公厅关于适应人工智能技术发展助力构建就业友好型发展方式的意见",
       "top_source": "国务院"
     },
     {
@@ -95,28 +71,21 @@
   ],
   "employment": [
     {
-      "industry": "AI",
-      "match_score": 94,
-      "trend_signal": "+22.6%",
-      "policy_driver": "国务院办公厅关于适应人工智能技术发展助力构建就业友好型发展方式的意见",
-      "entry_barrier": "零基础可入门"
-    },
-    {
-      "industry": "就业",
-      "match_score": 79,
-      "trend_signal": "+22.6%",
-      "policy_driver": "国务院办公厅关于适应人工智能技术发展助力构建就业友好型发展方式的意见",
-      "entry_barrier": "零基础可入门"
-    },
-    {
       "industry": "医疗",
-      "match_score": 69,
-      "trend_signal": "+22.6%",
+      "match_score": 73,
+      "trend_signal": "+32.2%",
       "policy_driver": "中医药传统知识保护条例",
-      "entry_barrier": "需要一定基础"
+      "entry_barrier": "零基础可入门"
     },
     {
       "industry": "制造",
+      "match_score": 54,
+      "trend_signal": "+22.6%",
+      "policy_driver": "近日，国家发展改革委、工业和信息化部、自然资源部、水利部、国管局联合印发了《实施全面节约战略行动方案》。",
+      "entry_barrier": "需要一定基础"
+    },
+    {
+      "industry": "环保",
       "match_score": 54,
       "trend_signal": "+22.6%",
       "policy_driver": "近日，国家发展改革委、工业和信息化部、自然资源部、水利部、国管局联合印发了《实施全面节约战略行动方案》。",
@@ -134,10 +103,10 @@
     {
       "code": "006479",
       "name": "广发纳斯达克100ETF联接人民币(QDII)C",
-      "net_value": 7.2401,
-      "est_value": 7.2401,
-      "est_change_pct": 1.36,
-      "update_time": "2026-11-05",
+      "net_value": 7.4899,
+      "est_value": 7.4899,
+      "est_change_pct": 3.45,
+      "update_time": "2026-11-08",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -147,10 +116,10 @@
     {
       "code": "270042",
       "name": "广发纳斯达克100ETF联接人民币(QDII)A",
-      "net_value": 7.3714,
-      "est_value": 7.3714,
-      "est_change_pct": 1.36,
-      "update_time": "2026-11-05",
+      "net_value": 7.6259,
+      "est_value": 7.6259,
+      "est_change_pct": 3.45,
+      "update_time": "2026-11-08",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -160,10 +129,10 @@
     {
       "code": "016582",
       "name": "嘉实上海金ETF发起联接C",
-      "net_value": 1.7953,
-      "est_value": 1.7953,
-      "est_change_pct": 1.52,
-      "update_time": "2026-11-08",
+      "net_value": 1.7994,
+      "est_value": 1.7994,
+      "est_change_pct": 0.23,
+      "update_time": "2026-11-09",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -220,8 +189,23 @@
     },
     {
       "source": "国务院",
-      "title": "国务院办公厅关于适应人工智能技术发展助力构建就业友好型发展方式的意见",
-      "url": "https://www.gov.cn/zhengce/content/202610/content_7084107.htm"
+      "title": "司法部、民政部负责人就《基金会管理条例》修订答记者问",
+      "url": "./202611/content_7085743.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "近期，国务院总理李强签署国务院令，公布修订后的《基金会管理条例》，自2027年1月1日起施行。司法部、民政部负责人就《条例》有关问题回答了记者提问。",
+      "url": "./202611/content_7085743.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "10月份数据出炉，当前物价运行态势如何？",
+      "url": "./202611/content_7085585.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "今年以来，在充分发挥各项存量政策效能、及时谋划出台务实管用的增量政策背景下，我国物价整体呈现温和上涨态势。",
+      "url": "./202611/content_7085585.htm"
     },
     {
       "source": "国务院",
@@ -242,21 +226,6 @@
       "source": "国务院",
       "title": "近日，国家发展改革委、工业和信息化部、自然资源部、水利部、国管局联合印发了《实施全面节约战略行动方案》。",
       "url": "./202611/content_7085043.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "统筹消费投资 畅通经济循环——从“十五五”专项规划看扩大内需着力点",
-      "url": "./202611/content_7084706.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "锚定扩大内需着力点，一系列部署密集推出、有力实施，供需两端协同发力，促进消费投资良性互动，持续增强国内大循环内生动力和可靠性。",
-      "url": "./202611/content_7084706.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "农业农村部就《全国农产品品质提升“十五五”规划》答记者问",
-      "url": "./202610/content_7084405.htm"
     }
   ]
 }
