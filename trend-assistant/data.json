@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-11-11 03:21:10",
-  "update_timestamp": 1794367270,
+  "update_time": "2026-11-12 04:31:16",
+  "update_timestamp": 1794457876,
   "user_profile": {
     "graduation_year": "2026",
     "major": "数据科学与大数据技术",
@@ -103,10 +103,10 @@
     {
       "code": "006479",
       "name": "广发纳斯达克100ETF联接人民币(QDII)C",
-      "net_value": 7.4899,
-      "est_value": 7.4899,
-      "est_change_pct": 3.45,
-      "update_time": "2026-11-08",
+      "net_value": 7.4422,
+      "est_value": 7.4422,
+      "est_change_pct": -0.64,
+      "update_time": "2026-11-09",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -116,10 +116,10 @@
     {
       "code": "270042",
       "name": "广发纳斯达克100ETF联接人民币(QDII)A",
-      "net_value": 7.6259,
-      "est_value": 7.6259,
-      "est_change_pct": 3.45,
-      "update_time": "2026-11-08",
+      "net_value": 7.5774,
+      "est_value": 7.5774,
+      "est_change_pct": -0.64,
+      "update_time": "2026-11-09",
       "source": "pingzhongdata",
       "prediction": "震荡",
       "recommendation": "持有观望",
@@ -129,13 +129,13 @@
     {
       "code": "016582",
       "name": "嘉实上海金ETF发起联接C",
-      "net_value": 1.7994,
-      "est_value": 1.7994,
-      "est_change_pct": 0.23,
-      "update_time": "2026-11-09",
+      "net_value": 1.7748,
+      "est_value": 1.7748,
+      "est_change_pct": -1.37,
+      "update_time": "2026-11-10",
       "source": "pingzhongdata",
-      "prediction": "震荡",
-      "recommendation": "持有观望",
+      "prediction": "看跌",
+      "recommendation": "考虑减仓",
       "policy_tag": "无政策影响",
       "policy_score": 0
     }
