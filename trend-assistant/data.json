@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-11-16 03:23:37",
-  "update_timestamp": 1794799417,
+  "update_time": "2026-11-17 05:23:57",
+  "update_timestamp": 1794893037,
   "user_profile": {
     "graduation_year": "2026",
     "major": "数据科学与大数据技术",
@@ -23,31 +23,16 @@
       "title": "近日，国家发展改革委、工业和信息化部、自然资源部、水利部、国管局联合印发了《实施全面节约战略行动方案》。",
       "industry": "制造",
       "direction": "up"
-    },
-    {
-      "source": "国务院",
-      "title": "统筹消费投资 畅通经济循环——从“十五五”专项规划看扩大内需着力点",
-      "industry": "消费",
-      "direction": "up"
     }
   ],
   "trends": [
     {
       "industry": "医疗",
-      "change_pct": 32.2,
-      "trend_score": 59,
-      "direction": "up",
-      "policy_count": 2,
+      "change_pct": 22.6,
+      "trend_score": 47,
+      "direction": "stable",
+      "policy_count": 1,
       "top_policy": "中医药传统知识保护条例",
-      "top_source": "国务院"
-    },
-    {
-      "industry": "消费",
-      "change_pct": 32.2,
-      "trend_score": 59,
-      "direction": "up",
-      "policy_count": 2,
-      "top_policy": "统筹消费投资 畅通经济循环——从“十五五”专项规划看扩大内需着力点",
       "top_source": "国务院"
     },
     {
@@ -72,10 +57,10 @@
   "employment": [
     {
       "industry": "医疗",
-      "match_score": 73,
-      "trend_signal": "+32.2%",
+      "match_score": 69,
+      "trend_signal": "+22.6%",
       "policy_driver": "中医药传统知识保护条例",
-      "entry_barrier": "零基础可入门"
+      "entry_barrier": "需要一定基础"
     },
     {
       "industry": "制造",
@@ -90,49 +75,42 @@
       "trend_signal": "+22.6%",
       "policy_driver": "近日，国家发展改革委、工业和信息化部、自然资源部、水利部、国管局联合印发了《实施全面节约战略行动方案》。",
       "entry_barrier": "需要一定基础"
-    },
-    {
-      "industry": "消费",
-      "match_score": 53,
-      "trend_signal": "+32.2%",
-      "policy_driver": "统筹消费投资 畅通经济循环——从“十五五”专项规划看扩大内需着力点",
-      "entry_barrier": "需要一定基础"
     }
   ],
   "funds": [
     {
       "code": "006479",
       "name": "广发纳斯达克100ETF联接人民币(QDII)C",
-      "net_value": 7.5931,
-      "est_value": 7.5931,
-      "est_change_pct": -0.32,
-      "update_time": "2026-11-11",
+      "net_value": 7.4968,
+      "est_value": 7.4968,
+      "est_change_pct": -1.27,
+      "update_time": "2026-11-12",
       "source": "pingzhongdata",
-      "prediction": "震荡",
-      "recommendation": "持有观望",
+      "prediction": "看跌",
+      "recommendation": "考虑减仓",
       "policy_tag": "无政策影响",
       "policy_score": 0
     },
     {
       "code": "270042",
       "name": "广发纳斯达克100ETF联接人民币(QDII)A",
-      "net_value": 7.7311,
-      "est_value": 7.7311,
-      "est_change_pct": -0.32,
-      "update_time": "2026-11-11",
+      "net_value": 7.6331,
+      "est_value": 7.6331,
+      "est_change_pct": -1.27,
+      "update_time": "2026-11-12",
       "source": "pingzhongdata",
-      "prediction": "震荡",
-      "recommendation": "持有观望",
+      "prediction": "看跌",
+      "recommendation": "考虑减仓",
       "policy_tag": "无政策影响",
       "policy_score": 0
     },
     {
       "code": "016582",
       "name": "嘉实上海金ETF发起联接C",
-      "net_value": 1.7059,
-      "est_value": 1.7059,
-      "est_change_pct": -1.59,
-      "update_time": "2026-11-12",
+      "net_value": 1.6864,
+      "est_value": 1.6864,
+      "est_change_pct": -1.14,
+      "update_time": "2026-11-15",
       "source": "pingzhongdata",
       "prediction": "看跌",
       "recommendation": "考虑减仓",
@@ -189,6 +167,26 @@
     },
     {
       "source": "国务院",
+      "title": "“十五五”时期，会计改革发展这样推进",
+      "url": "./202611/content_7085865.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "11月11日，财政部对外发布《会计改革与发展“十五五”规划》，明确了“十五五”时期会计改革发展“任务单”。",
+      "url": "./202611/content_7085865.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "今年建设超10万个护理型养老床位、超3万个托位 “一老一小”更有依靠",
+      "url": "./202611/content_7085765.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "“十五五”规划纲要提出“加大保障和改善民生力度”。教育、养老、托育等工作将如何开展？11月10日，国家发展改革委举行奋进“十五五”系列新闻发布会第四场，介绍相关情况。",
+      "url": "./202611/content_7085765.htm"
+    },
+    {
+      "source": "国务院",
       "title": "司法部、民政部负责人就《基金会管理条例》修订答记者问",
       "url": "./202611/content_7085743.htm"
     },
@@ -206,26 +204,6 @@
       "source": "国务院",
       "title": "今年以来，在充分发挥各项存量政策效能、及时谋划出台务实管用的增量政策背景下，我国物价整体呈现温和上涨态势。",
       "url": "./202611/content_7085585.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "中央组织部负责人就党的二十一大代表选举工作答新华社记者问",
-      "url": "./202611/content_7085524.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "近日，中央组织部负责人就做好二十一大代表选举工作的有关问题，接受了新华社记者的采访。",
-      "url": "./202611/content_7085524.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "国家发展改革委有关负责同志就《实施全面节约战略行动方案》答记者问",
-      "url": "./202611/content_7085043.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "近日，国家发展改革委、工业和信息化部、自然资源部、水利部、国管局联合印发了《实施全面节约战略行动方案》。",
-      "url": "./202611/content_7085043.htm"
     }
   ]
 }
