@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-11-17 05:23:57",
-  "update_timestamp": 1794893037,
+  "update_time": "2026-11-18 04:50:44",
+  "update_timestamp": 1794977444,
   "user_profile": {
     "graduation_year": "2026",
     "major": "数据科学与大数据技术",
@@ -17,12 +17,6 @@
       "title": "中医药传统知识保护条例",
       "industry": "医疗",
       "direction": "up"
-    },
-    {
-      "source": "国务院",
-      "title": "近日，国家发展改革委、工业和信息化部、自然资源部、水利部、国管局联合印发了《实施全面节约战略行动方案》。",
-      "industry": "制造",
-      "direction": "up"
     }
   ],
   "trends": [
@@ -34,24 +28,6 @@
       "policy_count": 1,
       "top_policy": "中医药传统知识保护条例",
       "top_source": "国务院"
-    },
-    {
-      "industry": "制造",
-      "change_pct": 22.6,
-      "trend_score": 47,
-      "direction": "stable",
-      "policy_count": 1,
-      "top_policy": "近日，国家发展改革委、工业和信息化部、自然资源部、水利部、国管局联合印发了《实施全面节约战略行动方案》。",
-      "top_source": "国务院"
-    },
-    {
-      "industry": "环保",
-      "change_pct": 22.6,
-      "trend_score": 47,
-      "direction": "stable",
-      "policy_count": 1,
-      "top_policy": "近日，国家发展改革委、工业和信息化部、自然资源部、水利部、国管局联合印发了《实施全面节约战略行动方案》。",
-      "top_source": "国务院"
     }
   ],
   "employment": [
@@ -61,30 +37,16 @@
       "trend_signal": "+22.6%",
       "policy_driver": "中医药传统知识保护条例",
       "entry_barrier": "需要一定基础"
-    },
-    {
-      "industry": "制造",
-      "match_score": 54,
-      "trend_signal": "+22.6%",
-      "policy_driver": "近日，国家发展改革委、工业和信息化部、自然资源部、水利部、国管局联合印发了《实施全面节约战略行动方案》。",
-      "entry_barrier": "需要一定基础"
-    },
-    {
-      "industry": "环保",
-      "match_score": 54,
-      "trend_signal": "+22.6%",
-      "policy_driver": "近日，国家发展改革委、工业和信息化部、自然资源部、水利部、国管局联合印发了《实施全面节约战略行动方案》。",
-      "entry_barrier": "需要一定基础"
     }
   ],
   "funds": [
     {
       "code": "006479",
       "name": "广发纳斯达克100ETF联接人民币(QDII)C",
-      "net_value": 7.4968,
-      "est_value": 7.4968,
-      "est_change_pct": -1.27,
-      "update_time": "2026-11-12",
+      "net_value": 7.2926,
+      "est_value": 7.2926,
+      "est_change_pct": -2.72,
+      "update_time": "2026-11-15",
       "source": "pingzhongdata",
       "prediction": "看跌",
       "recommendation": "考虑减仓",
@@ -94,10 +56,10 @@
     {
       "code": "270042",
       "name": "广发纳斯达克100ETF联接人民币(QDII)A",
-      "net_value": 7.6331,
-      "est_value": 7.6331,
-      "est_change_pct": -1.27,
-      "update_time": "2026-11-12",
+      "net_value": 7.4253,
+      "est_value": 7.4253,
+      "est_change_pct": -2.72,
+      "update_time": "2026-11-15",
       "source": "pingzhongdata",
       "prediction": "看跌",
       "recommendation": "考虑减仓",
@@ -107,13 +69,13 @@
     {
       "code": "016582",
       "name": "嘉实上海金ETF发起联接C",
-      "net_value": 1.6864,
-      "est_value": 1.6864,
-      "est_change_pct": -1.14,
-      "update_time": "2026-11-15",
+      "net_value": 1.6944,
+      "est_value": 1.6944,
+      "est_change_pct": 0.47,
+      "update_time": "2026-11-16",
       "source": "pingzhongdata",
-      "prediction": "看跌",
-      "recommendation": "考虑减仓",
+      "prediction": "震荡",
+      "recommendation": "持有观望",
       "policy_tag": "无政策影响",
       "policy_score": 0
     }
@@ -167,6 +129,26 @@
     },
     {
       "source": "国务院",
+      "title": "商务部国际司负责人就中国—东盟自贸区3.0版升级议定书生效实施答记者问",
+      "url": "./202611/content_7086300.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "11月16日，在菲律宾马尼拉举办的中国—东盟领导人会议上，双方领导人共同宣布中国—东盟自贸区3.0版升级议定书将于2026年12月1日正式生效实施。",
+      "url": "./202611/content_7086300.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "总体平稳 向新向优——透视10月国民经济运行态势",
+      "url": "./202611/content_7086225.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "10月份我国主要经济指标运行情况如何？国民经济呈现哪些特点？如何研判全年经济走势？在国新办16日举行的新闻发布会上，国家统计局新闻发言人就相关情况进行介绍。",
+      "url": "./202611/content_7086225.htm"
+    },
+    {
+      "source": "国务院",
       "title": "“十五五”时期，会计改革发展这样推进",
       "url": "./202611/content_7085865.htm"
     },
@@ -184,26 +166,6 @@
       "source": "国务院",
       "title": "“十五五”规划纲要提出“加大保障和改善民生力度”。教育、养老、托育等工作将如何开展？11月10日，国家发展改革委举行奋进“十五五”系列新闻发布会第四场，介绍相关情况。",
       "url": "./202611/content_7085765.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "司法部、民政部负责人就《基金会管理条例》修订答记者问",
-      "url": "./202611/content_7085743.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "近期，国务院总理李强签署国务院令，公布修订后的《基金会管理条例》，自2027年1月1日起施行。司法部、民政部负责人就《条例》有关问题回答了记者提问。",
-      "url": "./202611/content_7085743.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "10月份数据出炉，当前物价运行态势如何？",
-      "url": "./202611/content_7085585.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "今年以来，在充分发挥各项存量政策效能、及时谋划出台务实管用的增量政策背景下，我国物价整体呈现温和上涨态势。",
-      "url": "./202611/content_7085585.htm"
     }
   ]
 }
