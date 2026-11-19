@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-11-18 04:50:44",
-  "update_timestamp": 1794977444,
+  "update_time": "2026-11-19 04:41:47",
+  "update_timestamp": 1795063307,
   "user_profile": {
     "graduation_year": "2026",
     "major": "数据科学与大数据技术",
@@ -17,6 +17,12 @@
       "title": "中医药传统知识保护条例",
       "industry": "医疗",
       "direction": "up"
+    },
+    {
+      "source": "国务院",
+      "title": "商务部、国家发展改革委、工业和信息化部等9部门近日印发的《关于深入推进再生资源回收体系建设 促进回收行业高质量发展的意见》，11月17日对外发布。",
+      "industry": "制造",
+      "direction": "up"
     }
   ],
   "trends": [
@@ -28,6 +34,15 @@
       "policy_count": 1,
       "top_policy": "中医药传统知识保护条例",
       "top_source": "国务院"
+    },
+    {
+      "industry": "制造",
+      "change_pct": 22.6,
+      "trend_score": 47,
+      "direction": "stable",
+      "policy_count": 1,
+      "top_policy": "商务部、国家发展改革委、工业和信息化部等9部门近日印发的《关于深入推进再生资源回收体系建设 促进回收行业高质量发展的意见》，11月17日对外发布。",
+      "top_source": "国务院"
     }
   ],
   "employment": [
@@ -37,45 +52,52 @@
       "trend_signal": "+22.6%",
       "policy_driver": "中医药传统知识保护条例",
       "entry_barrier": "需要一定基础"
+    },
+    {
+      "industry": "制造",
+      "match_score": 54,
+      "trend_signal": "+22.6%",
+      "policy_driver": "商务部、国家发展改革委、工业和信息化部等9部门近日印发的《关于深入推进再生资源回收体系建设 促进回收行业高质量发展的意见》，11月17日对外发布。",
+      "entry_barrier": "需要一定基础"
     }
   ],
   "funds": [
     {
       "code": "006479",
       "name": "广发纳斯达克100ETF联接人民币(QDII)C",
-      "net_value": 7.2926,
-      "est_value": 7.2926,
-      "est_change_pct": -2.72,
-      "update_time": "2026-11-15",
+      "net_value": 7.2385,
+      "est_value": 7.2385,
+      "est_change_pct": -0.74,
+      "update_time": "2026-11-16",
       "source": "pingzhongdata",
-      "prediction": "看跌",
-      "recommendation": "考虑减仓",
+      "prediction": "震荡",
+      "recommendation": "持有观望",
       "policy_tag": "无政策影响",
       "policy_score": 0
     },
     {
       "code": "270042",
       "name": "广发纳斯达克100ETF联接人民币(QDII)A",
-      "net_value": 7.4253,
-      "est_value": 7.4253,
-      "est_change_pct": -2.72,
-      "update_time": "2026-11-15",
+      "net_value": 7.3703,
+      "est_value": 7.3703,
+      "est_change_pct": -0.74,
+      "update_time": "2026-11-16",
       "source": "pingzhongdata",
-      "prediction": "看跌",
-      "recommendation": "考虑减仓",
+      "prediction": "震荡",
+      "recommendation": "持有观望",
       "policy_tag": "无政策影响",
       "policy_score": 0
     },
     {
       "code": "016582",
       "name": "嘉实上海金ETF发起联接C",
-      "net_value": 1.6944,
-      "est_value": 1.6944,
-      "est_change_pct": 0.47,
-      "update_time": "2026-11-16",
+      "net_value": 1.6511,
+      "est_value": 1.6511,
+      "est_change_pct": -2.56,
+      "update_time": "2026-11-17",
       "source": "pingzhongdata",
-      "prediction": "震荡",
-      "recommendation": "持有观望",
+      "prediction": "看跌",
+      "recommendation": "考虑减仓",
       "policy_tag": "无政策影响",
       "policy_score": 0
     }
@@ -129,6 +151,16 @@
     },
     {
       "source": "国务院",
+      "title": "促进回收行业高质量发展——多部门详解深入推进再生资源回收体系建设",
+      "url": "./202611/content_7086432.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "商务部、国家发展改革委、工业和信息化部等9部门近日印发的《关于深入推进再生资源回收体系建设 促进回收行业高质量发展的意见》，11月17日对外发布。",
+      "url": "./202611/content_7086432.htm"
+    },
+    {
+      "source": "国务院",
       "title": "商务部国际司负责人就中国—东盟自贸区3.0版升级议定书生效实施答记者问",
       "url": "./202611/content_7086300.htm"
     },
@@ -156,16 +188,6 @@
       "source": "国务院",
       "title": "11月11日，财政部对外发布《会计改革与发展“十五五”规划》，明确了“十五五”时期会计改革发展“任务单”。",
       "url": "./202611/content_7085865.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "今年建设超10万个护理型养老床位、超3万个托位 “一老一小”更有依靠",
-      "url": "./202611/content_7085765.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "“十五五”规划纲要提出“加大保障和改善民生力度”。教育、养老、托育等工作将如何开展？11月10日，国家发展改革委举行奋进“十五五”系列新闻发布会第四场，介绍相关情况。",
-      "url": "./202611/content_7085765.htm"
     }
   ]
 }
