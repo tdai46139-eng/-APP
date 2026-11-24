@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-11-23 04:16:27",
-  "update_timestamp": 1795407387,
+  "update_time": "2026-11-24 07:15:12",
+  "update_timestamp": 1795504512,
   "user_profile": {
     "graduation_year": "2026",
     "major": "数据科学与大数据技术",
@@ -20,12 +20,27 @@
     },
     {
       "source": "国务院",
+      "title": "八大重点任务看落实：74.8%，内需贡献率怎么看",
+      "industry": "消费",
+      "direction": "up"
+    },
+    {
+      "source": "国务院",
       "title": "商务部、国家发展改革委、工业和信息化部等9部门近日印发的《关于深入推进再生资源回收体系建设 促进回收行业高质量发展的意见》，11月17日对外发布。",
       "industry": "制造",
       "direction": "up"
     }
   ],
   "trends": [
+    {
+      "industry": "消费",
+      "change_pct": 32.2,
+      "trend_score": 59,
+      "direction": "up",
+      "policy_count": 2,
+      "top_policy": "八大重点任务看落实：74.8%，内需贡献率怎么看",
+      "top_source": "国务院"
+    },
     {
       "industry": "医疗",
       "change_pct": 22.6,
@@ -59,16 +74,23 @@
       "trend_signal": "+22.6%",
       "policy_driver": "商务部、国家发展改革委、工业和信息化部等9部门近日印发的《关于深入推进再生资源回收体系建设 促进回收行业高质量发展的意见》，11月17日对外发布。",
       "entry_barrier": "需要一定基础"
+    },
+    {
+      "industry": "消费",
+      "match_score": 53,
+      "trend_signal": "+32.2%",
+      "policy_driver": "八大重点任务看落实：74.8%，内需贡献率怎么看",
+      "entry_barrier": "需要一定基础"
     }
   ],
   "funds": [
     {
       "code": "006479",
       "name": "广发纳斯达克100ETF联接人民币(QDII)C",
-      "net_value": 7.1092,
-      "est_value": 7.1092,
-      "est_change_pct": -2.18,
-      "update_time": "2026-11-18",
+      "net_value": 6.7153,
+      "est_value": 6.7153,
+      "est_change_pct": -5.54,
+      "update_time": "2026-11-19",
       "source": "pingzhongdata",
       "prediction": "看跌",
       "recommendation": "考虑减仓",
@@ -78,10 +100,10 @@
     {
       "code": "270042",
       "name": "广发纳斯达克100ETF联接人民币(QDII)A",
-      "net_value": 7.2387,
-      "est_value": 7.2387,
-      "est_change_pct": -2.18,
-      "update_time": "2026-11-18",
+      "net_value": 6.8377,
+      "est_value": 6.8377,
+      "est_change_pct": -5.54,
+      "update_time": "2026-11-19",
       "source": "pingzhongdata",
       "prediction": "看跌",
       "recommendation": "考虑减仓",
@@ -91,13 +113,13 @@
     {
       "code": "016582",
       "name": "嘉实上海金ETF发起联接C",
-      "net_value": 1.5588,
-      "est_value": 1.5588,
-      "est_change_pct": -4.51,
-      "update_time": "2026-11-19",
+      "net_value": 1.5852,
+      "est_value": 1.5852,
+      "est_change_pct": 1.69,
+      "update_time": "2026-11-22",
       "source": "pingzhongdata",
-      "prediction": "看跌",
-      "recommendation": "考虑减仓",
+      "prediction": "震荡",
+      "recommendation": "持有观望",
       "policy_tag": "无政策影响",
       "policy_score": 0
     }
@@ -151,6 +173,26 @@
     },
     {
       "source": "国务院",
+      "title": "八大重点任务看落实：74.8%，内需贡献率怎么看",
+      "url": "./202611/content_7087107.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "“坚持内需主导，建设强大国内市场”位列2026年经济工作八大重点任务之首。今年以来，内需拉动经济增长的主动力和稳定锚作用持续发挥，前三季度对经济增长的贡献率达到74.8%。",
+      "url": "./202611/content_7087107.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "《关于印发第六批鼓励研发申报儿童药品清单的通知》政策解读",
+      "url": "./202611/content_7087064.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "第六批清单有18个品种，涉及27个规格、8种剂型，覆盖抗肿瘤、心血管、呼吸及血液系统等领域治疗用药。",
+      "url": "./202611/content_7087064.htm"
+    },
+    {
+      "source": "国务院",
       "title": "促进回收行业高质量发展——多部门详解深入推进再生资源回收体系建设",
       "url": "./202611/content_7086432.htm"
     },
@@ -168,26 +210,6 @@
       "source": "国务院",
       "title": "11月16日，在菲律宾马尼拉举办的中国—东盟领导人会议上，双方领导人共同宣布中国—东盟自贸区3.0版升级议定书将于2026年12月1日正式生效实施。",
       "url": "./202611/content_7086300.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "总体平稳 向新向优——透视10月国民经济运行态势",
-      "url": "./202611/content_7086225.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "10月份我国主要经济指标运行情况如何？国民经济呈现哪些特点？如何研判全年经济走势？在国新办16日举行的新闻发布会上，国家统计局新闻发言人就相关情况进行介绍。",
-      "url": "./202611/content_7086225.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "“十五五”时期，会计改革发展这样推进",
-      "url": "./202611/content_7085865.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "11月11日，财政部对外发布《会计改革与发展“十五五”规划》，明确了“十五五”时期会计改革发展“任务单”。",
-      "url": "./202611/content_7085865.htm"
     }
   ]
 }
