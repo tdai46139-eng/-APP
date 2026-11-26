@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-11-25 05:47:51",
-  "update_timestamp": 1795585671,
+  "update_time": "2026-11-26 05:38:51",
+  "update_timestamp": 1795671531,
   "user_profile": {
     "graduation_year": "2026",
     "major": "数据科学与大数据技术",
@@ -87,39 +87,39 @@
     {
       "code": "006479",
       "name": "广发纳斯达克100ETF联接人民币(QDII)C",
-      "net_value": 7.168,
-      "est_value": 7.168,
-      "est_change_pct": 6.74,
-      "update_time": "2026-11-22",
+      "net_value": 7.0241,
+      "est_value": 7.0241,
+      "est_change_pct": -2.01,
+      "update_time": "2026-11-23",
       "source": "pingzhongdata",
-      "prediction": "震荡",
-      "recommendation": "持有观望",
+      "prediction": "看跌",
+      "recommendation": "考虑减仓",
       "policy_tag": "无政策影响",
       "policy_score": 0
     },
     {
       "code": "270042",
       "name": "广发纳斯达克100ETF联接人民币(QDII)A",
-      "net_value": 7.2988,
-      "est_value": 7.2988,
-      "est_change_pct": 6.74,
-      "update_time": "2026-11-22",
+      "net_value": 7.1522,
+      "est_value": 7.1522,
+      "est_change_pct": -2.01,
+      "update_time": "2026-11-23",
       "source": "pingzhongdata",
-      "prediction": "震荡",
-      "recommendation": "持有观望",
+      "prediction": "看跌",
+      "recommendation": "考虑减仓",
       "policy_tag": "无政策影响",
       "policy_score": 0
     },
     {
       "code": "016582",
       "name": "嘉实上海金ETF发起联接C",
-      "net_value": 1.583,
-      "est_value": 1.583,
-      "est_change_pct": -0.14,
-      "update_time": "2026-11-23",
+      "net_value": 1.5385,
+      "est_value": 1.5385,
+      "est_change_pct": -2.81,
+      "update_time": "2026-11-24",
       "source": "pingzhongdata",
-      "prediction": "震荡",
-      "recommendation": "持有观望",
+      "prediction": "看跌",
+      "recommendation": "考虑减仓",
       "policy_tag": "无政策影响",
       "policy_score": 0
     }
@@ -173,6 +173,16 @@
     },
     {
       "source": "国务院",
+      "title": "八大重点任务看落实：新动能是一步一步闯出来的",
+      "url": "./202611/content_7087264.htm"
+    },
+    {
+      "source": "国务院",
+      "title": "一年来，围绕“坚持创新驱动，加紧培育壮大新动能”重点任务，各项部署落地见效，新产业蓬勃壮大、新需求拔节生长、新旧动能转换扎实推进，高质量发展动能澎湃。",
+      "url": "./202611/content_7087264.htm"
+    },
+    {
+      "source": "国务院",
       "title": "八大重点任务看落实：74.8%，内需贡献率怎么看",
       "url": "./202611/content_7087107.htm"
     },
@@ -200,16 +210,6 @@
       "source": "国务院",
       "title": "商务部、国家发展改革委、工业和信息化部等9部门近日印发的《关于深入推进再生资源回收体系建设 促进回收行业高质量发展的意见》，11月17日对外发布。",
       "url": "./202611/content_7086432.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "商务部国际司负责人就中国—东盟自贸区3.0版升级议定书生效实施答记者问",
-      "url": "./202611/content_7086300.htm"
-    },
-    {
-      "source": "国务院",
-      "title": "11月16日，在菲律宾马尼拉举办的中国—东盟领导人会议上，双方领导人共同宣布中国—东盟自贸区3.0版升级议定书将于2026年12月1日正式生效实施。",
-      "url": "./202611/content_7086300.htm"
     }
   ]
 }
